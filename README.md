@@ -1,2 +1,3 @@
 # personal-site
-Personal website for shareing information and showcasing projects and skills
+
+Personal website for sharing information and showcasing projects and skills

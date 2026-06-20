@@ -4,6 +4,5 @@
 # Environment 
 # .env
 
-# Logs 
-plan.txt
-changelog.txt
+# Resources
+docs/

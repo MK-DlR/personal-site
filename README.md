@@ -71,11 +71,8 @@
 
 ### Built With
 
-- [![Express]][Express-url]
 - [![Javascript][Javascript]][Javascript-url]
 - [![Node.js]][Node-url]
-- [![Postgres]][Postgres-url]
-- [![Prisma]][Prisma-url]
 - [![React][React.js]][React-url]
 - [![React-router][React-router]][React-router-url]
 - [![Vite]][Vite-url]
@@ -90,12 +87,8 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
+- Node.js (recommended v22+)
 - npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 

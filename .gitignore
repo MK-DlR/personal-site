@@ -1,8 +1,8 @@
 # Dependencies 
-# node_modules/ 
+node_modules/ 
 
-# Environment 
-# .env
+# Logs and OS files
+*.log
 
 # Resources
 docs/

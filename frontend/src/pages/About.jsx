@@ -1,1 +1,0 @@
-// src/pages/About.jsx

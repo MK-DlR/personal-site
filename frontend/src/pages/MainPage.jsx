@@ -1,4 +1,4 @@
-// src/pages/Main.jsx
+// src/pages/MainPage.jsx
 
 /* 
 layout
@@ -14,3 +14,13 @@ contact (github, linkedin, email, resume)
 
 footer (name and link to github)
 */
+
+function MainPage() {
+    return (
+        <div className="main-page">
+            hello i'm the main page
+        </div>
+    )
+}
+
+export default MainPage

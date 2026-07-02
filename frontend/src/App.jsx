@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MainPage from './pages/MainPage.jsx'
 import AboutDetails from './pages/AboutDetails.jsx'
 import AllProjects from './pages/AllProjects.jsx'
-import HobbiesDetails from './pages/HobbiesDetails.jsx'
+import ArtDetails from './pages/ArtDetails.jsx'
 import JourneyDetails from './pages/JourneyDetails.jsx'
 import ProjectDetails from './pages/ProjectDetails.jsx'
 
@@ -20,7 +20,7 @@ function App() {
           <Route path="/projects" element={<AllProjects />} />
           <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="/journey" element={<JourneyDetails />} />
-          <Route path="/hobbies" element={<HobbiesDetails />} />
+          <Route path="/art" element={<ArtDetails />} />
         </Routes>
       </BrowserRouter>
     </>

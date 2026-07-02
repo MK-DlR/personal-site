@@ -25,6 +25,30 @@ function MainPage() {
             <Header />
             <div className="main-page">
                 hello i'm the main page
+
+                <div id="hero">
+                    i'm the hero section
+                </div>
+
+                <div id="about">
+                    i'm the about section
+                </div>
+
+                <div id="projects">
+                    i'm the projects section
+                </div>
+
+                <div id="journey">
+                    i'm the journey section
+                </div>
+
+                <div id="art">
+                    i'm the art section
+                </div>
+
+                <div id="contact">
+                    i'm the contact section
+                </div>
             </div>
             <CreditFooter />
         </>

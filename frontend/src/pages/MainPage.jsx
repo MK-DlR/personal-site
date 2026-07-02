@@ -1,5 +1,9 @@
 // src/pages/MainPage.jsx
 
+// imports
+import Header from '../components/Header.jsx'
+import CreditFooter from '../components/CreditFooter.jsx'
+
 /* 
 layout
 
@@ -17,9 +21,13 @@ footer (name and link to github)
 
 function MainPage() {
     return (
-        <div className="main-page">
-            hello i'm the main page
-        </div>
+        <>
+            <Header />
+            <div className="main-page">
+                hello i'm the main page
+            </div>
+            <CreditFooter />
+        </>
     )
 }
 

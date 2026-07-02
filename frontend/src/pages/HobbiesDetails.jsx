@@ -1,10 +1,19 @@
 // src/pages/Hobbies.jsx
 
-function HobbiesDetails() {
+// imports
+import Header from '../components/Header.jsx'
+import Footer from '../components/Footer.jsx'
+
+function HobbiesDetails
+() {
     return (
-        <div className="hobbies-details-page">
-            hello i'm the hobbies details page
-        </div>
+        <>
+            <Header />
+            <div className="hobbies-details-page">
+                hello i'm the hobbies details page
+            </div>
+            <Footer />
+        </>
     )
 }
 

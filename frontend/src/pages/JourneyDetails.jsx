@@ -1,10 +1,19 @@
 // src/pages/Journey.jsx
 
-function JourneyDetails() {
+// imports
+import Header from '../components/Header.jsx'
+import Footer from '../components/Footer.jsx'
+
+function JourneyDetails
+() {
     return (
-        <div className="journey-details-page">
-            hello i'm the journey details page
-        </div>
+        <>
+            <Header />
+            <div className="journey-details-page">
+                hello i'm the journey details page
+            </div>
+            <Footer />
+        </>
     )
 }
 

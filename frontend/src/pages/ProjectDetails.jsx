@@ -1,10 +1,19 @@
 // src/pages/Project.jsx
 
-function ProjectDetails() {
+// imports
+import Header from '../components/Header.jsx'
+import Footer from '../components/Footer.jsx'
+
+function ProjectDetails
+() {
     return (
-        <div className="project-details-page">
-            hello i'm the project details page
-        </div>
+        <>
+            <Header />
+            <div className="project-details-page">
+                hello i'm the project details page
+            </div>
+            <Footer />
+        </>
     )
 }
 

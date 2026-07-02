@@ -7,8 +7,6 @@ import CreditFooter from '../components/CreditFooter.jsx'
 /* 
 layout
 
-header (logo, name, anchor links: about / projects / journey / art / contact) (sticky)
-
 "hero" panel (basic blurb, image)
 about (+ tech skills) +link to detailed about page
 projects (3 main projects) +link to detailed projects page

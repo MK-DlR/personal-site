@@ -1,0 +1,9 @@
+/* src/styles/index.css */
+
+@import './reset.css';
+
+@import './Header.css';
+@import './Credit.css';
+@import './Footer.css';
+
+@import './pages/MainPage.css';

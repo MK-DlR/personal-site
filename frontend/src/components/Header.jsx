@@ -8,14 +8,14 @@ function Header() {
         <div className="header">
             <div className="header-left">
                 <Link to="/">[Logo]</Link>
-                Name
+                Adrien Newman
             </div>
             <div className="header-right">
-                <Link to="/#about" className="header-link">About</Link>
-                <Link to="/#projects" className="header-link">Projects</Link>
-                <Link to="/#journey" className="header-link">Journey</Link>
-                <Link to="/#art" className="header-link">Art</Link>
-                <Link to="/#contact" className="header-link">Contact</Link>
+                <Link to="/#about" className="header-link">ABOUT</Link>
+                <Link to="/#projects" className="header-link">PROJECTS</Link>
+                <Link to="/#journey" className="header-link">JOURNEY</Link>
+                <Link to="/#art" className="header-link">ART</Link>
+                <Link to="/#contact" className="header-link">CONTACT</Link>
             </div>
         </div>
     )

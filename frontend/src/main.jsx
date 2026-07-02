@@ -6,7 +6,7 @@ import { createRoot } from 'react-dom/client'
 
 import App from './App.jsx'
 
-import './css/MainPage.css'
+import './css/index.css'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

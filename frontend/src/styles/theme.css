@@ -1,22 +1,43 @@
 /* src/styles/theme.css */
 
-/* colors */
+/* src/styles/theme.css */
+
 :root {
-    /* palette */
+    /* palette - do not use directly */
     --ink: #1B2019;
-    --ink-soft: #242B23;
+    --white: #FFFFFF;
     --cream: #F3EFE6;
     --light-cream: #EAE1CD;
     --coral: #D8603E;
     --gold: #E3A63C;
     --sage: #8A9A87;
-    --line: rgba(243,239,230,0.14);
-    --line-dark: rgba(27,32,25,0.12);
+    --green-gray: #5C6156;
+    --line: rgba(243, 239, 230, 0.14);
+    --line-dark: rgba(27, 32, 25, 0.12);
+    --overlay-on-dark: rgba(243, 239, 230, 0.04);             /* cream at low opacity, for subtle panels on dark surfaces */
 
-    /* main colors */
+    /* surfaces */
+    --color-surface-base: var(--cream);                         /* hero, projects-white variant, art section */
+    --color-surface-alt: var(--light-cream);                    /* about panel tint, contact/journey "next" strip on light */
+    --color-surface-dark: var(--ink);                           /* journey section, contact section, footer strips, skills box */
+    --color-surface-card: var(--white);                         /* project card bodies */
+    --color-surface-highlight-on-dark: var(--overlay-on-dark);  /* journey "now" panel */
 
-    /* accent colors */
-    --color-accent: var(--coral);
+    /* text */
+    --color-text-heading: var(--ink);                           /* h1/h2/h3 on light surfaces */
+    --color-text-body: var(--ink);                              /* paragraph copy on light surfaces (often at reduced opacity in practice) */
+    --color-text-muted: var(--sage);                            /* eyebrow-adjacent labels, timestamps, sidebar captions, g-label on light */
+    --color-text-muted-dark: var(--green-gray);                 /* credit footer text */
+    --color-text-on-dark: var(--cream);                         /* all text on dark surfaces */
+    --color-text-muted-on-dark: var(--sage);                    /* muted text on dark surfaces (log entry descriptions, etc) */
+
+    /* accent */
+    --color-accent-primary: var(--coral);                       /* buttons, links, tags, eyebrows, logo mark, active filter pills */
+    --color-accent-on-dark: var(--gold);                        /* eyebrows/labels inside dark sections (journey, contact) */
+
+    /* borders */
+    --color-border-on-light: var(--line-dark);                  /* dividers/card borders on cream/light surfaces */
+    --color-border-on-dark: var(--line);                        /* dividers/card borders on dark surfaces */
 
     /* fonts */
     --font-heading: 'Fraunces', serif;

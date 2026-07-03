@@ -27,7 +27,7 @@ button {
 .label {
     font-size: 0.78rem;
     text-transform: uppercase;
-    color: var(--color-accent);
+    color: var(--color-accent-primary);
 }
 
 .label {

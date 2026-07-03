@@ -2,11 +2,11 @@
 
 function CreditFooter() {
     return (
-        <div className="footer">
-            <div className="footer-left">
+        <div className="credit-footer">
+            <div className="credit-footer-left credit-footer-text">
                 © 2026 Adrien Newman
             </div>
-            <div className="footer-left">
+            <div className="credit-footer-right credit-footer-text">
                 <a href="https://github.com/MK-DlR">https://github.com/MK-DlR</a>
             </div>
         </div>

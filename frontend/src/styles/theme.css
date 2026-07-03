@@ -1,54 +1,25 @@
 /* src/styles/theme.css */
 
-/* 
-all colors
+/* colors */
+:root {
+    /* palette */
     --ink: #1B2019;
     --ink-soft: #242B23;
     --cream: #F3EFE6;
+    --light-cream: #EAE1CD;
     --coral: #D8603E;
     --gold: #E3A63C;
     --sage: #8A9A87;
     --line: rgba(243,239,230,0.14);
     --line-dark: rgba(27,32,25,0.12);
-*/
 
-/* colors */
-:root {
-    /* colors */
-    --color-accent: #d8603e; /* bright orange */
+    /* main colors */
+
+    /* accent colors */
+    --color-accent: var(--coral);
 
     /* fonts */
     --font-heading: 'Fraunces', serif;
     --font-body: 'Inter', sans-serif;
     --font-code: 'JetBrains Mono', monospace;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-heading);
-}
-
-body {
-    font-family: var(--font-body);
-}
-
-.nav-link,
-.label,
-.tag,
-.pill,
-button {
-    font-family: var(--font-code);
-}
-
-.nav-link,
-.label {
-    font-size: 0.78rem;
-    text-transform: uppercase;
-}
-
-.nav-link {
-    letter-spacing: 0.04em;
-}
-
-.label {
-    letter-spacing: 0.08em;
 }

@@ -7,15 +7,15 @@ function Header() {
     return (
         <div className="header">
             <div className="header-left">
-                <Link to="/">[Logo]</Link>
-                Adrien Newman
+                <Link to="/"><i className="fa-solid fa-mug-hot icon"></i></Link>
+                <h3>Adrien Newman</h3>
             </div>
             <div className="header-right">
-                <Link to="/#about" className="header-link">ABOUT</Link>
-                <Link to="/#projects" className="header-link">PROJECTS</Link>
-                <Link to="/#journey" className="header-link">JOURNEY</Link>
-                <Link to="/#art" className="header-link">ART</Link>
-                <Link to="/#contact" className="header-link">CONTACT</Link>
+                <Link to="/#about" className="nav-link">About</Link>
+                <Link to="/#projects" className="nav-link">Projects</Link>
+                <Link to="/#journey" className="nav-link">Journey</Link>
+                <Link to="/#art" className="nav-link">Art</Link>
+                <Link to="/#contact" className="nav-link">Contact</Link>
             </div>
         </div>
     )

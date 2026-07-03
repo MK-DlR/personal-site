@@ -27,23 +27,23 @@ function MainPage() {
                 </div>
 
                 <div id="about">
-                    01 - ABOUT
+                    <div className="label">01 — About</div>
                 </div>
 
                 <div id="projects">
-                    02 - PROJECTS
+                    <div className="label">02 — Projects</div>
                 </div>
 
                 <div id="journey">
-                    03 - JOURNEY
+                    <div className="label">03 — Journey</div>
                 </div>
 
                 <div id="art">
-                    04 - ART
+                    <div className="label">04 — Art</div>
                 </div>
 
                 <div id="contact">
-                    05 - CONTACT
+                    <div className="label">05 — Contact</div>
                 </div>
             </div>
             <CreditFooter />

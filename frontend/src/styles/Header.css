@@ -1,2 +1,6 @@
 /* src/styles/Header.css */
 
+.icon {
+    font-size: 1.5rem;
+    color: var(--color-accent);
+}

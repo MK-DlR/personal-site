@@ -22,30 +22,28 @@ function MainPage() {
         <>
             <Header />
             <div className="main-page">
-                hello i'm the main page
-
                 <div id="hero">
                     i'm the hero section
                 </div>
 
                 <div id="about">
-                    i'm the about section
+                    01 - ABOUT
                 </div>
 
                 <div id="projects">
-                    i'm the projects section
+                    02 - PROJECTS
                 </div>
 
                 <div id="journey">
-                    i'm the journey section
+                    03 - JOURNEY
                 </div>
 
                 <div id="art">
-                    i'm the art section
+                    04 - ART
                 </div>
 
                 <div id="contact">
-                    i'm the contact section
+                    05 - CONTACT
                 </div>
             </div>
             <CreditFooter />

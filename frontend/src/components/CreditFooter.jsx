@@ -7,7 +7,7 @@ function CreditFooter() {
                 © 2026 Adrien Newman
             </div>
             <div className="credit-footer-right credit-footer-text">
-                <a href="https://github.com/MK-DlR">https://github.com/MK-DlR</a>
+                <a href="https://github.com/MK-DlR">github.com/MK-DlR</a>
             </div>
         </div>
     )

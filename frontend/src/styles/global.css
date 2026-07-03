@@ -16,7 +16,6 @@ body {
     font-family: var(--font-body);
 }
 
-.nav-link,
 .label,
 .tag,
 .pill,
@@ -25,20 +24,12 @@ button {
     font-family: var(--font-code);
 }
 
-.nav-link,
 .label {
     font-size: 0.78rem;
     text-transform: uppercase;
-}
-
-.nav-link {
-    letter-spacing: 0.04em;
+    color: var(--color-accent);
 }
 
 .label {
     letter-spacing: 0.08em;
-}
-
-.credit-footer-text {
-    font-size: 0.75rem;
 }

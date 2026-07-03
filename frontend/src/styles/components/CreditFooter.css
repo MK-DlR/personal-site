@@ -1,1 +1,9 @@
 /* src/styles/components/CreditFooter.css */
+
+.credit-footer-text {
+    font-size: 0.75rem;
+}
+
+.credit-footer-text a {
+    text-decoration: none;
+}

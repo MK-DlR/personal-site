@@ -23,7 +23,7 @@ function MainPage() {
             <Header />
             <div className="main-page">
                 <div id="hero">
-                    i'm the hero section
+                <div className="label">// developer & designer</div>
                 </div>
 
                 <div id="about">

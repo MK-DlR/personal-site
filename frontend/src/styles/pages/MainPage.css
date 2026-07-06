@@ -28,6 +28,8 @@
 .hero-left {
     display: flex;
     flex-direction: column;
+
+    margin-top: 100px;
 }
 
 .hero-content{
@@ -47,4 +49,24 @@
 
     border-radius: 18px;
     box-shadow: 0 30px 50px rgba(27,32,25,0.18);
+}
+
+#about {
+    background-color: var(--color-surface-alt)
+}
+
+#projects {
+    /* code here */
+}
+
+#journey {
+    background-color: var(--color-surface-dark);
+}
+
+#art {
+    /* code here */
+}
+
+#contact {
+    background-color: var(--color-surface-dark);
 }

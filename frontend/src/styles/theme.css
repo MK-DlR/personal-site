@@ -7,8 +7,8 @@
     --ink: #1B2019;
     --ink-soft: #4A4F45;
     --white: #FFFFFF;
-    --cream: #F3EFE6;
-    --light-cream: #EAE1CD;
+    --light-cream: #F3EFE6;
+    --cream: #EAE1CD;
     --coral: #D8603E;
     --gold: #E3A63C;
     --sage: #8A9A87;
@@ -18,8 +18,8 @@
     --overlay-on-dark: rgba(243, 239, 230, 0.04);             /* cream at low opacity, for subtle panels on dark surfaces */
 
     /* surfaces */
-    --color-surface-base: var(--cream);                         /* hero, projects-white variant, art section */
-    --color-surface-alt: var(--light-cream);                    /* about panel tint, contact/journey "next" strip on light */
+    --color-surface-base: var(--light-cream);                         /* hero, projects-white variant, art section */
+    --color-surface-alt: var(--cream);                    /* about panel tint, contact/journey "next" strip on light */
     --color-surface-dark: var(--ink);                           /* journey section, contact section, footer strips, skills box */
     --color-surface-card: var(--white);                         /* project card bodies */
     --color-surface-highlight-on-dark: var(--overlay-on-dark);  /* journey "now" panel */
@@ -29,7 +29,7 @@
     --color-text-body: var(--ink-soft);                              /* paragraph copy on light surfaces (often at reduced opacity in practice) */
     --color-text-muted: var(--sage);                            /* eyebrow-adjacent labels, timestamps, sidebar captions, g-label on light */
     --color-text-muted-dark: var(--green-gray);                 /* credit footer text */
-    --color-text-on-dark: var(--cream);                         /* all text on dark surfaces */
+    --color-text-on-dark: var(--light-cream);                         /* all text on dark surfaces */
     --color-text-muted-on-dark: var(--sage);                    /* muted text on dark surfaces (log entry descriptions, etc) */
 
     /* accent */

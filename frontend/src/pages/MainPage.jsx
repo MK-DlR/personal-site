@@ -25,7 +25,7 @@ function MainPage() {
                 <div id="hero" className="panel">
                     <div className="hero-left">
                         <div className="label">// developer & designer</div>
-                        <h1 className="hero-title">Hi, I<br />build things.</h1>
+                        <h1 className="hero-title title">Hi, I<br />build things.</h1>
                         <p className="hero-content content">Software developer focused on clean, functional interfaces and thoughtful engineering. This is where I keep my work, my path, and a few things I make for fun.</p>
                     </div>
                     <img
@@ -39,7 +39,7 @@ function MainPage() {
                     technical skills here
                     <div className="about-right">
                         <div className="label">01 — About</div>
-                        <h1 className="about-title">A bit<br />about me.</h1>
+                        <h1 className="about-title title">A bit<br />about me.</h1>
                             <p className="about-content content">Short paragraph about who you are, what kind of developer you are, and what you care about when building things.</p>
                             <p className="about-content content">Second short paragraph — background, focus area, or what you're currently drawn to.</p>
                             <a href="/about" className="details-link">→ Full about & skills page</a>

@@ -25,6 +25,11 @@ button {
     font-family: var(--font-code);
 }
 
+.panel {
+    display: flex;
+    padding: 5rem 12rem;
+}
+
 .label {
     font-size: 0.78rem;
     letter-spacing: 0.08em;
@@ -34,11 +39,11 @@ button {
     padding-bottom: 20px;
 }
 
-.panel {
-    display: flex;
-    padding: 5rem 12rem;
+.title {
+    padding-bottom: 30px; 
 }
 
 .content {
+    line-height: 1.6;
     color: var(--color-text-body);
 }

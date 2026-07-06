@@ -1,1 +1,50 @@
 /* src/styles/pages/MainPage.css */
+
+#hero,
+#about,
+#projects,
+#journey,
+#art,
+#contact {
+    border-bottom: 1px solid var(--color-border-on-light);
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-title {
+    font-size: clamp(3rem, 9vw, 7rem);
+    line-height: 0.92;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    padding-bottom: 20px;
+
+    color: var(--color-text-heading);
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content{
+    max-width: 480px;
+}
+
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -110px;
+
+    aspect-ratio: 4/3.4;
+    object-fit: cover;
+
+    border-radius: 18px;
+    box-shadow: 0 30px 50px rgba(27,32,25,0.18);
+}

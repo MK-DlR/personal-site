@@ -2,13 +2,16 @@
 
 .header {
     min-height: 4.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    background-color: var(--color-surface-base);
-    backdrop-filter: blur(10px); /* TODO: make sure this is working */
+    background: rgba(243,239,230,0.92);
+    backdrop-filter: blur(8px);
 
     border-bottom: 1px solid var(--color-border-on-light);
 }

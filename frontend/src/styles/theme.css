@@ -5,6 +5,7 @@
 :root {
     /* palette - do not use directly */
     --ink: #1B2019;
+    --ink-soft: #4A4F45;
     --white: #FFFFFF;
     --cream: #F3EFE6;
     --light-cream: #EAE1CD;
@@ -25,7 +26,7 @@
 
     /* text */
     --color-text-heading: var(--ink);                           /* h1/h2/h3 on light surfaces */
-    --color-text-body: var(--ink);                              /* paragraph copy on light surfaces (often at reduced opacity in practice) */
+    --color-text-body: var(--ink-soft);                              /* paragraph copy on light surfaces (often at reduced opacity in practice) */
     --color-text-muted: var(--sage);                            /* eyebrow-adjacent labels, timestamps, sidebar captions, g-label on light */
     --color-text-muted-dark: var(--green-gray);                 /* credit footer text */
     --color-text-on-dark: var(--cream);                         /* all text on dark surfaces */

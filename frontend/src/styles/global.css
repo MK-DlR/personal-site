@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
     font-family: var(--font-body);
+    background-color: var(--color-surface-base);
 }
 
 .label,
@@ -26,10 +27,18 @@ button {
 
 .label {
     font-size: 0.78rem;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--color-accent-primary);
+
+    padding-bottom: 20px;
 }
 
-.label {
-    letter-spacing: 0.08em;
+.panel {
+    display: flex;
+    padding: 5rem 10rem;
+}
+
+.content {
+    color: var(--color-text-body);
 }

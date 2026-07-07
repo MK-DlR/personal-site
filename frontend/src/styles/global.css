@@ -24,12 +24,14 @@ p {
 .skill-label,
 .skill-button,
 .details-link,
-button {
+.project-tag,
+.project-link {
     font-family: var(--font-code);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
+    color: var(--color-text-heading);
 }
 
 .panel {
@@ -50,15 +52,6 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 20px;
 }
 
-.title {
-    padding-bottom: 30px; 
-}
-
-.content {
-    line-height: 1.6;
-    color: var(--color-text-body);
-}
-
 .details-link {
     font-size: 0.8rem;
     color: var(--color-text-link);
@@ -66,4 +59,46 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid currentColor;
 
     padding-bottom: 2px;
+}
+
+.accented-link,
+.accented-label {
+    color: var(--color-accent-on-dark);
+}
+
+.title {
+    font-size: 2.6rem;
+    line-height: 1.05;
+    padding-bottom: 30px; 
+}
+
+.light-title {
+    color: var(--color-text-on-dark);
+}
+
+.content {
+    line-height: 1.6;
+    color: var(--color-text-body);
+}
+
+.tags-list {
+    display: flex;
+    gap: 7px;
+    padding-top: 10px;
+}
+
+.project-tag {
+    font-size: 0.68rem;
+    padding: 3px 9px;
+
+    background-color: var(--color-surface-base);
+    border: 1px solid var(--color-border-on-light);
+    border-radius: 100px;
+}
+
+.project-link {
+    font-size: 0.78rem;
+    color: var(--color-text-link);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
 }

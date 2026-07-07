@@ -5,6 +5,7 @@ import Header from '../components/Header.jsx'
 import CreditFooter from '../components/CreditFooter.jsx'
 
 import heroImage from '../assets/hero-image.jpg'
+import placeholderImage from '../assets/placeholder.jpg'
 
 /* 
 layout
@@ -67,7 +68,7 @@ function MainPage() {
 
                     <div className="about-right">
                         <div className="label">01 — About</div>
-                        <h2 className="about-title title">A bit<br />about me.</h2>
+                        <h2 className="dark-title title">A bit<br />about me.</h2>
                             <p className="about-content content">Short paragraph about who you are, what kind of developer you are, and what you care about when building things.</p>
                             <p className="about-content content">Second short paragraph — background, focus area, or what you're currently drawn to.</p>
                             <a href="/about" className="details-link">→ Full about & skills page</a>
@@ -75,11 +76,94 @@ function MainPage() {
                 </div>
 
                 <div id="projects" className="panel">
-                    <div className="label">02 — Projects</div>
+                    <div className="projects-header">
+                        <div className="projects-left">
+                            <div className="label">02 — Projects</div>
+                            <h2 className="dark-title title">Selected work.</h2>
+                        </div>
+                        <div className="projects-right">
+                            <a href="/projects" className="details-link">→ View more projects</a>
+                        </div>
+                    </div>
+
+                    <div className="card-container">
+                        <div className="project-card">
+                            <img
+                                src={placeholderImage}
+                                alt="project screenshot"
+                                className="project-image"
+                            />
+                            <div className="project-info">
+                                <h3>Project Name</h3>
+                                <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
+                                <div className="tags-list">
+                                    <div className="project-tag">project tag</div>
+                                    <div className="project-tag">project tag</div>
+                                </div>
+                                <div className="links-container">
+                                    <a href="#" className="project-link">Live</a>
+                                    <a href="#" className="project-link">Code</a>
+                                    <a href="#" className="project-link">Details →</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="project-card">
+                            <img
+                                src={placeholderImage}
+                                alt="project screenshot"
+                                className="project-image"
+                            />
+                            <div className="project-info">
+                                <h3>Project Name</h3>
+                                <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
+                                <div className="tags-list">
+                                    <div className="project-tag">project tag</div>
+                                    <div className="project-tag">project tag</div>
+                                </div>
+                                <div className="links-container">
+                                    <a href="#" className="project-link">Live</a>
+                                    <a href="#" className="project-link">Code</a>
+                                    <a href="#" className="project-link">Details →</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="project-card">
+                            <img
+                                src={placeholderImage}
+                                alt="project screenshot"
+                                className="project-image"
+                            />
+                            <div className="project-info">
+                                <h3>Project Name</h3>
+                                <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
+                                <div className="tags-list">
+                                    <div className="project-tag">project tag</div>
+                                    <div className="project-tag">project tag</div>
+                                </div>
+                                <div className="links-container">
+                                    <a href="#" className="project-link">Live</a>
+                                    <a href="#" className="project-link">Code</a>
+                                    <a href="#" className="project-link">Details →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div id="journey" className="panel">
-                    <div className="label">03 — Journey</div>
+                    <div className="label accented-label">03 — Journey</div>
+                    <h2 className="light-title title">Where I've been,<br />where I'm headed.</h2>
+                    <div className="journey-right">
+                        currently
+                    </div>
+                    <div className="journey-left">
+                        timeline
+                    </div>
+                    <div>
+                        <a href="/journey" className="details-link accented-link">→ Full journey page</a>
+                    </div>
                 </div>
 
                 <div id="art" className="panel">

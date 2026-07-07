@@ -7,22 +7,29 @@
     box-sizing: border-box;
 }
 
-/* fonts */
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-heading);
-}
-
 body {
     font-family: var(--font-body);
     background-color: var(--color-surface-base);
+}
+
+p {
+    padding-bottom: 10px;
 }
 
 .label,
 .tag,
 .pill,
 .credit-footer-text,
+.tech-label,
+.skill-label,
+.skill-button,
+.details-link,
 button {
     font-family: var(--font-code);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
 }
 
 .panel {
@@ -30,10 +37,14 @@ button {
     padding: 5rem 12rem;
 }
 
-.label {
-    font-size: 0.78rem;
+.label,
+.skill-label {
     letter-spacing: 0.08em;
     text-transform: uppercase;
+}
+
+.label {
+    font-size: 0.78rem;
     color: var(--color-accent-primary);
 
     padding-bottom: 20px;
@@ -49,7 +60,6 @@ button {
 }
 
 .details-link {
-    font-family: var(--font-code);
     font-size: 0.8rem;
     color: var(--color-text-link);
     text-decoration: none;

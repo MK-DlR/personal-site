@@ -36,10 +36,38 @@ function MainPage() {
                 </div>
 
                 <div id="about" className="panel">
-                    technical skills here
+                    <div className="tech-skills">
+                        <h3 className="tech-label">{">"} technical_skills</h3>
+                        <div className="skill-row">
+                            <div className="skill-label">Languages</div>
+                            <div className="skill-list">
+                                <div className="skill-button">JavaScript</div>
+                            </div>
+                        </div>
+
+                        <div className="skill-row">
+                            <div className="skill-label">Frameworks</div>
+                            <div className="skill-list">
+                                <div className="skill-button">React</div>
+                                <div className="skill-button">Express</div>
+                            </div>
+                        </div>
+
+                        <div className="skill-row">
+                            <div className="skill-label">Tools</div>
+                            <div className="skill-list">
+                                <div className="skill-button">Github</div>
+                                <div className="skill-button">Node.js</div>
+                                <div className="skill-button">Prisma</div>
+                                <div className="skill-button">PostgreSQL</div>
+                                <div className="skill-button">Postman</div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="about-right">
                         <div className="label">01 — About</div>
-                        <h1 className="about-title title">A bit<br />about me.</h1>
+                        <h2 className="about-title title">A bit<br />about me.</h2>
                             <p className="about-content content">Short paragraph about who you are, what kind of developer you are, and what you care about when building things.</p>
                             <p className="about-content content">Second short paragraph — background, focus area, or what you're currently drawn to.</p>
                             <a href="/about" className="details-link">→ Full about & skills page</a>

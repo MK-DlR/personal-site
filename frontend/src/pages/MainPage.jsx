@@ -198,11 +198,45 @@ function MainPage() {
                 </div>
 
                 <div id="art" className="panel">
-                    <div className="label">04 — Art</div>
+                    <div className="art-content">
+                        <div className="art-panel-label label">04 — Art & Hobbies</div>
+                        <h2 className="art-header">Outside the editor.</h2>
+                        <p className="art-blurb">A few things I spend time on when I'm not building.</p>
+                        <div className="art-container">
+                            <div className="art-item">
+                                <div className="badge-circle">
+                                    ✏️
+                                </div>
+                                <span class="art-label">Digital Art</span>
+                            </div>
+
+                            <div className="art-item">
+                                <div className="badge-circle">
+                                    🎸
+                                </div>
+                                <span class="art-label">Music</span>
+                            </div>
+
+                            <div className="art-item">
+                                <div className="badge-circle">
+                                    📷
+                                </div>
+                                <span class="art-label">Photography</span>
+                            </div>
+
+                            <div className="art-item">
+                                <div className="badge-circle">
+                                    🧶
+                                </div>
+                                <span class="art-label">Crochet</span>
+                            </div>
+                        </div>
+                        <a href="/art" className="details-link">→ See more of my art</a>
+                    </div>
                 </div>
 
                 <div id="contact" className="panel">
-                    <div className="label">05 — Contact</div>
+                    <div className="label accented-label">05 — Contact</div>
                 </div>
             </div>
             <CreditFooter />

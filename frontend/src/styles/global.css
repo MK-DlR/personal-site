@@ -18,8 +18,6 @@ p {
 
 .label,
 .mini-label,
-.tag,
-.pill,
 .credit-footer-text,
 .tech-label,
 .skill-label,
@@ -27,7 +25,8 @@ p {
 .details-link,
 .project-tag,
 .project-link,
-.entry-year {
+.entry-year,
+.art-label {
     font-family: var(--font-code);
 }
 

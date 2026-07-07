@@ -153,16 +153,47 @@ function MainPage() {
                 </div>
 
                 <div id="journey" className="panel">
-                    <div className="label accented-label">03 — Journey</div>
-                    <h2 className="light-title title">Where I've been,<br />where I'm headed.</h2>
-                    <div className="journey-right">
-                        currently
-                    </div>
-                    <div className="journey-left">
-                        timeline
-                    </div>
-                    <div>
-                        <a href="/journey" className="details-link accented-link">→ Full journey page</a>
+                    <div className="journey-container">
+                        <div className="journey-header">
+                            <div className="label accented-label">03 — Journey</div>
+                            <h2 className="light-title title">Where I've been,<br />where I'm headed.</h2>
+                        </div>
+                        <div className="journey-content">
+                            <div className="journey-left">
+                                <div className="current-focus">
+                                    <div className="mini-label">Currently</div>
+                                    <p className="journey-blurb">What you're learning or building right now — a sentence or two on your present focus.</p>
+                                </div>
+                                <div>
+                                    <a href="/journey" className="details-link accented-link">→ Full journey page</a>
+                                </div>
+                            </div>
+                            <div className="journey-right">
+                                <div className="timeline-entry">
+                                    <div className="entry-year">2023</div>
+                                    <div className="entry-text">
+                                        <h4 className="entry-header">Started learning to code</h4>
+                                        <div className="entry-desc">Brief note on how it began.</div>
+                                    </div>
+                                </div>
+
+                                <div className="timeline-entry">
+                                    <div className="entry-year">2024</div>
+                                    <div className="entry-text">
+                                        <h4 className="entry-header">First real project shipped</h4>
+                                        <div className="entry-desc">Brief note on a key milestone.</div>
+                                    </div>
+                                </div>
+
+                                <div className="timeline-entry">
+                                    <div className="entry-year">2025</div>
+                                    <div className="entry-text">
+                                        <h4 className="entry-header">Deepened focus / new role</h4>
+                                        <div className="entry-desc">Brief note on growth.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

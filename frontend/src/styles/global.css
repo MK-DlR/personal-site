@@ -17,6 +17,7 @@ p {
 }
 
 .label,
+.mini-label,
 .tag,
 .pill,
 .credit-footer-text,
@@ -25,7 +26,8 @@ p {
 .skill-button,
 .details-link,
 .project-tag,
-.project-link {
+.project-link,
+.entry-year {
     font-family: var(--font-code);
 }
 
@@ -40,7 +42,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .label,
-.skill-label {
+.skill-label,
+.mini-label {
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
@@ -50,6 +53,13 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--color-accent-primary);
 
     padding-bottom: 20px;
+}
+
+.mini-label {
+    font-size: 0.7rem;
+    color: var(--color-accent-on-dark);
+
+    padding-bottom: 10px;
 }
 
 .details-link {
@@ -79,26 +89,4 @@ h1, h2, h3, h4, h5, h6 {
 .content {
     line-height: 1.6;
     color: var(--color-text-body);
-}
-
-.tags-list {
-    display: flex;
-    gap: 7px;
-    padding-top: 10px;
-}
-
-.project-tag {
-    font-size: 0.68rem;
-    padding: 3px 9px;
-
-    background-color: var(--color-surface-base);
-    border: 1px solid var(--color-border-on-light);
-    border-radius: 100px;
-}
-
-.project-link {
-    font-size: 0.78rem;
-    color: var(--color-text-link);
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
 }

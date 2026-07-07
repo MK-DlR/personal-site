@@ -191,6 +191,71 @@
     background-color: var(--color-surface-dark);
 }
 
+.journey-container {
+    width: 100%;
+}
+
+.journey-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 70px;
+}
+
+.journey-left {
+    width: 650px;   /* or whatever you like */
+}
+
+.journey-right {
+    flex: 1;
+}
+
+.current-focus {
+    background-color: var(--color-surface-highlight-on-dark);
+    padding: 28px;
+    margin-bottom: 40px;
+
+    border: 1px solid var(--color-border-on-dark);
+    border-radius: 16px;
+}
+
+.journey-blurb {
+    font-size: 0.95rem;
+    color: var(--color-text-muted-detail);
+    line-height: 1.6;
+}
+
+.timeline-entry {
+    display: flex;
+
+    border-top: 1px solid var(--color-border-on-dark);
+    gap: 18px;
+    padding: 20px 0;
+}
+
+.timeline-entry:last-child {
+    border-bottom: 1px solid var(--color-border-on-dark);
+}
+
+.entry-year {
+    color: var(--color-accent-on-dark);
+    font-size: 0.85rem;
+    margin-right: 50px;
+}
+
+.entry-header {
+    color: var(--color-text-on-dark);
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.entry-desc {
+    font-size: 0.85rem;
+    color: var(--color-text-muted-detail);
+    line-height: 1.5;
+}
+
 /* art section */
 /*
 #art {

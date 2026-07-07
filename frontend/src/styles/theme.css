@@ -16,6 +16,7 @@
     --line: rgba(243, 239, 230, 0.14);
     --line-dark: rgba(27, 32, 25, 0.12);
     --overlay-on-dark: rgba(243, 239, 230, 0.04);             /* cream at low opacity, for subtle panels on dark surfaces */
+    --overlay-on-dark-secondary: rgba(243,239,230,0.8);
 
     /* surfaces */
     --color-surface-base: var(--light-cream);                   /* hero, projects-white variant, art section */
@@ -32,6 +33,7 @@
     --color-text-muted-dark: var(--green-gray);                 /* credit footer text */
     --color-text-on-dark: var(--light-cream);                   /* all text on dark surfaces */
     --color-text-muted-on-dark: var(--sage);                    /* muted text on dark surfaces (log entry descriptions, etc) */
+    --color-text-muted-detail: var(--overlay-on-dark-secondary);
 
     /* accent */
     --color-accent-primary: var(--coral);                       /* buttons, links, tags, eyebrows, logo mark, active filter pills */

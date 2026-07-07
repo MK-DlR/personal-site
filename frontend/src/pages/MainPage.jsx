@@ -42,26 +42,26 @@ function MainPage() {
                         <div className="skill-row">
                             <div className="skill-label">Languages</div>
                             <div className="skill-list">
-                                <div className="skill-button">JavaScript</div>
+                                <span className="skill-button">JavaScript</span>
                             </div>
                         </div>
 
                         <div className="skill-row">
                             <div className="skill-label">Frameworks</div>
                             <div className="skill-list">
-                                <div className="skill-button">React</div>
-                                <div className="skill-button">Express</div>
+                                <span className="skill-button">React</span>
+                                <span className="skill-button">Express</span>
                             </div>
                         </div>
 
                         <div className="skill-row">
                             <div className="skill-label">Tools</div>
                             <div className="skill-list">
-                                <div className="skill-button">Github</div>
-                                <div className="skill-button">Node.js</div>
-                                <div className="skill-button">Prisma</div>
-                                <div className="skill-button">PostgreSQL</div>
-                                <div className="skill-button">Postman</div>
+                                <span className="skill-button">Github</span>
+                                <span className="skill-button">Node.js</span>
+                                <span className="skill-button">Prisma</span>
+                                <span className="skill-button">PostgreSQL</span>
+                                <span className="skill-button">Postman</span>
                             </div>
                         </div>
                     </div>
@@ -97,8 +97,8 @@ function MainPage() {
                                 <h3>Project Name</h3>
                                 <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
                                 <div className="tags-list">
-                                    <div className="project-tag">project tag</div>
-                                    <div className="project-tag">project tag</div>
+                                    <span className="project-tag">project tag</span>
+                                    <span className="project-tag">project tag</span>
                                 </div>
                                 <div className="links-container">
                                     <a href="#" className="project-link">Live</a>
@@ -118,8 +118,8 @@ function MainPage() {
                                 <h3>Project Name</h3>
                                 <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
                                 <div className="tags-list">
-                                    <div className="project-tag">project tag</div>
-                                    <div className="project-tag">project tag</div>
+                                    <span className="project-tag">project tag</span>
+                                    <span className="project-tag">project tag</span>
                                 </div>
                                 <div className="links-container">
                                     <a href="#" className="project-link">Live</a>
@@ -139,8 +139,8 @@ function MainPage() {
                                 <h3>Project Name</h3>
                                 <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
                                 <div className="tags-list">
-                                    <div className="project-tag">project tag</div>
-                                    <div className="project-tag">project tag</div>
+                                    <span className="project-tag">project tag</span>
+                                    <span className="project-tag">project tag</span>
                                 </div>
                                 <div className="links-container">
                                     <a href="#" className="project-link">Live</a>
@@ -170,7 +170,7 @@ function MainPage() {
                             </div>
                             <div className="journey-right">
                                 <div className="timeline-entry">
-                                    <div className="entry-year">2023</div>
+                                    <span className="entry-year">2023</span>
                                     <div className="entry-text">
                                         <h4 className="entry-header">Started learning to code</h4>
                                         <div className="entry-desc">Brief note on how it began.</div>
@@ -178,7 +178,7 @@ function MainPage() {
                                 </div>
 
                                 <div className="timeline-entry">
-                                    <div className="entry-year">2024</div>
+                                    <span className="entry-year">2024</span>
                                     <div className="entry-text">
                                         <h4 className="entry-header">First real project shipped</h4>
                                         <div className="entry-desc">Brief note on a key milestone.</div>
@@ -186,7 +186,7 @@ function MainPage() {
                                 </div>
 
                                 <div className="timeline-entry">
-                                    <div className="entry-year">2025</div>
+                                    <span className="entry-year">2025</span>
                                     <div className="entry-text">
                                         <h4 className="entry-header">Deepened focus / new role</h4>
                                         <div className="entry-desc">Brief note on growth.</div>
@@ -201,7 +201,7 @@ function MainPage() {
                     <div className="art-content">
                         <div className="art-panel-label label">04 — Art & Hobbies</div>
                         <h2 className="art-header">Outside the editor.</h2>
-                        <p className="art-blurb">A few things I spend time on when I'm not building.</p>
+                        <p className="art-blurb">A few things I enjoy when I'm not working on code.</p>
                         <div className="art-container">
                             <div className="art-item">
                                 <div className="badge-circle">
@@ -212,26 +212,41 @@ function MainPage() {
 
                             <div className="art-item">
                                 <div className="badge-circle">
-                                    🎸
-                                </div>
-                                <span class="art-label">Music</span>
-                            </div>
-
-                            <div className="art-item">
-                                <div className="badge-circle">
-                                    📷
-                                </div>
-                                <span class="art-label">Photography</span>
-                            </div>
-
-                            <div className="art-item">
-                                <div className="badge-circle">
                                     🧶
                                 </div>
                                 <span class="art-label">Crochet</span>
                             </div>
+
+                            <div className="art-item">
+                                <div className="badge-circle">
+                                    🎮
+                                </div>
+                                <span class="art-label">Gaming</span>
+                            </div>
+
+                            <div className="art-item">
+                                <div className="badge-circle">
+                                    🍰
+                                </div>
+                                <span class="art-label">Baking</span>
+                            </div>
+
+                            <div className="art-item">
+                                <div className="badge-circle">
+                                    📚
+                                </div>
+                                <span class="art-label">Reading</span>
+                            </div>
+
+                            <div className="art-item">
+                                <div className="badge-circle">
+                                    🐈
+                                </div>
+                                <span class="art-label">Cats *</span>
+                            </div>
                         </div>
-                        <a href="/art" className="details-link">→ See more of my art</a>
+                        <div className="disclaimer">* Cats have been known to involve themselves in my coding work.</div>
+                        <a href="/art" className="details-link">→ See examples of my art</a>
                     </div>
                 </div>
 

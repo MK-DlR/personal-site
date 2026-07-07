@@ -27,6 +27,7 @@ p {
 .project-link,
 .entry-year,
 .art-label,
+.disclaimer,
 .contact-link {
     font-family: var(--font-code);
 }

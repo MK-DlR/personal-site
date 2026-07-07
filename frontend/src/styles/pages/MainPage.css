@@ -313,6 +313,11 @@
     color: var(--color-text-body);
 }
 
+.disclaimer {
+    font-size: 0.6rem;
+    margin-bottom: 20px;
+}
+
 /* contact section */
 #contact {
     background-color: var(--color-surface-dark);

@@ -204,43 +204,43 @@ function MainPage() {
                         <p className="art-blurb">A few things I enjoy when I'm not working on code.</p>
                         <div className="art-container">
                             <div className="art-item">
-                                <div className="badge-circle">
-                                    ✏️
+                                <div className="badge-circle imghover arthover">
+                                    <span className="emoji">✏️</span>
                                 </div>
                                 <span class="art-label">Digital Art</span>
                             </div>
 
                             <div className="art-item">
-                                <div className="badge-circle">
-                                    🧶
+                                <div className="badge-circle imghover crochethover">
+                                    <span className="emoji">🧶</span>
                                 </div>
                                 <span class="art-label">Crochet</span>
                             </div>
 
                             <div className="art-item">
-                                <div className="badge-circle">
-                                    🎮
+                                <div className="badge-circle imghover gamehover">
+                                    <span className="emoji">🎮</span>
                                 </div>
                                 <span class="art-label">Gaming</span>
                             </div>
 
                             <div className="art-item">
-                                <div className="badge-circle">
-                                    🍰
+                                <div className="badge-circle imghover bakehover">
+                                    <span className="emoji">🍰</span>
                                 </div>
                                 <span class="art-label">Baking</span>
                             </div>
 
                             <div className="art-item">
-                                <div className="badge-circle">
-                                    📚
+                                <div className="badge-circle imghover bookhover">
+                                    <span className="emoji">📚</span>
                                 </div>
                                 <span class="art-label">Reading</span>
                             </div>
 
                             <div className="art-item">
-                                <div className="badge-circle">
-                                    🐈
+                                <div className="badge-circle imghover cathover">
+                                    <span className="emoji">🐈</span>
                                 </div>
                                 <span class="art-label">Cats *</span>
                             </div>

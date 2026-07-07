@@ -318,6 +318,39 @@
     margin-bottom: 20px;
 }
 
+.imghover {
+    position: relative;
+    overflow: hidden;
+}
+
+.imghover::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-size: cover;
+    background-position: center;
+
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.imghover:hover::before {
+    opacity: 1;
+}
+
+.imghover .emoji {
+    transition: opacity 0.2s;
+}
+
+.imghover:hover .emoji {
+    opacity: 0;
+}
+
+.arthover::before {
+    background-image: url("../../assets/hover-image.jpg");
+}
+
 /* contact section */
 #contact {
     background-color: var(--color-surface-dark);

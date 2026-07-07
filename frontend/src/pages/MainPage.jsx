@@ -236,7 +236,16 @@ function MainPage() {
                 </div>
 
                 <div id="contact" className="panel">
-                    <div className="label accented-label">05 — Contact</div>
+                    <div className="contact-content">
+                        <div className="label accented-label">05 — Contact</div>
+                        <h2 className="contact-header">Let's talk.</h2>
+                        <p className="contact-blurb">Open to opportunities, collaborations, or just a conversation.</p>
+                        <div className="link-row">
+                            <a href="https://github.com/MK-DlR" className="contact-link">GitHub ↗</a>
+                            <a href="https://www.linkedin.com/in/adrien-newman/" className="contact-link">LinkedIn ↗</a>
+                            <a href="#" className="contact-link">Email ↗</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <CreditFooter />

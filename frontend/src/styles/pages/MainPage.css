@@ -317,3 +317,38 @@
 #contact {
     background-color: var(--color-surface-dark);
 }
+
+.contact-content {
+    text-align: center;
+    width: 100%;
+}
+
+.contact-header {
+    font-size: clamp(2.4rem,6vw,4rem);
+    color: var(--color-text-on-dark);
+    line-height: 1.05;
+    margin-bottom: 26px;
+}
+
+.contact-blurb {
+    font-size: 1rem;
+    color: var(--color-text-muted-detail);
+}
+
+.link-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-link {
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: var(--color-text-on-dark);
+
+    padding: 12px 22px;
+    border: 1px solid rgba(243,239,230,0.3);
+    border-radius: 100px;
+
+    margin-top: 20px;
+}

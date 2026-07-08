@@ -19,6 +19,7 @@ p {
 .label,
 .mini-label,
 .credit-footer-text,
+.footer-label,
 .tech-label,
 .skill-label,
 .skill-button,
@@ -44,15 +45,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .label,
 .skill-label,
-.mini-label {
+.mini-label,
+.footer-label {
     letter-spacing: 0.08em;
     text-transform: uppercase;
 }
 
-.label {
+.label,
+.footer-label {
     font-size: 0.78rem;
     color: var(--color-accent-primary);
+}
 
+.label {
     padding-bottom: 20px;
 }
 
@@ -60,6 +65,10 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.7rem;
     color: var(--color-accent-on-dark);
 
+    padding-bottom: 10px;
+}
+
+.footer-label {
     padding-bottom: 10px;
 }
 

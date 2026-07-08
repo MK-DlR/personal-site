@@ -4,7 +4,25 @@
 .credit-footer,
 .light-footer,
 .dark-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
     padding: 0 10rem;
+}
+
+.light-footer,
+.dark-footer {
+    height: 15.6rem;
+}
+
+.next-section {
+    font-size: 2rem;
+}
+
+.nav-arrow {
+    font-size: 1.4rem;
+    text-decoration: none;
 }
 
 /* home page footer */
@@ -33,10 +51,24 @@
 }
 
 /* detail page footer - light */
-/* TBA */
+.light-footer {
+    background-color: var(--color-surface-alt);
+}
+
+.light-next,
+.light-nav {
+    color: var(--color-text-body);
+}
 
 /* detail page footer - dark */
-/* TBA */
+.dark-footer {
+    background-color: var(--color-surface-dark);
+}
+
+.dark-next,
+.dark-nav {
+    color: var(--color-text-on-dark);
+}
 
 /* project detail page footer - dark */
 /* TBA */

@@ -1,0 +1,17 @@
+/* src/styles/pages/Details.css */
+
+/* shared detail page srtyles */
+.details-page-header {
+    border-bottom: 1px solid var(--color-border-on-light);
+}
+
+.details-header-lg {
+    font-size: clamp(2.4rem,6vw,4rem);
+    line-height: 1.02;
+    margin-bottom: 20px;
+}
+
+.details-header {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+}

@@ -74,3 +74,14 @@
 .nav-link:hover::after {
     width: 100%;
 }
+
+.back-link {
+    font-family: var(--font-code);
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: var(--color-text-link);
+}
+
+.back-link:hover {
+    border-bottom: 1px solid var(--color-text-link);
+}

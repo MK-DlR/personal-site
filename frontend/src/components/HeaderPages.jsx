@@ -16,7 +16,7 @@ function HeaderPages() {
                 <h3 className="header-title">Adrien Newman</h3>
             </div>
             <nav className="header-right">
-                <Link to="/#hero" className="nav-link">← Back to portfolio</Link>
+                <Link to="/#hero" className="back-link">← Back to portfolio</Link>
             </nav>
         </div>
     )

@@ -1,5 +1,6 @@
 /* src/styles/components/Footer.css */
 
+/* home page footer */
 .credit-footer {
     height: 4.3rem;
 
@@ -31,3 +32,5 @@
 .credit-footer-right {
     padding-right: 10rem;
 }
+
+/* detail page footer */

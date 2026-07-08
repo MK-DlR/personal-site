@@ -18,6 +18,8 @@ p {
 
 .label,
 .mini-label,
+.mini-header,
+.fact-label,
 .credit-footer-text,
 .footer-label,
 .tech-label,
@@ -29,13 +31,18 @@ p {
 .entry-year,
 .art-label,
 .disclaimer,
-.contact-link {
+.contact-link,
+.elsewhere-link {
     font-family: var(--font-code);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-heading);
     color: var(--color-text-heading);
+}
+
+ul {
+    list-style: none;
 }
 
 .panel {
@@ -99,19 +106,4 @@ h1, h2, h3, h4, h5, h6 {
 .content {
     line-height: 1.6;
     color: var(--color-text-body);
-}
-
-.details-page-header {
-    border-bottom: 1px solid var(--color-border-on-light);
-}
-
-.details-header-lg {
-    font-size: clamp(2.4rem,6vw,4rem);
-    line-height: 1.02;
-    margin-bottom: 20px;
-}
-
-.details-header {
-    font-size: 1.6rem;
-    margin-bottom: 16px;
 }

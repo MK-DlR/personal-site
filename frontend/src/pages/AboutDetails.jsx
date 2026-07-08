@@ -12,29 +12,23 @@ function AboutDetails() {
                 <div className="details-page-header">
                     <div className="label">About & Skills</div>
                     <h1 className="details-header-lg">More about me.</h1>
-                    <div className="about-header-blurb">The full version — background, how I work, and a closer look at the languages, frameworks, and tools I use day to day.</div>
+                    <div className="header-blurb">The full version — background, how I work, and a closer look at the languages, frameworks, and tools I use day to day.</div>
                 </div>
-                <div className="about-details-content">
+                <div className="details-content">
                     <div className="about-details-left">
-                        <div className="mini-header">Quick Facts</div>
-                        <div className="fact-container">
-                            <div className="quick-info">Based in</div>
-                            <div className="fact-label">City, Country</div>
-                        </div>
-                        <div className="fact-container">
-                            <div className="quick-info">Focus</div>
-                            <div className="fact-label">Full-stack web development</div>
-                        </div>
-                        <div className="fact-container">
-                            <div className="quick-info">Currently</div>
-                            <div className="fact-label">What you're doing right now</div>
-                        </div>
-                        <div className="fact-container">
-                            <div className="quick-info">Education</div>
-                            <div className="fact-label">School / self-taught / bootcamp</div>
-                        </div>
-                        <div className="mini-header">Elsewhere</div>
-                        <div className="links-container">
+                        <h4 className="mini-header">Quick Facts</h4>
+                        <ul className="fact-list">
+                            <li className="quick-info">Based in</li>
+                            <li className="fact-label">City, Country</li>
+                            <li className="quick-info">Focus</li>
+                            <li className="fact-label">Full-stack web development</li>
+                            <li className="quick-info">Currently</li>
+                            <li className="fact-label">What you're doing right now</li>
+                            <li className="quick-info">Education</li>
+                            <li className="fact-label">School / self-taught / bootcamp</li>
+                        </ul>
+                        <h4 className="mini-header">Elsewhere</h4>
+                        <div className="elsewhere-links-container">
                             <a href="https://github.com/MK-DlR" className="elsewhere-link">→ GitHub</a>
                             <a href="www.linkedin.com/in/adrien-newman/" className="elsewhere-link">→ LinkedIn</a>
                             <a href="#" className="elsewhere-link">→ Resume (PDF)</a>
@@ -43,15 +37,42 @@ function AboutDetails() {
                     </div>
                     <div className="about-details-right">
                         <h2 className="details-header">Who I am</h2>
-                        <p className="about-details-blurb">Expanded version of your about blurb — background, how you got into development, and what drives the way you build.</p>
-                        <p className="about-details-blurb">Second paragraph — working style, what you value in a project or team, anything that gives a sense of you beyond the resume facts.</p>
+                        <p className="details-blurb">Expanded version of your about blurb — background, how you got into development, and what drives the way you build.</p>
+                        <p className="details-blurb">Second paragraph — working style, what you value in a project or team, anything that gives a sense of you beyond the resume facts.</p>
 
                         <h2 className="details-header">Core skills</h2>
-                        <div className="label">Languages</div>
-                        <div>Javascript</div> [bar here]
-                        <div className="label">Frameworks</div>
-                        <div>React</div> [bar here]
-                        <div>Express</div> [bar here]
+                        <div className="tool-list">
+                            <span className="label tool-label">Languages</span>
+                            <div className="bar-row">
+                                <span className="skill-name">JavaScript</span>
+                                <div className="bar-track">
+                                    <div
+                                        className="bar-fill"
+                                        style={{ width: "90%" }}
+                                    ></div>
+                                </div>
+                            </div>
+
+                            <span className="label tool-label">Frameworks</span>
+                                <div className="bar-row">
+                                    <span className="skill-name">React</span>
+                                    <div className="bar-track">
+                                        <div
+                                            className="bar-fill"
+                                            style={{ width: "80%" }}
+                                        ></div>
+                                    </div>
+                                </div>
+                                <div className="bar-row">
+                                <span className="skill-name">Express</span>
+                                <div className="bar-track">
+                                    <div
+                                        className="bar-fill"
+                                        style={{ width: "80%" }}
+                                    ></div>
+                                </div>
+                            </div>
+                        </div>
 
                         <h2 className="details-header">Tools I use</h2>
                         <div className="tool-container">

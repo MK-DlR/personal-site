@@ -352,7 +352,27 @@
 
 /* art - specific hover images */
 .arthover::before {
-    background-image: url("../../assets/hover-image.jpg");
+    background-image: url("../../assets/art-hover.png");
+}
+
+.crochethover::before {
+    background-image: url("../../assets/crochet-hover.jpg");
+}
+
+.gamehover::before {
+    background-image: url("../../assets/game-hover.jpg");
+}
+
+.bakehover::before {
+    background-image: url("../../assets/baking-hover.jpg");
+}
+
+.bookhover::before {
+    background-image: url("../../assets/placeholder-hover.png");
+}
+
+.cathover::before {
+    background-image: url("../../assets/cat-hover.png");
 }
 
 /* contact - main panel section */

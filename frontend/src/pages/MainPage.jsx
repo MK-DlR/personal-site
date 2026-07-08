@@ -7,17 +7,6 @@ import CreditFooter from '../components/FooterHome.jsx'
 import heroImage from '../assets/hero-image.jpg'
 import placeholderImage from '../assets/placeholder.jpg'
 
-/* 
-layout
-
-"hero" panel (basic blurb, image)
-about (+ tech skills) +link to detailed about page
-projects (3 main projects) +link to detailed projects page
-journey (currently + brief timeline) +link to detailed journey page
-hobbies (some interests) +link to detailed hobbies page
-contact (github, linkedin, email, resume)
-*/
-
 function MainPage() {
     return (
         <>

@@ -9,7 +9,7 @@
     border-bottom: 1px solid var(--color-border-on-light);
 }
 
-/* hero section */
+/* hero - main panel section */
 #hero {
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@
     box-shadow: 0 30px 50px rgba(27,32,25,0.18);
 }
 
-/* about section */
+/* about - main panel section */
 #about {
     background-color: var(--color-surface-alt);
 
@@ -104,7 +104,7 @@
     border: 1px solid #f3efe640;
 }
 
-/* projects section */
+/* projects - main panel section */
 #projects {
     display: flex;
     flex-direction: column;
@@ -127,6 +127,7 @@
     margin-top: 20px;
 }
 
+/* projects - examples section */
 .project-card {
     display: flex;
     flex-direction: column;
@@ -186,7 +187,7 @@
     border-bottom: 1px solid currentColor;
 }
 
-/* journey section */
+/* journey - main panel section */
 #journey {
     background-color: var(--color-surface-dark);
 }
@@ -225,6 +226,7 @@
     line-height: 1.6;
 }
 
+/* journey - timeline section */
 .timeline-entry {
     display: flex;
 
@@ -256,7 +258,7 @@
     line-height: 1.5;
 }
 
-/* art section */
+/* art - main panel section */
 .art-content {
     text-align: center;
     width: 100%;
@@ -318,6 +320,7 @@
     margin-bottom: 20px;
 }
 
+/* art - hover images section */
 .imghover {
     position: relative;
     overflow: hidden;
@@ -347,11 +350,12 @@
     opacity: 0;
 }
 
+/* art - specific hover images */
 .arthover::before {
     background-image: url("../../assets/hover-image.jpg");
 }
 
-/* contact section */
+/* contact - main panel section */
 #contact {
     background-color: var(--color-surface-dark);
 }

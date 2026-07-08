@@ -2,7 +2,7 @@
 
 // imports
 import Header from '../components/HeaderPages.jsx'
-import Footer from '../components/FooterPages.jsx'
+import Footer from '../components/FooterDark.jsx'
 
 function AllProjects() {
     return (

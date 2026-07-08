@@ -1,8 +1,8 @@
 // src/pages/MainPage.jsx
 
 // imports
-import Header from '../components/Header.jsx'
-import CreditFooter from '../components/CreditFooter.jsx'
+import Header from '../components/HeaderHome.jsx'
+import CreditFooter from '../components/FooterHome.jsx'
 
 import heroImage from '../assets/hero-image.jpg'
 import placeholderImage from '../assets/placeholder.jpg'

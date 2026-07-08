@@ -1,6 +1,6 @@
-// src/components/Footer.jsx
+// src/components/FooterPages.jsx
 
-function Footer() {
+function FooterPages() {
     return (
         <div className="footer">
             i'm the footer
@@ -8,4 +8,4 @@ function Footer() {
     )
 }
 
-export default Footer
+export default FooterPages

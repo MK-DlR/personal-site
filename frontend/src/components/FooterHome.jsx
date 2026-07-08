@@ -1,6 +1,6 @@
-// src/components/CreditFooter.jsx
+// src/components/FooterHome.jsx
 
-function CreditFooter() {
+function FooterHome() {
     return (
         <div className="credit-footer">
             <div className="credit-footer-left credit-footer-text">
@@ -13,4 +13,4 @@ function CreditFooter() {
     )
 }
 
-export default CreditFooter
+export default FooterHome

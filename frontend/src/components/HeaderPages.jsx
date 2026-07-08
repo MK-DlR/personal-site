@@ -1,9 +1,9 @@
-// src/components/Header.jsx
+// src/components/HeaderPages.jsx
 
 // imports
 import { HashLink as Link } from 'react-router-hash-link';
 
-function Header() {
+function HeaderPages() {
     return (
         <div className="header">
             <div className="header-left">
@@ -16,14 +16,10 @@ function Header() {
                 <h3 className="header-title">Adrien Newman</h3>
             </div>
             <nav className="header-right">
-                <Link to="/#about" className="nav-link">About</Link>
-                <Link to="/#projects" className="nav-link">Projects</Link>
-                <Link to="/#journey" className="nav-link">Journey</Link>
-                <Link to="/#art" className="nav-link">Art</Link>
-                <Link to="/#contact" className="nav-link">Contact</Link>
+                <Link to="/#hero" className="nav-link">← Back to portfolio</Link>
             </nav>
         </div>
     )
 }
 
-export default Header
+export default HeaderPages

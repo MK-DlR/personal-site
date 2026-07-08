@@ -1,5 +1,12 @@
 /* src/styles/components/Footer.css */
 
+/* shared footer styles */
+.credit-footer,
+.light-footer,
+.dark-footer {
+    padding: 0 10rem;
+}
+
 /* home page footer */
 .credit-footer {
     height: 4.3rem;
@@ -25,12 +32,11 @@
     text-decoration: underline;
 }
 
-.credit-footer-left {
-    padding-left: 10rem;
-}
+/* detail page footer - light */
+/* TBA */
 
-.credit-footer-right {
-    padding-right: 10rem;
-}
+/* detail page footer - dark */
+/* TBA */
 
-/* detail page footer */
+/* project detail page footer - dark */
+/* TBA */

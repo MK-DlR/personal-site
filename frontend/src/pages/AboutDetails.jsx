@@ -16,7 +16,7 @@ function AboutDetails() {
                 </div>
                 <div className="about-details-content">
                     <div className="about-details-left">
-                        <h4 className="mini-header">Quick Facts</h4>
+                        <h4 className="mini-header about-mini">Quick Facts</h4>
                         <ul className="fact-list">
                             <li className="quick-info">Based in</li>
                             <li className="fact-label">City, Country</li>
@@ -27,7 +27,7 @@ function AboutDetails() {
                             <li className="quick-info">Education</li>
                             <li className="fact-label">School / self-taught / bootcamp</li>
                         </ul>
-                        <h4 className="mini-header">Elsewhere</h4>
+                        <h4 className="mini-header about-mini">Elsewhere</h4>
                         <div className="elsewhere-links-container">
                             <a href="https://github.com/MK-DlR" className="elsewhere-link">→ GitHub</a>
                             <a href="www.linkedin.com/in/adrien-newman/" className="elsewhere-link">→ LinkedIn</a>
@@ -35,7 +35,7 @@ function AboutDetails() {
                             <a href="#" className="elsewhere-link">→ Email</a>
                         </div>
                     </div>
-                    <div className="about-details-right">
+                    <div className="details-page-right">
                         <h2 className="details-header">Who I am</h2>
                         <p className="about-details-blurb">Expanded version of your about blurb — background, how you got into development, and what drives the way you build.</p>
                         <p className="about-details-blurb">Second paragraph — working style, what you value in a project or team, anything that gives a sense of you beyond the resume facts.</p>

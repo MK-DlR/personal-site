@@ -1,15 +1,5 @@
 /* src/styles/pages/AboutDetails.css */
 
-.about-details-right h2:first-child {
-    margin-top: 0;
-}
-
-.about-details-right h2 {
-    font-size: 1.6rem;
-    margin-bottom: 16px;
-    margin-top: 48px;
-}
-
 .about-details-content {
     max-width: 1100px;
     margin: 0 auto;
@@ -19,15 +9,16 @@
     gap: 70px;
 }
 
-.fact-label {
-    color: var(--color-text-muted);
+.about-mini {
+    margin-bottom: 14px;
 }
 
-.mini-header {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    margin-bottom: 14px;
+.fact-list {
+    list-style: none;
+}
+
+.fact-label {
+    color: var(--color-text-muted);
 }
 
 .about-details-left {

@@ -34,7 +34,8 @@ p {
 .contact-link,
 .elsewhere-link,
 .tool-name,
-.filter-pill {
+.filter-pill,
+.lg-button {
     font-family: var(--font-code);
 }
 
@@ -42,10 +43,6 @@ h1, h2, h3, h4, h5, h6,
 .tool-initial {
     font-family: var(--font-heading);
     color: var(--color-text-heading);
-}
-
-ul {
-    list-style: none;
 }
 
 .panel {
@@ -78,6 +75,12 @@ ul {
     padding-bottom: 10px;
 }
 
+.mini-header {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
 .footer-label {
     padding-bottom: 10px;
 }
@@ -96,6 +99,7 @@ ul {
     color: var(--color-text-link);
     text-decoration: none;
     border-bottom: 1px solid currentColor;
+    margin-bottom: 5px;
 }
 
 .accented-link,
@@ -116,4 +120,25 @@ ul {
 .content {
     line-height: 1.6;
     color: var(--color-text-body);
+}
+
+.project-tag {
+    font-size: 0.68rem;
+    color: var(--color-text-link);
+    padding: 3px 9px;
+    margin-right: 5px;
+
+    background-color: var(--color-surface-base);
+    border: 1px solid var(--color-border-on-light);
+    border-radius: 100px;
+}
+
+.details-page-right h2:first-child {
+    margin-top: 0;
+}
+
+.details-page-right h2 {
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+    margin-top: 48px;
 }

@@ -1,1 +1,103 @@
 /* src/styles/pages/ProjectDetails.css */
+
+.dev-details {
+    display: flex;
+    gap: 44px;
+    flex-wrap: wrap;
+    margin-top: 34px;
+}
+
+.details-list {
+    list-style: none;
+}
+
+.lg-buttons-container {
+    display: flex;
+    gap: 14px;
+    margin-top: 36px;
+}
+
+.lg-button {
+    font-size: 0.82rem;
+    color: var(--color-text-link);
+    text-decoration: none;
+
+    padding: 12px 22px;
+    border-radius: 100px;
+    border: 1px solid var(--ink);
+}
+
+.lg-button.solid {
+    background: var(--color-surface-dark);
+    color: var(--color-text-on-dark);
+}
+
+.project-details-content {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 80px;
+    gap: 80px;
+}
+
+.project-details-left {
+    margin-left: 90px;
+}
+
+.project-details-right {
+    max-width: 500px;
+    margin-right: 90px;
+}
+
+.project-details-right:last-child {
+    margin-bottom: 90px;
+}
+
+.stack-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+/* TEMPORARY */
+.project-preview {
+    margin: 0 8vw;
+    height: 420px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--gold), var(--coral));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono';
+    color: rgba(27,32,25,0.55);
+    font-size: 0.85rem;
+}
+
+.feature {
+    line-height: 1.75;
+    margin-left: 20px;
+    color: var(--color-text-body);
+}
+
+.detail-images {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.project-details {
+    height: 200px;
+    border-radius: 12px;
+}
+
+.quote {
+    font-family: 'Fraunces';
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--color-text-heading);
+
+    border-left: 2px solid var(--color-accent-primary);
+    padding-left: 22px;
+    margin: 34px 0;
+}

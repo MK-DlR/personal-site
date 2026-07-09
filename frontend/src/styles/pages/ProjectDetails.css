@@ -72,6 +72,8 @@
     font-family: 'JetBrains Mono';
     color: rgba(27,32,25,0.55);
     font-size: 0.85rem;
+
+    object-fit: cover;
 }
 
 .feature {
@@ -87,8 +89,9 @@
 }
 
 .project-details {
-    height: 200px;
+    height: 225px;
     border-radius: 12px;
+    object-fit: cover;
 }
 
 .quote {

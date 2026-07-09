@@ -14,7 +14,7 @@ function AboutDetails() {
                     <h1 className="details-header-lg">More about me.</h1>
                     <div className="header-blurb">The full version — background, how I work, and a closer look at the languages, frameworks, and tools I use day to day.</div>
                 </div>
-                <div className="details-content">
+                <div className="about-details-content">
                     <div className="about-details-left">
                         <h4 className="mini-header">Quick Facts</h4>
                         <ul className="fact-list">
@@ -37,8 +37,8 @@ function AboutDetails() {
                     </div>
                     <div className="about-details-right">
                         <h2 className="details-header">Who I am</h2>
-                        <p className="details-blurb">Expanded version of your about blurb — background, how you got into development, and what drives the way you build.</p>
-                        <p className="details-blurb">Second paragraph — working style, what you value in a project or team, anything that gives a sense of you beyond the resume facts.</p>
+                        <p className="about-details-blurb">Expanded version of your about blurb — background, how you got into development, and what drives the way you build.</p>
+                        <p className="about-details-blurb">Second paragraph — working style, what you value in a project or team, anything that gives a sense of you beyond the resume facts.</p>
 
                         <h2 className="details-header">Core skills</h2>
                         <div className="tool-list">

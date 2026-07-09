@@ -8,5 +8,6 @@
 @import './components/Footer.css';
 @import './components/Header.css';
 
+@import './pages/AboutDetails.css';
 @import './pages/Details.css';
 @import './pages/MainPage.css';

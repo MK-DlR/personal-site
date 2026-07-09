@@ -1,5 +1,6 @@
 /* src/styles/pages/MainPage.css */
 
+/* panels */
 #hero,
 #about,
 #projects,
@@ -9,12 +10,12 @@
     border-bottom: 1px solid var(--color-border-on-light);
 }
 
-/* layout / typography moved from global.css (MainPage-only) */
 .panel {
     display: flex;
     padding: 5rem 12rem;
 }
 
+/* typography */
 .title {
     font-size: 2.6rem;
     line-height: 1.05;
@@ -45,6 +46,11 @@
     padding-bottom: 2px;
 }
 
+.accented-link,
+.accented-label {
+    color: var(--color-accent-on-dark);
+}
+
 /* section headings - named for the background they sit on, to avoid
    colliding with Header.css's .dark-title (used on the dark header bar) */
 .section-title-dark {
@@ -55,16 +61,18 @@
     color: var(--color-text-on-dark);
 }
 
-.accented-link,
-.accented-label {
-    color: var(--color-accent-on-dark);
-}
-
-/* hero - main panel section */
+/* hero */
 #hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 100px;
 }
 
 .hero-title {
@@ -76,14 +84,7 @@
     color: var(--color-text-heading);
 }
 
-.hero-left {
-    display: flex;
-    flex-direction: column;
-
-    margin-top: 100px;
-}
-
-.hero-content{
+.hero-content {
     max-width: 480px;
 }
 
@@ -102,7 +103,7 @@
     box-shadow: 0 30px 50px rgba(27,32,25,0.18);
 }
 
-/* about - main panel section */
+/* about */
 #about {
     background-color: var(--color-surface-alt);
 
@@ -112,15 +113,15 @@
     padding-right: 400px;
 }
 
-.about-content{
+.about-content {
     max-width: 480px;
     padding-bottom: 20px;
 }
 
-/* about - tech skill section */
+/* about - tech skills panel */
 .tech-skills {
     background-color: var(--color-surface-dark);
-    
+
     width: 750px;
     border-radius: 18px;
     padding: 36px;
@@ -160,7 +161,7 @@
     border: 1px solid #f3efe640;
 }
 
-/* projects - main panel section */
+/* projects */
 #projects {
     display: flex;
     flex-direction: column;
@@ -183,7 +184,7 @@
     margin-top: 20px;
 }
 
-/* projects - examples section */
+/* projects - project cards */
 .project-card {
     display: flex;
     flex-direction: column;
@@ -226,7 +227,7 @@
     gap: 15px;
 }
 
-/* journey - main panel section */
+/* journey */
 #journey {
     background-color: var(--color-surface-dark);
 }
@@ -265,7 +266,7 @@
     line-height: 1.6;
 }
 
-/* journey - timeline section */
+/* journey - timeline */
 .timeline-entry {
     display: flex;
 
@@ -298,7 +299,7 @@
     line-height: 1.5;
 }
 
-/* art - main panel section */
+/* art */
 .art-content {
     text-align: center;
     width: 100%;
@@ -325,7 +326,7 @@
     justify-content: center;
     gap: 75px;
     margin-bottom: 50px;
-    
+
     text-align: center;
 }
 
@@ -363,7 +364,7 @@
     margin-bottom: 20px;
 }
 
-/* art - hover images section */
+/* art - hover images */
 .imghover {
     position: relative;
     overflow: hidden;
@@ -393,7 +394,6 @@
     opacity: 0;
 }
 
-/* art - specific hover images */
 .arthover::before {
     background-image: url("../../assets/art-hover.png");
 }
@@ -422,7 +422,7 @@
     background-image: url("../../assets/cat-hover.png");
 }
 
-/* contact - main panel section */
+/* contact */
 #contact {
     background-color: var(--color-surface-dark);
 }

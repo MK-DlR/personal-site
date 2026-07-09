@@ -1,5 +1,6 @@
 /* src/styles/pages/ProjectDetails.css */
 
+/* header - dev details + buttons */
 .dev-details {
     display: flex;
     gap: 44px;
@@ -33,6 +34,23 @@
     color: var(--color-text-on-dark);
 }
 
+/* TEMPORARY */
+.project-preview {
+    margin: 0 8vw;
+    height: 420px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--gold), var(--coral));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono';
+    color: rgba(27,32,25,0.55);
+    font-size: 0.85rem;
+
+    object-fit: cover;
+}
+
+/* content layout */
 .project-details-content {
     max-width: 1100px;
     margin: 0 auto;
@@ -61,22 +79,7 @@
     margin-bottom: 50px;
 }
 
-/* TEMPORARY */
-.project-preview {
-    margin: 0 8vw;
-    height: 420px;
-    border-radius: 16px;
-    background: linear-gradient(135deg, var(--gold), var(--coral));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'JetBrains Mono';
-    color: rgba(27,32,25,0.55);
-    font-size: 0.85rem;
-
-    object-fit: cover;
-}
-
+/* content body */
 .feature {
     line-height: 1.75;
     margin-left: 20px;

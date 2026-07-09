@@ -16,6 +16,7 @@ p {
     padding-bottom: 10px;
 }
 
+/* base typography */
 .label,
 .project-tag,
 .project-link {
@@ -36,6 +37,7 @@ h1, h2, h3, h4, h5, h6,
     padding-bottom: 20px;
 }
 
+/* shared project tags/links */
 .project-link {
     font-size: 0.78rem;
     color: var(--color-text-link);

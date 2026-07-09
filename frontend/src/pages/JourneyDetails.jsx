@@ -1,7 +1,7 @@
 // src/pages/Journey.jsx
 
 // imports
-import Header from '../components/HeaderPages.jsx'
+import Header from '../components/HeaderDark.jsx'
 import Footer from '../components/FooterLight.jsx'
 
 function JourneyDetails

@@ -81,3 +81,13 @@
 .back-link:hover {
     border-bottom: 1px solid var(--color-text-link);
 }
+
+/* detail page header - dark */
+.dark-header {
+    background-color: var(--color-surface-dark);
+}
+
+.dark-title,
+.dark-link {
+    color: var(--color-text-on-dark);
+}

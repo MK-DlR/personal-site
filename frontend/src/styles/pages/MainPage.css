@@ -277,9 +277,10 @@
 
 .art-blurb {
     color: var(--color-text-body);
+    margin-bottom: 10px;
 }
 
-.art-container {
+.hobby-container {
     display: flex;
     justify-content: center;
     gap: 75px;
@@ -288,7 +289,7 @@
     text-align: center;
 }
 
-.art-item {
+.hobby-item {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -368,6 +369,10 @@
 }
 
 .bookhover::before {
+    background-image: url("../../assets/placeholder-hover.png");
+}
+
+.gardenhover::before {
     background-image: url("../../assets/placeholder-hover.png");
 }
 

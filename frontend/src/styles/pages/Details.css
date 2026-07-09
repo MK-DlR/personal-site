@@ -89,6 +89,7 @@
     font-size: 0.85rem;
     color: var(--color-text-link);
     text-decoration: none;
+    padding: 5px 0;
 }
 
 .details-blurb {
@@ -126,4 +127,31 @@
     height: 100%;
     background: var(--color-surface-dark);
     border-radius: inherit;
+}
+
+.tool-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-top: 20px;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 18px 14px;
+    border: 1px solid var(--color-border-on-light);
+    border-radius: 12px;
+}
+
+.tool-initial {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.tool-name {
+    font-size: 0.72rem;
 }

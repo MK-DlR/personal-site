@@ -32,11 +32,13 @@ p {
 .art-label,
 .disclaimer,
 .contact-link,
-.elsewhere-link {
+.elsewhere-link,
+.tool-name {
     font-family: var(--font-code);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.tool-initial {
     font-family: var(--font-heading);
     color: var(--color-text-heading);
 }

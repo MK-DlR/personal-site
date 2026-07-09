@@ -9,6 +9,57 @@
     border-bottom: 1px solid var(--color-border-on-light);
 }
 
+/* layout / typography moved from global.css (MainPage-only) */
+.panel {
+    display: flex;
+    padding: 5rem 12rem;
+}
+
+.title {
+    font-size: 2.6rem;
+    line-height: 1.05;
+    padding-bottom: 30px;
+}
+
+.content {
+    line-height: 1.6;
+    color: var(--color-text-body);
+}
+
+.mini-label {
+    font-family: var(--font-code);
+    font-size: 0.7rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent-on-dark);
+    padding-bottom: 10px;
+}
+
+.details-link {
+    font-family: var(--font-code);
+    font-size: 0.8rem;
+    color: var(--color-text-link);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+
+    padding-bottom: 2px;
+}
+
+/* section headings - named for the background they sit on, to avoid
+   colliding with Header.css's .dark-title (used on the dark header bar) */
+.section-title-dark {
+    color: var(--color-text-heading);
+}
+
+.section-title-light {
+    color: var(--color-text-on-dark);
+}
+
+.accented-link,
+.accented-label {
+    color: var(--color-accent-on-dark);
+}
+
 /* hero - main panel section */
 #hero {
     display: flex;
@@ -76,6 +127,7 @@
 }
 
 .tech-label {
+    font-family: var(--font-code);
     color: var(--color-text-on-dark);
 }
 
@@ -85,6 +137,9 @@
 }
 
 .skill-label {
+    font-family: var(--font-code);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
     font-size: 0.7rem;
     color: var(--color-text-muted);
 }
@@ -96,6 +151,7 @@
 }
 
 .skill-button {
+    font-family: var(--font-code);
     font-size: 0.8rem;
     color: var(--color-text-on-dark);
 
@@ -223,6 +279,7 @@
 }
 
 .entry-year {
+    font-family: var(--font-code);
     color: var(--color-accent-on-dark);
     font-size: 0.85rem;
     margin-right: 50px;
@@ -295,11 +352,13 @@
 }
 
 .art-label {
+    font-family: var(--font-code);
     font-size: 0.78rem;
     color: var(--color-text-body);
 }
 
 .disclaimer {
+    font-family: var(--font-code);
     font-size: 0.6rem;
     margin-bottom: 20px;
 }
@@ -392,6 +451,7 @@
 }
 
 .contact-link {
+    font-family: var(--font-code);
     font-size: 0.85rem;
     text-decoration: none;
     color: var(--color-text-on-dark);

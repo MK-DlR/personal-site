@@ -17,25 +17,8 @@ p {
 }
 
 .label,
-.mini-label,
-.mini-header,
-.fact-label,
-.credit-footer-text,
-.footer-label,
-.tech-label,
-.skill-label,
-.skill-button,
-.details-link,
 .project-tag,
-.project-link,
-.entry-year,
-.art-label,
-.disclaimer,
-.contact-link,
-.elsewhere-link,
-.tool-name,
-.filter-pill,
-.lg-button {
+.project-link {
     font-family: var(--font-code);
 }
 
@@ -45,53 +28,12 @@ h1, h2, h3, h4, h5, h6,
     color: var(--color-text-heading);
 }
 
-.panel {
-    display: flex;
-    padding: 5rem 12rem;
-}
-
-.label,
-.skill-label,
-.mini-label,
-.footer-label {
+.label {
     letter-spacing: 0.08em;
     text-transform: uppercase;
-}
-
-.label,
-.footer-label {
     font-size: 0.78rem;
     color: var(--color-accent-primary);
-}
-
-.label {
     padding-bottom: 20px;
-}
-
-.mini-label {
-    font-size: 0.7rem;
-    color: var(--color-accent-on-dark);
-
-    padding-bottom: 10px;
-}
-
-.mini-header {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-}
-
-.footer-label {
-    padding-bottom: 10px;
-}
-
-.details-link {
-    font-size: 0.8rem;
-    color: var(--color-text-link);
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
-
-    padding-bottom: 2px;
 }
 
 .project-link {
@@ -100,26 +42,6 @@ h1, h2, h3, h4, h5, h6,
     text-decoration: none;
     border-bottom: 1px solid currentColor;
     margin-bottom: 5px;
-}
-
-.accented-link,
-.accented-label {
-    color: var(--color-accent-on-dark);
-}
-
-.title {
-    font-size: 2.6rem;
-    line-height: 1.05;
-    padding-bottom: 30px; 
-}
-
-.light-title {
-    color: var(--color-text-on-dark);
-}
-
-.content {
-    line-height: 1.6;
-    color: var(--color-text-body);
 }
 
 .project-tag {
@@ -131,14 +53,4 @@ h1, h2, h3, h4, h5, h6,
     background-color: var(--color-surface-base);
     border: 1px solid var(--color-border-on-light);
     border-radius: 100px;
-}
-
-.details-page-right h2:first-child {
-    margin-top: 0;
-}
-
-.details-page-right h2 {
-    font-size: 1.6rem;
-    margin-bottom: 16px;
-    margin-top: 48px;
 }

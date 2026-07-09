@@ -18,6 +18,7 @@
 }
 
 .lg-button {
+    font-family: var(--font-code);
     font-size: 0.82rem;
     color: var(--color-text-link);
     text-decoration: none;

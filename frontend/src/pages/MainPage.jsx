@@ -57,7 +57,7 @@ function MainPage() {
 
                     <div className="about-right">
                         <div className="label">01 — About</div>
-                        <h2 className="dark-title title">A bit<br />about me.</h2>
+                        <h2 className="section-title-dark title">A bit<br />about me.</h2>
                             <p className="about-content content">Short paragraph about who you are, what kind of developer you are, and what you care about when building things.</p>
                             <p className="about-content content">Second short paragraph — background, focus area, or what you're currently drawn to.</p>
                             <a href="/about" className="details-link">→ Full about & skills page</a>
@@ -68,7 +68,7 @@ function MainPage() {
                     <div className="projects-header">
                         <div className="projects-left">
                             <div className="label">02 — Projects</div>
-                            <h2 className="dark-title title">Selected work.</h2>
+                            <h2 className="section-title-dark title">Selected work.</h2>
                         </div>
                         <div className="projects-right">
                             <a href="/projects" className="details-link">→ View more projects</a>
@@ -145,7 +145,7 @@ function MainPage() {
                     <div className="journey-container">
                         <div className="journey-header">
                             <div className="label accented-label">03 — Journey</div>
-                            <h2 className="light-title title">Where I've been,<br />where I'm headed.</h2>
+                            <h2 className="section-title-light title">Where I've been,<br />where I'm headed.</h2>
                         </div>
                         <div className="journey-content">
                             <div className="journey-left">
@@ -189,7 +189,7 @@ function MainPage() {
                 <div id="art" className="panel">
                     <div className="art-content">
                         <div className="art-panel-label label">04 — Art & Hobbies</div>
-                        <h2 className="art-header">Outside the editor.</h2>
+                        <h2 className="section-title-dark art-header">Outside the editor.</h2>
                         <p className="art-blurb">A few things I enjoy when I'm not working on code.</p>
                         <div className="hobby-container">
                             <div className="hobby-item">

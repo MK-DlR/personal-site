@@ -91,6 +91,13 @@ ul {
     padding-bottom: 2px;
 }
 
+.project-link {
+    font-size: 0.78rem;
+    color: var(--color-text-link);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+}
+
 .accented-link,
 .accented-label {
     color: var(--color-accent-on-dark);

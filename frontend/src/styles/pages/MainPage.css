@@ -180,13 +180,6 @@
     gap: 15px;
 }
 
-.project-link {
-    font-size: 0.78rem;
-    color: var(--color-text-link);
-    text-decoration: none;
-    border-bottom: 1px solid currentColor;
-}
-
 /* journey - main panel section */
 #journey {
     background-color: var(--color-surface-dark);

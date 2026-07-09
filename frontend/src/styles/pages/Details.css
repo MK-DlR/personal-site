@@ -25,6 +25,10 @@
     line-height: 1.65;
 }
 
+.mini-header {
+    color: var(--color-text-muted);
+}
+
 /* filter buttons section */
 .filter-container {
     display: flex;

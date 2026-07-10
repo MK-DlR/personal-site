@@ -4,6 +4,8 @@
 import Header from '../components/HeaderPages.jsx'
 import Footer from '../components/FooterDark.jsx'
 
+import placeholderArtImage from '../assets/placeholder-hover.png'
+
 function ArtDetails() {
     return (
         <>
@@ -24,6 +26,91 @@ function ArtDetails() {
                         <span className="filter-pill">Reading</span>
                         <span className="filter-pill">Gardening</span>
                         <span className="filter-pill">Cats</span>
+                    </div>
+                    <div className="art-card-container">
+                        <div className="art-card">
+                            <img
+                                src={placeholderArtImage}
+                                alt="art image"
+                                className="art-image"
+                            />
+                            <div className="art-caption">
+                                <h4>Untitled sketch</h4>
+                                <span>Sketch · 2025</span>
+                            </div>
+                        </div>
+
+                        <div className="art-card">
+                            <img
+                                src={placeholderArtImage}
+                                alt="art image"
+                                className="art-image"
+                            />
+                            <div className="art-caption">
+                                <h4>Untitled sketch</h4>
+                                <span>Sketch · 2025</span>
+                            </div>
+                        </div>
+
+                        <div className="art-card">
+                            <img
+                                src={placeholderArtImage}
+                                alt="art image"
+                                className="art-image"
+                            />
+                            <div className="art-caption">
+                                <h4>Untitled sketch</h4>
+                                <span>Sketch · 2025</span>
+                            </div>
+                        </div>
+
+                        <div className="art-card">
+                            <img
+                                src={placeholderArtImage}
+                                alt="art image"
+                                className="art-image"
+                            />
+                            <div className="art-caption">
+                                <h4>Untitled sketch</h4>
+                                <span>Sketch · 2025</span>
+                            </div>
+                        </div>
+
+                        <div className="art-card">
+                            <img
+                                src={placeholderArtImage}
+                                alt="art image"
+                                className="art-image"
+                            />
+                            <div className="art-caption">
+                                <h4>Untitled sketch</h4>
+                                <span>Sketch · 2025</span>
+                            </div>
+                        </div>
+
+                        <div className="art-card">
+                            <img
+                                src={placeholderArtImage}
+                                alt="art image"
+                                className="art-image"
+                            />
+                            <div className="art-caption">
+                                <h4>Untitled sketch</h4>
+                                <span>Sketch · 2025</span>
+                            </div>
+                        </div>
+
+                        <div className="art-card">
+                            <img
+                                src={placeholderArtImage}
+                                alt="art image"
+                                className="art-image"
+                            />
+                            <div className="art-caption">
+                                <h4>Untitled sketch</h4>
+                                <span>Sketch · 2025</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -251,12 +251,6 @@
     flex: 1;
 }
 
-.journey-blurb {
-    font-size: 0.95rem;
-    color: var(--color-text-muted-detail);
-    line-height: 1.6;
-}
-
 /* journey - timeline */
 .timeline-entry {
     display: flex;

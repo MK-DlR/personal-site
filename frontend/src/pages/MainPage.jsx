@@ -151,7 +151,7 @@ function MainPage() {
                             <div className="journey-left">
                                 <div className="focus">
                                     <div className="mini-label">Currently</div>
-                                    <p className="journey-blurb">What you're learning or building right now — a sentence or two on your present focus.</p>
+                                    <p className="focus-blurb">What you're learning or building right now — a sentence or two on your present focus.</p>
                                 </div>
                                 <div>
                                     <a href="/journey" className="details-link accented-link">→ Full journey page</a>

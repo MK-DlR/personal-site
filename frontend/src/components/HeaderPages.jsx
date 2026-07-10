@@ -7,7 +7,7 @@ function HeaderPages() {
     return (
         <div className="header">
             <div className="header-left">
-                <Link to="/#hero">
+                <Link to="/">
                     <span class="fa-stack">
                         <i class="fa fa-circle fa-stack-2x icon-background"></i>
                         <i className="fa-solid fa-mug-hot fa-stack-1x icon"></i>
@@ -16,7 +16,7 @@ function HeaderPages() {
                 <h3 className="header-title">Adrien Newman</h3>
             </div>
             <nav className="header-right">
-                <Link to="/#hero" className="back-link">← Back to portfolio</Link>
+                <Link to="/" className="back-link">← Back to portfolio</Link>
             </nav>
         </div>
     )

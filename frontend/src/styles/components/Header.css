@@ -86,6 +86,7 @@
 /* detail page header - dark */
 .dark-header {
     background-color: var(--color-surface-dark);
+    border-bottom: 1px solid var(--color-border-on-dark);
 }
 
 .dark-title,

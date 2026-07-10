@@ -16,9 +16,14 @@
     margin-bottom: 20px;
     border-radius: 14px;
     overflow: hidden;
+
     border: 1px solid var(--color-border-on-light);
     background: var(--color-surface-card);
-    overflow: hidden;
+    transition: opacity .2s ease;
+}
+
+.art-card:hover {
+    opacity: 0.7;
 }
 
 .art-image {

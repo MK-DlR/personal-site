@@ -37,8 +37,8 @@ function AllProjects() {
                                 <h3 className="project-name">Project Name</h3>
                                 <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
                                 <div className="project-tags-container">
-                                    <span className="project-tag">Tag</span>
-                                    <span className="project-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
                                 </div>
                             </div>
                             <div className="project-card-right">
@@ -61,8 +61,8 @@ function AllProjects() {
                                 <h3 className="project-name">Project Name</h3>
                                 <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
                                 <div className="project-tags-container">
-                                    <span className="project-tag">Tag</span>
-                                    <span className="project-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
                                 </div>
                             </div>
                             <div className="project-card-right">
@@ -85,8 +85,8 @@ function AllProjects() {
                                 <h3 className="project-name">Project Name</h3>
                                 <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
                                 <div className="project-tags-container">
-                                    <span className="project-tag">Tag</span>
-                                    <span className="project-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
                                 </div>
                             </div>
                             <div className="project-card-right">
@@ -109,8 +109,8 @@ function AllProjects() {
                                 <h3 className="project-name">Project Name</h3>
                                 <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
                                 <div className="project-tags-container">
-                                    <span className="project-tag">Tag</span>
-                                    <span className="project-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
                                 </div>
                             </div>
                             <div className="project-card-right">
@@ -133,8 +133,8 @@ function AllProjects() {
                                 <h3 className="project-name">Project Name</h3>
                                 <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
                                 <div className="project-tags-container">
-                                    <span className="project-tag">Tag</span>
-                                    <span className="project-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
+                                    <span className="tag light-tag">Tag</span>
                                 </div>
                             </div>
                             <div className="project-card-right">

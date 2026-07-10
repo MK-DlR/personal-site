@@ -51,8 +51,7 @@
     color: var(--color-accent-on-dark);
 }
 
-/* section headings - named for the background they sit on, to avoid
-   colliding with Header.css's .dark-title (used on the dark header bar) */
+/* section headings - named for the background they sit on */
 .section-title-dark {
     color: var(--color-text-heading);
 }
@@ -252,6 +251,12 @@
 }
 
 /* journey - timeline */
+/* 
+TODO
+rename timeline classes to something more specific
+for use along with JourneyDetails new class
+for more specalized styling
+*/
 .timeline-entry {
     display: flex;
 

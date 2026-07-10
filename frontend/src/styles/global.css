@@ -18,7 +18,7 @@ p {
 
 /* base typography */
 .label,
-.project-tag,
+.tag,
 .project-link {
     font-family: var(--font-code);
 }
@@ -46,13 +46,37 @@ h1, h2, h3, h4, h5, h6,
     margin-bottom: 5px;
 }
 
-.project-tag {
+.tag {
     font-size: 0.68rem;
-    color: var(--color-text-link);
     padding: 3px 9px;
     margin-right: 5px;
 
+    border-radius: 100px;
+}
+
+.light-tag {
+    color: var(--color-text-link);
     background-color: var(--color-surface-base);
     border: 1px solid var(--color-border-on-light);
-    border-radius: 100px;
+}
+
+.dark-tag {
+    color: var(--overlay-on-dark-secondary);
+    border: 1px solid var(--color-border-on-dark);
+}
+
+/* shared focus section details */
+.focus {
+    background-color: var(--color-surface-highlight-on-dark);
+    padding: 28px;
+    margin-bottom: 40px;
+
+    border: 1px solid var(--color-border-on-dark);
+    border-radius: 16px;
+}
+
+.focus-blurb {
+    font-size: 0.95rem;
+    color: var(--color-text-muted-detail);
+    line-height: 1.6;
 }

@@ -86,8 +86,8 @@ function MainPage() {
                                 <h3>Project Name</h3>
                                 <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
                                 <div className="tags-list">
-                                    <span className="project-tag">project tag</span>
-                                    <span className="project-tag">project tag</span>
+                                    <span className="tag light-tag">project tag</span>
+                                    <span className="tag light-tag">project tag</span>
                                 </div>
                                 <div className="links-container">
                                     <a href="#" className="project-link">Live</a>
@@ -107,8 +107,8 @@ function MainPage() {
                                 <h3>Project Name</h3>
                                 <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
                                 <div className="tags-list">
-                                    <span className="project-tag">project tag</span>
-                                    <span className="project-tag">project tag</span>
+                                    <span className="tag light-tag">project tag</span>
+                                    <span className="tag light-tag">project tag</span>
                                 </div>
                                 <div className="links-container">
                                     <a href="#" className="project-link">Live</a>
@@ -128,8 +128,8 @@ function MainPage() {
                                 <h3>Project Name</h3>
                                 <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
                                 <div className="tags-list">
-                                    <span className="project-tag">project tag</span>
-                                    <span className="project-tag">project tag</span>
+                                    <span className="tag light-tag">project tag</span>
+                                    <span className="tag light-tag">project tag</span>
                                 </div>
                                 <div className="links-container">
                                     <a href="#" className="project-link">Live</a>

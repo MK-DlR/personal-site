@@ -1,1 +1,70 @@
 /* src/styles/pages/JourneyDetails.css */
+
+/* content layout */
+.dark-page {
+    background-color: var(--color-surface-dark);
+    min-height: 100vh;
+}
+
+.dark-page-header {
+    border-bottom: 1px solid var(--color-border-on-dark);
+}
+
+.dark-blurb {
+    color: var(--overlay-on-dark-secondary);
+}
+
+.dark-content {
+    padding: 60px 8vw 100px;
+}
+
+.timeline-blurb {
+    max-width: 60ch;
+}
+
+/* timeline */
+.full-timeline {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 8vw 0;
+}
+
+.timeline-year {
+    display: block;
+    margin-top: 40px;
+
+    font-family: 'JetBrains Mono';
+    color: var(--color-accent-on-dark);
+    font-size: 0.85rem;
+    margin-left: -15px;
+    letter-spacing: 0.05em;
+}
+
+.timeline-item {
+    margin-top: 24px;
+    margin-bottom: 60px;
+}
+
+.timeline-info::marker {
+    color: var(--color-accent-primary);
+}
+
+.timeline-header {
+    font-family: 'Fraunces';
+    color: var(--color-text-on-dark);
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.timeline-desc {
+    font-size: 0.9rem;
+    color: var(--color-text-muted-detail);
+    line-height: 1.6;
+    max-width: 60ch;
+}
+
+.dark-tag {
+    color: var(--overlay-on-dark-secondary);
+    border: 1px solid var(--color-border-on-dark);
+}

@@ -60,11 +60,6 @@ h1, h2, h3, h4, h5, h6,
     border: 1px solid var(--color-border-on-light);
 }
 
-.dark-tag {
-    color: var(--overlay-on-dark-secondary);
-    border: 1px solid var(--color-border-on-dark);
-}
-
 /* shared focus section details */
 .focus {
     background-color: var(--color-surface-highlight-on-dark);

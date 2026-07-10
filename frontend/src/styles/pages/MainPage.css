@@ -251,12 +251,6 @@
 }
 
 /* journey - timeline */
-/* 
-TODO
-rename timeline classes to something more specific
-for use along with JourneyDetails new class
-for more specalized styling
-*/
 .timeline-entry {
     display: flex;
 

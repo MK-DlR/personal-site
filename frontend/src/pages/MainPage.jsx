@@ -149,7 +149,7 @@ function MainPage() {
                         </div>
                         <div className="journey-content">
                             <div className="journey-left">
-                                <div className="current-focus">
+                                <div className="focus">
                                     <div className="mini-label">Currently</div>
                                     <p className="journey-blurb">What you're learning or building right now — a sentence or two on your present focus.</p>
                                 </div>

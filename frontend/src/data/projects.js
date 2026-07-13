@@ -1,5 +1,10 @@
 // src/data/projects.js
 
+// imports
+import detailImage1 from "../assets/placeholder-hover.png";
+import detailImage2 from "../assets/placeholder-hover.png";
+import imagePreview from "../assets/placeholder-preview.png";
+
 /* project data */
 const projects = [
   {
@@ -12,30 +17,12 @@ const projects = [
     type: "info",
     liveLink: "https://github.com/MK-DlR",
     codeLink: "https://github.com/MK-DlR?tab=repositories",
-    preview: "info",
-    stack: "info",
-    /* 
-        TODO: 
-        allow for multiple
-        ProjectDetails might need some tweaking
-        to render the right amount of pill containers 
-    */
+    preview: [imagePreview],
+    stack: ["Stack 1", "Stack 2", "Stack 3", "Etc"],
     problem: "info",
     built: "info",
-    feature: "info",
-    /* 
-        TODO: 
-        allow for multiple
-        ProjectDetails might need some tweaking
-        to render the right amount of bullet points
-    */
-    details: "info",
-    /* 
-        TODO: 
-        allow for multiple
-        ProjectDetails might need some tweaking
-        to render the right amount of images
-    */
+    features: ["Feature 1", "Feature 2", "Feature 3", "Etc"],
+    detailImages: [detailImage1, detailImage2],
     quote: "info",
     challenges: "info",
   },
@@ -47,14 +34,14 @@ const projects = [
     role: "info",
     timeline: "info",
     type: "info",
-    liveLink: "info",
-    codeLink: "info",
-    preview: "info",
-    stack: "info",
+    liveLink: "https://github.com/MK-DlR",
+    codeLink: "https://github.com/MK-DlR?tab=repositories",
+    preview: [imagePreview],
+    stack: ["Stack 1", "Stack 2", "Stack 3", "Etc"],
     problem: "info",
     built: "info",
-    feature: "info" /* TODO: allow for 3 features */,
-    details: "info" /* TODO: allow for 2 detail images */,
+    features: ["Feature 1", "Feature 2", "Feature 3", "Etc"],
+    detailImages: [detailImage1, detailImage2],
     quote: "info",
     challenges: "info",
   },

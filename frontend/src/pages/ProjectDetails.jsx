@@ -7,7 +7,6 @@ import Header from '../components/HeaderPages.jsx'
 import Footer from '../components/FooterProjects.jsx'
 
 import projects from "../data/projects";
-import placeholderDetailsImage from '../assets/placeholder-hover.png'
 
 function ProjectDetails() {
     const { slug } = useParams();
@@ -64,6 +63,7 @@ function ProjectDetails() {
                 </div>
 
                 <img
+                    src={currentProject.preview}
                     alt="project preview"
                     className="project-preview"
                 />
@@ -72,13 +72,9 @@ function ProjectDetails() {
                     <div className="project-details-left">
                         <h4 className="mini-header about-mini">Stack</h4>
                         <ul className="stack-list">
-                            <span className="filter-pill">{currentProject.stack}</span>
-                            <span className="filter-pill">React</span>
-                            <span className="filter-pill">Express</span>
-                            <span className="filter-pill">Node.js</span>
-                            <span className="filter-pill">Prisma</span>
-                            <span className="filter-pill">PostgreSQL</span>
-                            <span className="filter-pill">Design</span>
+                            {currentProject.stack.map((stack, index) =>
+                                <span key={index} className="filter-pill">{stack}</span>
+                            )}
                         </ul>
                         <h4 className="mini-header about-mini">Links</h4>
                         <div className="elsewhere-links-container">
@@ -93,21 +89,19 @@ function ProjectDetails() {
                         <h2 className="details-header">What I built</h2>
                         <p className="about-details-blurb">{currentProject.built}</p>
                         <ul className="key-features">
-                            <li className="feature">{currentProject.feature}</li>
-                            <li className="feature">Feature 2</li>
-                            <li className="feature">Feature 3</li>
+                            {currentProject.features.map((feature, index) =>
+                                <li key={index} className="feature">{feature}</li>
+                            )}
                         </ul>
                         <div className="detail-images">
-                            <img
-                                src={placeholderDetailsImage}
-                                alt="project details"
-                                className="project-details"
-                            />
-                            <img
-                                src={placeholderDetailsImage}
-                                alt="project details"
-                                className="project-details"
-                            />
+                            {currentProject.detailImages.map((image, index) =>
+                                <img
+                                    key={index}
+                                    src={image}
+                                    alt="project details"
+                                    className="project-details"
+                                />
+                            )}
                         </div>
                         <div className="quote">"{currentProject.quote}"</div>
                         <h2 className="details-header">Challenges & what I'd change</h2>

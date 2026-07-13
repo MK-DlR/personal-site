@@ -2,7 +2,6 @@
 
 // imports
 import Header from '../components/HeaderHome.jsx'
-import CreditFooter from '../components/FooterHome.jsx'
 import ButtonMailto from '../helpers/ButtonMailto.jsx'
 
 import heroImage from '../assets/hero-image.jpg'
@@ -261,7 +260,14 @@ function MainPage() {
                     </div>
                 </div>
             </div>
-            <CreditFooter />
+            <div className="credit-footer">
+                <div className="credit-footer-left credit-footer-text">
+                    © 2026 Adrien Newman
+                </div>
+                <div className="credit-footer-right credit-footer-text">
+                    <a href="https://github.com/MK-DlR">github.com/MK-DlR</a>
+                </div>
+            </div>
         </>
     )
 }

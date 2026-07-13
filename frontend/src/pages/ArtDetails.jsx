@@ -2,7 +2,7 @@
 
 // imports
 import Header from '../components/HeaderPages.jsx'
-import Footer from '../components/FooterDark.jsx'
+import Footer from '../components/Footer.jsx'
 
 import placeholderArtImage from '../assets/placeholder-hover.png'
 
@@ -115,7 +115,9 @@ function ArtDetails() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer 
+                variant="dark"
+            />
         </>
     )
 }

@@ -2,7 +2,7 @@
 
 // imports
 import Header from '../components/HeaderDark.jsx'
-import Footer from '../components/FooterLight.jsx'
+import Footer from '../components/Footer.jsx'
 
 function JourneyDetails
 () {
@@ -65,7 +65,9 @@ function JourneyDetails
                         </div>
                     </div>
                 </div>
-                <Footer />
+                <Footer 
+                    variant="light"
+                />
             </div>
         </>
     )

@@ -2,7 +2,7 @@
 
 // imports
 import Header from '../components/HeaderPages.jsx'
-import Footer from '../components/FooterDark.jsx'
+import Footer from '../components/Footer.jsx'
 
 import placeholderImage from '../assets/placeholder.jpg'
 
@@ -150,7 +150,9 @@ function AllProjects() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer 
+                variant="dark"
+            />
         </>
     )
 }

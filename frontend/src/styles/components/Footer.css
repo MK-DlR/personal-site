@@ -65,6 +65,10 @@
     background-color: var(--color-surface-alt);
 }
 
+.light-label {
+    color: var(--color-accent-primary);
+}
+
 .light-next,
 .light-nav {
     color: var(--color-text-heading);

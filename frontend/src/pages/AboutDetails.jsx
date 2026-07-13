@@ -2,7 +2,7 @@
 
 // imports
 import Header from '../components/HeaderPages.jsx'
-import Footer from '../components/FooterDark.jsx'
+import Footer from '../components/Footer.jsx'
 import ButtonMailto from '../helpers/ButtonMailto.jsx'
 
 function AboutDetails() {
@@ -102,7 +102,9 @@ function AboutDetails() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer 
+                variant="dark"
+            />
         </>
     )
 }

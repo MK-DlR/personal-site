@@ -1,4 +1,4 @@
-// src/pages/Hobbies.jsx
+// src/pages/HobbiesDetails.jsx
 
 // imports
 import Header from '../components/HeaderPages.jsx'
@@ -6,7 +6,7 @@ import Footer from '../components/Footer.jsx'
 
 import placeholderArtImage from '../assets/placeholder-hover.png'
 
-function ArtDetails() {
+function HobbiesDetails() {
     return (
         <>
             <title>Art & Hobbies</title>
@@ -122,7 +122,7 @@ function ArtDetails() {
     )
 }
 
-export default ArtDetails
+export default HobbiesDetails
 
 /* 
 TODO:

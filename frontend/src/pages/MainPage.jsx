@@ -242,7 +242,7 @@ function MainPage() {
                             </div>
                         </div>
                         <div className="disclaimer">* Cats have been known to involve themselves in my coding work.</div>
-                        <a href="/art" className="details-link">→ See more of my hobbies</a>
+                        <a href="/hobbies" className="details-link">→ See more of my hobbies</a>
                     </div>
                 </div>
 

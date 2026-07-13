@@ -9,6 +9,7 @@ import placeholderArtImage from '../assets/placeholder-hover.png'
 function ArtDetails() {
     return (
         <>
+            <title>Art & Hobbies</title>
             <Header />
             <div className="details-page">
                 <div className="details-page-header">

@@ -7,6 +7,7 @@ import Footer from '../components/FooterDark.jsx'
 function AboutDetails() {
     return (
         <>
+            <title>About & Skills</title>
             <Header />
             <div className="details-page">
                 <div className="details-page-header">

@@ -8,6 +8,7 @@ function JourneyDetails
 () {
     return (
         <>
+            <title>Journey</title>
             <div className="dark-page">
                 <Header />
                 <div className="details-page-header dark-page-header">

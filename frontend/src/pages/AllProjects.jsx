@@ -9,6 +9,7 @@ import placeholderImage from '../assets/placeholder.jpg'
 function AllProjects() {
     return (
         <>
+            <title>All Projects</title>
             <Header />
             <div className="details-page">
                 <div className="details-page-header">

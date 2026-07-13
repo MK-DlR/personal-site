@@ -9,6 +9,7 @@ import placeholderDetailsImage from '../assets/placeholder-hover.png'
 function ProjectDetails() {
     return (
         <>
+            <title>Project Details</title>
             <Header />
             <div className="details-page">
                 <div className="details-page-header">

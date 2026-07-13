@@ -1,27 +1,18 @@
 // src/components/FooterProjects.jsx
 
+// imports
+import projects from "../data/projects";
+
 /* footer for project details page */
 function FooterProjects({ currentSlug }) {
-    /* TEMPORARY data for setting up footer functionality */
-    const tempProject = [
-        {
-            slug: "test-project-1",
-            title: "Test Project 1"
-        },
-        {
-            slug: "test-project-2",
-            title: "Test Project 2"
-        }
-    ]
-
     /* find next project to display in footer */
     const findProject = (project) => currentSlug === project.slug;
 
-    let currentIndex = tempProject.findIndex(findProject);
+    let currentIndex = projects.findIndex(findProject);
 
     let nextIndex = (currentIndex + 1);
 
-    let nextProject = tempProject[nextIndex];
+    let nextProject = projects[nextIndex];
 
     return (
         <div className="dark-footer">

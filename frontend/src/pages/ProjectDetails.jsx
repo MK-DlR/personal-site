@@ -1,12 +1,16 @@
-// src/pages/Project.jsx
+// src/pages/ProjectDetails.jsx
 
 // imports
+import { useParams } from 'react-router-dom'
+
 import Header from '../components/HeaderPages.jsx'
 import Footer from '../components/FooterProjects.jsx'
 
 import placeholderDetailsImage from '../assets/placeholder-hover.png'
 
 function ProjectDetails() {
+    const { slug } = useParams();
+
     return (
         <>
             <title>Project Details</title>
@@ -87,7 +91,9 @@ function ProjectDetails() {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer 
+                currentSlug={slug}
+            />
         </>
     )
 }

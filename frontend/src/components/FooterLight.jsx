@@ -16,12 +16,3 @@ function FooterLight() {
 }
 
 export default FooterLight
-
-/* 
-TODO:
-conditionally display "next-section" title
-based on the page currently displayed
-title should be the next panel section from the main page
-
-conditionally render link for nav-arrow
-*/

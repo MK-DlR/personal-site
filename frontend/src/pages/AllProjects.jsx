@@ -152,6 +152,7 @@ function AllProjects() {
             </div>
             <Footer 
                 variant="dark"
+                nextSection={{ label: 'Journey', href: '/journey'}}
             />
         </>
     )

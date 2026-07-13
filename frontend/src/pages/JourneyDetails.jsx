@@ -67,6 +67,7 @@ function JourneyDetails
                 </div>
                 <Footer 
                     variant="light"
+                    nextSection={{ label: 'Hobbies', href: '/hobbies'}}
                 />
             </div>
         </>

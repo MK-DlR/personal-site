@@ -104,6 +104,7 @@ function AboutDetails() {
             </div>
             <Footer 
                 variant="dark"
+                nextSection={{ label: 'Projects', href: '/projects'}}
             />
         </>
     )

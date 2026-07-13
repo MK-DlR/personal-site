@@ -117,6 +117,7 @@ function HobbiesDetails() {
             </div>
             <Footer 
                 variant="dark"
+                nextSection={{ label: 'Home', href: '/'}}
             />
         </>
     )

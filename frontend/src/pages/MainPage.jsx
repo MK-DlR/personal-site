@@ -3,6 +3,7 @@
 // imports
 import Header from '../components/HeaderHome.jsx'
 import CreditFooter from '../components/FooterHome.jsx'
+import ButtonMailto from '../helpers/ButtonMailto.jsx'
 
 import heroImage from '../assets/hero-image.jpg'
 import placeholderImage from '../assets/placeholder.jpg'
@@ -254,7 +255,8 @@ function MainPage() {
                         <div className="link-row">
                             <a href="https://github.com/MK-DlR" className="contact-link">GitHub ↗</a>
                             <a href="https://www.linkedin.com/in/adrien-newman/" className="contact-link">LinkedIn ↗</a>
-                            <a href="#" className="contact-link">Email ↗</a>
+                            <ButtonMailto label="Email" mailto="mailto:adriennewman92@gmail.com" className="contact-link"/>
+
                         </div>
                     </div>
                 </div>

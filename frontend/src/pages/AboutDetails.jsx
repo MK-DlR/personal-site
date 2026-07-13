@@ -3,6 +3,7 @@
 // imports
 import Header from '../components/HeaderPages.jsx'
 import Footer from '../components/FooterDark.jsx'
+import ButtonMailto from '../helpers/ButtonMailto.jsx'
 
 function AboutDetails() {
     return (
@@ -33,7 +34,7 @@ function AboutDetails() {
                             <a href="https://github.com/MK-DlR" className="elsewhere-link">→ GitHub</a>
                             <a href="www.linkedin.com/in/adrien-newman/" className="elsewhere-link">→ LinkedIn</a>
                             <a href="#" className="elsewhere-link">→ Resume (PDF)</a>
-                            <a href="#" className="elsewhere-link">→ Email</a>
+                            <ButtonMailto label="→ Email" mailto="mailto:adriennewman92@gmail.com" className="elsewhere-link"/>
                         </div>
                     </div>
                     <div className="details-page-right">

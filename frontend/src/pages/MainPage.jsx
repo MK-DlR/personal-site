@@ -7,7 +7,6 @@ import ButtonMailto from '../helpers/ButtonMailto.jsx'
 import projects from "../data/projects";
 
 import heroImage from '../assets/hero-image.jpg'
-import placeholderImage from '../assets/placeholder.jpg'
 
 function MainPage() {
     return (

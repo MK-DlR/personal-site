@@ -3,7 +3,7 @@
 // imports
 import { useState } from 'react';
 
-import Header from '../components/HeaderPages.jsx'
+import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 
 import { hobbyFilters } from "../data/filters";
@@ -15,7 +15,9 @@ function HobbiesDetails() {
     return (
         <>
             <title>Art & Hobbies</title>
-            <Header />
+            <Header 
+                variant="light"
+            />
             <div className="details-page">
                 <div className="details-page-header">
                     <div className="label">Art & Hobbies</div>

@@ -1,7 +1,7 @@
 // src/pages/About.jsx
 
 // imports
-import Header from '../components/HeaderPages.jsx'
+import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 import ButtonMailto from '../helpers/ButtonMailto.jsx'
 
@@ -9,7 +9,9 @@ function AboutDetails() {
     return (
         <>
             <title>About & Skills</title>
-            <Header />
+            <Header 
+                variant="light"
+            />
             <div className="details-page">
                 <div className="details-page-header">
                     <div className="label">About & Skills</div>

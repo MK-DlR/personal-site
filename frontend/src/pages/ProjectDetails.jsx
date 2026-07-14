@@ -3,7 +3,7 @@
 // imports
 import { useParams } from 'react-router-dom'
 
-import Header from '../components/HeaderPages.jsx'
+import Header from '../components/Header.jsx'
 import Footer from '../components/FooterProjects.jsx'
 
 import projects from "../data/projects";
@@ -20,7 +20,9 @@ function ProjectDetails() {
         return (
             <>
                 <title>Page Not Found</title>
-                <Header />
+                <Header 
+                    variant="light"
+                />
                 <div className="details-page-header">
                     <div className="label">Error</div>
                     <h1 className="details-header-lg">Page not found</h1>
@@ -36,7 +38,9 @@ function ProjectDetails() {
     return (
         <>
             <title>Project Details</title>
-            <Header />
+            <Header 
+                variant="light"
+            />
             <div className="details-page">
                 <div className="details-page-header">
                     <div className="label">Project {currentProject.number}</div>

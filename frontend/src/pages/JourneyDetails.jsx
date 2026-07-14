@@ -1,7 +1,7 @@
 // src/pages/Journey.jsx
 
 // imports
-import Header from '../components/HeaderDark.jsx'
+import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 
 function JourneyDetails
@@ -10,7 +10,9 @@ function JourneyDetails
         <>
             <title>Journey</title>
             <div className="dark-page">
-                <Header />
+                <Header 
+                    variant="dark"
+                />
                 <div className="details-page-header dark-page-header">
                     <div className="label accented-label">Journey</div>
                     <h1 className="section-title-light details-header-lg">How I got here.</h1>

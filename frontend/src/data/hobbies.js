@@ -8,25 +8,25 @@ const hobbies = [
   {
     image: [placeholderImage],
     title: "Placeholder title 1",
-    type: "info",
+    type: "Digital art",
     year: "info",
   },
   {
     image: [placeholderImage],
     title: "Placeholder title 2",
-    type: "info",
+    type: "Crochet",
     year: "info",
   },
   {
     image: [placeholderImage],
     title: "Placeholder title 3",
-    type: "info",
+    type: "Baking",
     year: "info",
   },
   {
     image: [placeholderImage],
     title: "Placeholder title 4",
-    type: "info",
+    type: "Cats",
     year: "info",
   },
 ];

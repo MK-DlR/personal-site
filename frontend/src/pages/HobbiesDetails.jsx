@@ -57,5 +57,6 @@ export default HobbiesDetails
 
 /* 
 TODO:
-add filter functionality
+add filter button functionality
+add filter button hover
 */

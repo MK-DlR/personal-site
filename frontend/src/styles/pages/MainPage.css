@@ -217,6 +217,7 @@
 
 .tags-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 7px;
     padding: 10px 0 15px;
 }

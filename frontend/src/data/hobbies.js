@@ -38,5 +38,5 @@ TODO:
 fill in with real data
 
 note: "type" should use
-digital art / crochet / gaming / baking / reading / gardening / cats
+filter button options
 */

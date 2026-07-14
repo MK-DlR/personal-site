@@ -205,6 +205,9 @@
 }
 
 .project-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     padding: 22px;
 }
 
@@ -225,6 +228,7 @@
 .links-container {
     display: flex;
     gap: 15px;
+    margin-top: auto;
 }
 
 /* journey */

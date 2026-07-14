@@ -1,12 +1,17 @@
 // src/pages/HobbiesDetails.jsx
 
 // imports
+import { useState } from 'react';
+
 import Header from '../components/HeaderPages.jsx'
 import Footer from '../components/Footer.jsx'
 
+import { hobbyFilters } from "../data/filters";
 import hobbies from "../data/hobbies";
 
 function HobbiesDetails() {
+    const [filter, setFilter] = useState("All");
+
     return (
         <>
             <title>Art & Hobbies</title>
@@ -18,18 +23,17 @@ function HobbiesDetails() {
                     <div className="header-blurb">A closer look at what I make and do when I'm away from a keyboard — sketches, photos, and whatever else I've been into lately.</div>
                 </div>
                 <div className="hobby-details-content">
-                    <div className="filter-container">
-                        <span className="filter-pill active">All</span>
-                        <span className="filter-pill">Digital Art</span>
-                        <span className="filter-pill">Crochet</span>
-                        <span className="filter-pill">Gaming</span>
-                        <span className="filter-pill">Baking</span>
-                        <span className="filter-pill">Reading</span>
-                        <span className="filter-pill">Gardening</span>
-                        <span className="filter-pill">Cats</span>
+                <div className="filter-container">
+                        {hobbyFilters.map((option, index) => 
+                            <span 
+                                key={index} 
+                                className={`filter-pill ${option === filter ? 'active' : ''}`}
+                                onClick={() => setFilter(option)}
+                            >{option}</span>
+                        )}
                     </div>
                     <div className="hobby-card-container">
-                        {hobbies.map(hobby =>
+                        {hobbies.filter(hobby => filter === "All" || hobby.type.includes(filter)).map(hobby =>
                             <div className="hobby-card">
                                 <img
                                     src={hobby.image}

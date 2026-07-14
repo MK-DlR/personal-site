@@ -1,12 +1,17 @@
 // src/pages/AllProjects.jsx
 
 // imports
+import { useState } from 'react';
+
 import Header from '../components/HeaderPages.jsx'
 import Footer from '../components/Footer.jsx'
 
+import { stackFilters } from "../data/filters";
 import projects from "../data/projects";
 
 function AllProjects() {
+    const [filter, setFilter] = useState("All");
+
     return (
         <>
             <title>All Projects</title>
@@ -19,17 +24,17 @@ function AllProjects() {
                 </div>
                 <div className="all-projects-details-content">
                     <div className="filter-container">
-                        <span className="filter-pill active">All</span>
-                        <span className="filter-pill">React</span>
-                        <span className="filter-pill">Express</span>
-                        <span className="filter-pill">Node.js</span>
-                        <span className="filter-pill">Prisma</span>
-                        <span className="filter-pill">PostgreSQL</span>
-                        <span className="filter-pill">Design</span>
+                        {stackFilters.map((option, index) => 
+                            <span 
+                                key={index} 
+                                className={`filter-pill ${option === filter ? 'active' : ''}`}
+                                onClick={() => setFilter(option)}
+                            >{option}</span>
+                        )}
                     </div>
                     <div className="all-projects-container">
 
-                    {projects.map(project =>
+                    {projects.filter(project => filter === "All" || project.stack.includes(filter)).map(project =>
                         <div className="all-projects-card">
                             <img
                                 src={project.preview}

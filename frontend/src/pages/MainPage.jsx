@@ -4,6 +4,8 @@
 import Header from '../components/HeaderHome.jsx'
 import ButtonMailto from '../helpers/ButtonMailto.jsx'
 
+import projects from "../data/projects";
+
 import heroImage from '../assets/hero-image.jpg'
 import placeholderImage from '../assets/placeholder.jpg'
 
@@ -76,68 +78,29 @@ function MainPage() {
                     </div>
 
                     <div className="card-container">
+                    {projects.filter(project => project.featured).map(project => 
                         <div className="project-card">
-                            <img
-                                src={placeholderImage}
-                                alt="project screenshot"
-                                className="project-image"
-                            />
-                            <div className="project-info">
-                                <h3>Project Name</h3>
-                                <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
-                                <div className="tags-list">
-                                    <span className="tag light-tag">project tag</span>
-                                    <span className="tag light-tag">project tag</span>
-                                </div>
-                                <div className="links-container">
-                                    <a href="#" className="project-link">Live</a>
-                                    <a href="#" className="project-link">Code</a>
-                                    <a href="#" className="project-link">Details →</a>
-                                </div>
+                        <img
+                            src={project.preview}
+                            alt="project screenshot"
+                            className="project-image"
+                        />
+                        <div className="project-info">
+                            <h3>{project.title}</h3>
+                            <div className="project-desc">{project.blurb}</div>
+                            <div className="tags-list">
+                                {project.stack.map((stack, index) =>
+                                    <span key={index} className="tag light-tag">{stack}</span>
+                                )}
+                            </div>
+                            <div className="links-container">
+                                <a href={project.liveLink} className="project-link">Live</a>
+                                <a href={project.codeLink} className="project-link">Code</a>
+                                <a href={`/projects/${project.slug}`} className="project-link">Details →</a>
                             </div>
                         </div>
-
-                        <div className="project-card">
-                            <img
-                                src={placeholderImage}
-                                alt="project screenshot"
-                                className="project-image"
-                            />
-                            <div className="project-info">
-                                <h3>Project Name</h3>
-                                <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
-                                <div className="tags-list">
-                                    <span className="tag light-tag">project tag</span>
-                                    <span className="tag light-tag">project tag</span>
-                                </div>
-                                <div className="links-container">
-                                    <a href="#" className="project-link">Live</a>
-                                    <a href="#" className="project-link">Code</a>
-                                    <a href="#" className="project-link">Details →</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="project-card">
-                            <img
-                                src={placeholderImage}
-                                alt="project screenshot"
-                                className="project-image"
-                            />
-                            <div className="project-info">
-                                <h3>Project Name</h3>
-                                <div className="project-desc">One or two sentence blurb describing the project and the problem it solves.</div>
-                                <div className="tags-list">
-                                    <span className="tag light-tag">project tag</span>
-                                    <span className="tag light-tag">project tag</span>
-                                </div>
-                                <div className="links-container">
-                                    <a href="#" className="project-link">Live</a>
-                                    <a href="#" className="project-link">Code</a>
-                                    <a href="#" className="project-link">Details →</a>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
+                    )}
                     </div>
                 </div>
 

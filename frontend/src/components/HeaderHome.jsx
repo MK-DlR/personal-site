@@ -8,8 +8,8 @@ function HeaderHome() {
         <div className="header">
             <div className="header-left">
                 <Link to="/#hero">
-                    <span class="fa-stack">
-                        <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <span className="fa-stack">
+                        <i className="fa fa-circle fa-stack-2x icon-background"></i>
                         <i className="fa-solid fa-mug-hot fa-stack-1x icon"></i>
                     </span>
                 </Link>

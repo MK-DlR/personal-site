@@ -72,9 +72,3 @@ function AllProjects() {
 }
 
 export default AllProjects
-
-/* 
-TODO:
-add filter button functionality
-add filter button hover
-*/

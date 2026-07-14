@@ -58,9 +58,3 @@ function HobbiesDetails() {
 }
 
 export default HobbiesDetails
-
-/* 
-TODO:
-add filter button functionality
-add filter button hover
-*/

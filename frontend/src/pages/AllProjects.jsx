@@ -4,7 +4,7 @@
 import Header from '../components/HeaderPages.jsx'
 import Footer from '../components/Footer.jsx'
 
-import placeholderImage from '../assets/placeholder.jpg'
+import projects from "../data/projects";
 
 function AllProjects() {
     return (
@@ -28,125 +28,33 @@ function AllProjects() {
                         <span className="filter-pill">Design</span>
                     </div>
                     <div className="all-projects-container">
-                        <div className="all-projects-card">
-                            <img
-                                src={placeholderImage}
-                                alt="project thumbnail"
-                                className="project-thumbnail"
-                            />
-                            <div className="project-card-center">
-                                <h3 className="project-name">Project Name</h3>
-                                <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
-                                <div className="project-tags-container">
-                                    <span className="tag light-tag">Tag</span>
-                                    <span className="tag light-tag">Tag</span>
-                                </div>
-                            </div>
-                            <div className="project-card-right">
-                                <span className="mini-header">2024</span>
-                                <div className="project-links-container">
-                                    <a href="#" className="project-link">Live ↗</a>
-                                    <a href="#" className="project-link">Code ↗</a>
-                                    <a href="#" className="project-link">Details ↗</a>
-                                </div>
-                            </div>
-                        </div>
 
+                    {projects.map(project =>
                         <div className="all-projects-card">
                             <img
-                                src={placeholderImage}
+                                src={project.preview}
                                 alt="project thumbnail"
                                 className="project-thumbnail"
                             />
                             <div className="project-card-center">
-                                <h3 className="project-name">Project Name</h3>
-                                <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
+                                <h3 className="project-name">{project.title}</h3>
+                                <p className="project-blurb">{project.blurb}</p>
                                 <div className="project-tags-container">
-                                    <span className="tag light-tag">Tag</span>
-                                    <span className="tag light-tag">Tag</span>
+                                    {project.stack.map((stack, index) =>
+                                        <span key={index} className="tag light-tag">{stack}</span>
+                                    )}
                                 </div>
                             </div>
                             <div className="project-card-right">
-                                <span className="mini-header">2024</span>
+                                <span className="mini-header">{project.year}</span>
                                 <div className="project-links-container">
-                                    <a href="#" className="project-link">Live ↗</a>
-                                    <a href="#" className="project-link">Code ↗</a>
-                                    <a href="#" className="project-link">Details ↗</a>
+                                    <a href={project.liveLink} className="project-link">Live ↗</a>
+                                    <a href={project.codeLink} className="project-link">Code ↗</a>
+                                    <a href={`/projects/${project.slug}`} className="project-link">Details ↗</a>
                                 </div>
                             </div>
                         </div>
-
-                        <div className="all-projects-card">
-                            <img
-                                src={placeholderImage}
-                                alt="project thumbnail"
-                                className="project-thumbnail"
-                            />
-                            <div className="project-card-center">
-                                <h3 className="project-name">Project Name</h3>
-                                <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
-                                <div className="project-tags-container">
-                                    <span className="tag light-tag">Tag</span>
-                                    <span className="tag light-tag">Tag</span>
-                                </div>
-                            </div>
-                            <div className="project-card-right">
-                                <span className="mini-header">2024</span>
-                                <div className="project-links-container">
-                                    <a href="#" className="project-link">Live ↗</a>
-                                    <a href="#" className="project-link">Code ↗</a>
-                                    <a href="#" className="project-link">Details ↗</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="all-projects-card">
-                            <img
-                                src={placeholderImage}
-                                alt="project thumbnail"
-                                className="project-thumbnail"
-                            />
-                            <div className="project-card-center">
-                                <h3 className="project-name">Project Name</h3>
-                                <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
-                                <div className="project-tags-container">
-                                    <span className="tag light-tag">Tag</span>
-                                    <span className="tag light-tag">Tag</span>
-                                </div>
-                            </div>
-                            <div className="project-card-right">
-                                <span className="mini-header">2024</span>
-                                <div className="project-links-container">
-                                    <a href="#" className="project-link">Live ↗</a>
-                                    <a href="#" className="project-link">Code ↗</a>
-                                    <a href="#" className="project-link">Details ↗</a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="all-projects-card">
-                            <img
-                                src={placeholderImage}
-                                alt="project thumbnail"
-                                className="project-thumbnail"
-                            />
-                            <div className="project-card-center">
-                                <h3 className="project-name">Project Name</h3>
-                                <p className="project-blurb">Short one-line description of what this project is and why it exists.</p>
-                                <div className="project-tags-container">
-                                    <span className="tag light-tag">Tag</span>
-                                    <span className="tag light-tag">Tag</span>
-                                </div>
-                            </div>
-                            <div className="project-card-right">
-                                <span className="mini-header">2024</span>
-                                <div className="project-links-container">
-                                    <a href="#" className="project-link">Live ↗</a>
-                                    <a href="#" className="project-link">Code ↗</a>
-                                    <a href="#" className="project-link">Details ↗</a>
-                                </div>
-                            </div>
-                        </div>
+                    )}
                     </div>
                 </div>
             </div>

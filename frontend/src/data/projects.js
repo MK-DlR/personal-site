@@ -8,12 +8,14 @@ import imagePreview from "../assets/placeholder-preview.png";
 /* project data */
 const projects = [
   {
+    featured: true,
     slug: "test-project-1",
     number: "01",
     title: "Test Project 1",
     blurb: "This is a project test blurb",
     role: "info",
     timeline: "info",
+    year: "info",
     type: "info",
     liveLink: "https://github.com/MK-DlR",
     codeLink: "https://github.com/MK-DlR?tab=repositories",
@@ -27,12 +29,14 @@ const projects = [
     challenges: "info",
   },
   {
+    featured: false,
     slug: "test-project-2",
     number: "02",
     title: "Test Project 2",
     blurb: "This is a project test blurb",
     role: "info",
     timeline: "info",
+    year: "info",
     type: "info",
     liveLink: "https://github.com/MK-DlR",
     codeLink: "https://github.com/MK-DlR?tab=repositories",
@@ -52,4 +56,8 @@ export default projects;
 /*
 TODO:
 fill in with real project data
+
+note:
+"stack" will also function as the tags
+on AllProjects.jsx (should match the given filter button options)
 */

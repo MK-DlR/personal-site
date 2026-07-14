@@ -1,7 +1,7 @@
 /* src/styles/pages/ArtDetails.css */
 
 /* content layout */
-.art-card-container {
+.hobby-card-container {
     max-width: 1000px;
     display: flex;
     flex-wrap: wrap;
@@ -11,7 +11,7 @@
 }
 
 /* art/hobby cards */
-.art-card {
+.hobby-card {
     width: 285.3px;
     margin-bottom: 20px;
     border-radius: 14px;
@@ -22,7 +22,7 @@
     transition: opacity .2s ease;
 }
 
-.art-card:hover {
+.hobby-card:hover {
     opacity: 0.7;
 }
 
@@ -35,7 +35,7 @@
     object-fit: cover;
 }
 
-.art-caption {
+.hobby-caption {
     font-family: 'Fraunces';
     font-size: 0.95rem;
     margin-bottom: 4px;
@@ -43,7 +43,7 @@
     padding: 16px 18px;
 }
 
-.art-caption span {
+.hobby-caption span {
     font-family: 'JetBrains Mono';
     color: var(--color-text-muted);
     font-size: 0.7rem;

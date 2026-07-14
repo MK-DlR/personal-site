@@ -17,7 +17,7 @@ function HobbiesDetails() {
                     <h1 className="details-header-lg">Outside the editor.</h1>
                     <div className="header-blurb">A closer look at what I make and do when I'm away from a keyboard — sketches, photos, and whatever else I've been into lately.</div>
                 </div>
-                <div className="art-details-content">
+                <div className="hobby-details-content">
                     <div className="filter-container">
                         <span className="filter-pill active">All</span>
                         <span className="filter-pill">Digital Art</span>
@@ -28,15 +28,15 @@ function HobbiesDetails() {
                         <span className="filter-pill">Gardening</span>
                         <span className="filter-pill">Cats</span>
                     </div>
-                    <div className="art-card-container">
+                    <div className="hobby-card-container">
                         {hobbies.map(hobby =>
-                            <div className="art-card">
+                            <div className="hobby-card">
                                 <img
                                     src={hobby.image}
-                                    alt="art image"
+                                    alt="hobby image"
                                     className="hobby-image"
                                 />
-                                <div className="art-caption">
+                                <div className="hobby-caption">
                                     <h4>{hobby.title}</h4>
                                     <span>{hobby.type} · {hobby.year}</span>
                                 </div>

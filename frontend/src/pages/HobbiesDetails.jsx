@@ -4,7 +4,7 @@
 import Header from '../components/HeaderPages.jsx'
 import Footer from '../components/Footer.jsx'
 
-import placeholderArtImage from '../assets/placeholder-hover.png'
+import hobbies from "../data/hobbies";
 
 function HobbiesDetails() {
     return (
@@ -29,89 +29,19 @@ function HobbiesDetails() {
                         <span className="filter-pill">Cats</span>
                     </div>
                     <div className="art-card-container">
-                        <div className="art-card">
-                            <img
-                                src={placeholderArtImage}
-                                alt="art image"
-                                className="art-image"
-                            />
-                            <div className="art-caption">
-                                <h4>Untitled sketch</h4>
-                                <span>Sketch · 2025</span>
+                        {hobbies.map(hobby =>
+                            <div className="art-card">
+                                <img
+                                    src={hobby.image}
+                                    alt="art image"
+                                    className="hobby-image"
+                                />
+                                <div className="art-caption">
+                                    <h4>{hobby.title}</h4>
+                                    <span>{hobby.type} · {hobby.year}</span>
+                                </div>
                             </div>
-                        </div>
-
-                        <div className="art-card">
-                            <img
-                                src={placeholderArtImage}
-                                alt="art image"
-                                className="art-image"
-                            />
-                            <div className="art-caption">
-                                <h4>Untitled sketch</h4>
-                                <span>Sketch · 2025</span>
-                            </div>
-                        </div>
-
-                        <div className="art-card">
-                            <img
-                                src={placeholderArtImage}
-                                alt="art image"
-                                className="art-image"
-                            />
-                            <div className="art-caption">
-                                <h4>Untitled sketch</h4>
-                                <span>Sketch · 2025</span>
-                            </div>
-                        </div>
-
-                        <div className="art-card">
-                            <img
-                                src={placeholderArtImage}
-                                alt="art image"
-                                className="art-image"
-                            />
-                            <div className="art-caption">
-                                <h4>Untitled sketch</h4>
-                                <span>Sketch · 2025</span>
-                            </div>
-                        </div>
-
-                        <div className="art-card">
-                            <img
-                                src={placeholderArtImage}
-                                alt="art image"
-                                className="art-image"
-                            />
-                            <div className="art-caption">
-                                <h4>Untitled sketch</h4>
-                                <span>Sketch · 2025</span>
-                            </div>
-                        </div>
-
-                        <div className="art-card">
-                            <img
-                                src={placeholderArtImage}
-                                alt="art image"
-                                className="art-image"
-                            />
-                            <div className="art-caption">
-                                <h4>Untitled sketch</h4>
-                                <span>Sketch · 2025</span>
-                            </div>
-                        </div>
-
-                        <div className="art-card">
-                            <img
-                                src={placeholderArtImage}
-                                alt="art image"
-                                className="art-image"
-                            />
-                            <div className="art-caption">
-                                <h4>Untitled sketch</h4>
-                                <span>Sketch · 2025</span>
-                            </div>
-                        </div>
+                        )}
                     </div>
                 </div>
             </div>

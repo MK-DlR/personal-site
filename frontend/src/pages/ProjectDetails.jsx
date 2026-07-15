@@ -103,7 +103,7 @@ function ProjectDetails() {
                                     key={index}
                                     src={image}
                                     alt="project details"
-                                    className="project-details"
+                                    className="project-details-image"
                                 />
                             )}
                         </div>

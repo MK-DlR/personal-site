@@ -1,7 +1,9 @@
 // src/data/projects.js
 
 // imports
-import messagingPreview from "../assets/projects/messagingPreview.png";
+import messagingPreview from "../assets/projects/messaging-app/messagingPreview.png";
+import messagingDetail1 from "../assets/projects/messaging-app/messagingDetail1.png";
+import messagingDetail2 from "../assets/projects/messaging-app/messagingDetail2.png";
 
 // TEMPORARY //
 import detailImage1 from "../assets/placeholder-hover.png";
@@ -36,8 +38,18 @@ const projects = [
     ],
     problem: "info",
     built: "info",
-    features: ["Feature 1", "Feature 2", "Feature 3", "Etc"],
-    detailImages: [detailImage1, detailImage2],
+    features: [
+      "Public guest account for immediate app access",
+      "Online/offline user status display",
+      "Private user-to-user DMs",
+      "Group chat capabilities",
+      "Custom display images for users and chats",
+      "Custom user and chat names",
+      "Custom user profiles and chat descriptions",
+      "Message editing and deletion",
+      "Image/gif functionality in messages",
+    ],
+    detailImages: [messagingDetail1, messagingDetail2],
     quote: "info",
     challenges: "info",
   },

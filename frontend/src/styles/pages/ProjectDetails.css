@@ -34,19 +34,11 @@
     color: var(--color-text-on-dark);
 }
 
-/* TEMPORARY */
 .project-preview {
     margin: 0 8vw;
     height: 420px;
+    width: 1595px;
     border-radius: 16px;
-    background: linear-gradient(135deg, var(--gold), var(--coral));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'JetBrains Mono';
-    color: rgba(27,32,25,0.55);
-    font-size: 0.85rem;
-
     object-fit: cover;
 }
 
@@ -92,8 +84,9 @@
     margin: 20px 0;
 }
 
-.project-details {
+.project-details-image {
     height: 225px;
+    width: 225px;
     border-radius: 12px;
     object-fit: cover;
 }

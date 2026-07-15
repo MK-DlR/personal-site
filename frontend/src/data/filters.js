@@ -2,6 +2,7 @@
 
 const stackFilters = [
   "All",
+  "Authentication",
   "Design",
   "Express",
   "JavaScript",

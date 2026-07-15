@@ -43,8 +43,8 @@ function AboutDetails() {
                     </div>
                     <div className="details-page-right">
                         <h2 className="details-header">Who I am</h2>
-                        <p className="about-details-blurb">Expanded version of your about blurb — background, how you got into development, and what drives the way you build.</p>
-                        <p className="about-details-blurb">Second paragraph — working style, what you value in a project or team, anything that gives a sense of you beyond the resume facts.</p>
+                        <p className="about-details-blurb">My love of creativity, creation, and puzzles got me into learning to code. There's nothing quite like starting with nothing and ending up with not only "something", but "something" that has actual tangible functionality.</p>
+                        <p className="about-details-blurb">I always organize myself and my plan of attack before starting a project, since this helps ensure that I don't overlook or forget anything. It also allows me to brainstorm on the "what" and "why" of a project and features I think it would benefit from.</p>
 
                         <h2 className="details-header">Core skills</h2>
                         <div className="tool-list">
@@ -54,7 +54,7 @@ function AboutDetails() {
                                 <div className="bar-track">
                                     <div
                                         className="bar-fill"
-                                        style={{ width: "90%" }}
+                                        style={{ width: "85%" }}
                                     ></div>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ function AboutDetails() {
                                 <div className="bar-track">
                                     <div
                                         className="bar-fill"
-                                        style={{ width: "90%" }}
+                                        style={{ width: "70%" }}
                                     ></div>
                                 </div>
                             </div>
@@ -74,7 +74,7 @@ function AboutDetails() {
                                 <div className="bar-track">
                                     <div
                                         className="bar-fill"
-                                        style={{ width: "80%" }}
+                                        style={{ width: "60%" }}
                                     ></div>
                                 </div>
                             </div>
@@ -83,7 +83,7 @@ function AboutDetails() {
                                 <div className="bar-track">
                                     <div
                                         className="bar-fill"
-                                        style={{ width: "80%" }}
+                                        style={{ width: "70%" }}
                                     ></div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ function AboutDetails() {
                                 <div className="bar-track">
                                     <div
                                         className="bar-fill"
-                                        style={{ width: "90%" }}
+                                        style={{ width: "80%" }}
                                     ></div>
                                 </div>
                             </div>
@@ -104,7 +104,7 @@ function AboutDetails() {
                                 <div className="bar-track">
                                     <div
                                         className="bar-fill"
-                                        style={{ width: "90%" }}
+                                        style={{ width: "80%" }}
                                     ></div>
                                 </div>
                             </div>
@@ -113,7 +113,7 @@ function AboutDetails() {
                                 <div className="bar-track">
                                     <div
                                         className="bar-fill"
-                                        style={{ width: "90%" }}
+                                        style={{ width: "70%" }}
                                     ></div>
                                 </div>
                             </div>

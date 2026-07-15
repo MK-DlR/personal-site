@@ -15,9 +15,9 @@ function MainPage() {
             <div className="main-page">
                 <div id="hero" className="panel">
                     <div className="hero-left">
-                        <div className="label">// developer & designer</div>
+                        <div className="label">// full stack developer</div>
                         <h1 className="hero-title title">Hi, I<br />build things.</h1>
-                        <p className="hero-content content">Software developer focused on clean, functional interfaces and thoughtful engineering. This is where I keep my work, my path, and a few things I make for fun.</p>
+                        <p className="hero-content content">I really enjoy anything creative, art based, or puzzle-like; so learning to code has been a natural fit for me! Here you can find some examples of my work also learn a bit more about me.</p>
                     </div>
                     <img
                         src={heroImage}
@@ -30,27 +30,29 @@ function MainPage() {
                     <div className="tech-skills">
                         <h3 className="tech-label">{">"} technical_skills</h3>
                         <div className="skill-row">
-                            <div className="skill-label">Languages</div>
+                            <div className="skill-label">Languages & Runtime</div>
                             <div className="skill-list">
                                 <span className="skill-button">JavaScript</span>
+                                <span className="skill-button">Node.js</span>
                             </div>
                         </div>
 
                         <div className="skill-row">
-                            <div className="skill-label">Frameworks</div>
+                            <div className="skill-label">Frameworks & Templating</div>
                             <div className="skill-list">
                                 <span className="skill-button">React</span>
                                 <span className="skill-button">Express</span>
+                                <span className="skill-button">EJS</span>
                             </div>
                         </div>
 
                         <div className="skill-row">
-                            <div className="skill-label">Tools</div>
+                            <div className="skill-label">Database & Tools</div>
                             <div className="skill-list">
-                                <span className="skill-button">Github</span>
-                                <span className="skill-button">Node.js</span>
                                 <span className="skill-button">Prisma</span>
                                 <span className="skill-button">PostgreSQL</span>
+                                <span className="skill-button">Vite</span>
+                                <span className="skill-button">Git</span>
                                 <span className="skill-button">Postman</span>
                             </div>
                         </div>
@@ -59,8 +61,8 @@ function MainPage() {
                     <div className="about-right">
                         <div className="label">01 — About</div>
                         <h2 className="section-title-dark title">A bit<br />about me.</h2>
-                            <p className="about-content content">Short paragraph about who you are, what kind of developer you are, and what you care about when building things.</p>
-                            <p className="about-content content">Second short paragraph — background, focus area, or what you're currently drawn to.</p>
+                            <p className="about-content content">I'm a self-taught full-stack developer working primarily in JavaScript. I enjoy approaching application creation from the perspective of future users with functionality in mind.</p>
+                            <p className="about-content content">I like working on unique projects that solve a specific problem or need. The more creative and unusual, the better!</p>
                             <a href="/about" className="details-link">→ Full about & skills page</a>
                     </div>
                 </div>
@@ -113,7 +115,7 @@ function MainPage() {
                             <div className="journey-left">
                                 <div className="focus">
                                     <div className="mini-label">Currently</div>
-                                    <p className="focus-blurb">What you're learning or building right now — a sentence or two on your present focus.</p>
+                                    <p className="focus-blurb">Finishing up The Odin Project's Full Stack JavaScript course.</p>
                                 </div>
                                 <div>
                                     <a href="/journey" className="details-link accented-link">→ Full journey page</a>
@@ -121,26 +123,26 @@ function MainPage() {
                             </div>
                             <div className="journey-right">
                                 <div className="timeline-entry">
-                                    <span className="entry-year">2023</span>
+                                    <span className="entry-year">Feb 2024</span>
                                     <div className="entry-text">
-                                        <h4 className="entry-header">Started learning to code</h4>
-                                        <div className="entry-desc">Brief note on how it began.</div>
+                                        <h4 className="entry-header">Started learning to code in my free time</h4>
+                                        <div className="entry-desc">Began The Odin Project's Foundations course.</div>
                                     </div>
                                 </div>
 
                                 <div className="timeline-entry">
-                                    <span className="entry-year">2024</span>
+                                    <span className="entry-year">Jul 2025</span>
                                     <div className="entry-text">
                                         <h4 className="entry-header">First real project shipped</h4>
-                                        <div className="entry-desc">Brief note on a key milestone.</div>
+                                        <div className="entry-desc">Completed a "Battleship" style game.</div>
                                     </div>
                                 </div>
 
                                 <div className="timeline-entry">
-                                    <span className="entry-year">2025</span>
+                                    <span className="entry-year">Feb 2026</span>
                                     <div className="entry-text">
-                                        <h4 className="entry-header">Deepened focus / new role</h4>
-                                        <div className="entry-desc">Brief note on growth.</div>
+                                        <h4 className="entry-header">First real full stack project shipped</h4>
+                                        <div className="entry-desc">Completed a "Where's Waldo" style game.</div>
                                     </div>
                                 </div>
                             </div>

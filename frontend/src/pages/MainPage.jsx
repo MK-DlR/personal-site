@@ -141,7 +141,7 @@ function MainPage() {
                                 <div className="timeline-entry">
                                     <span className="entry-year">Feb 2026</span>
                                     <div className="entry-text">
-                                        <h4 className="entry-header">First real full stack project shipped</h4>
+                                        <h4 className="entry-header">First real full-stack project shipped</h4>
                                         <div className="entry-desc">Completed a "Where's Waldo" style game.</div>
                                     </div>
                                 </div>

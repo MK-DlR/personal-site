@@ -16,26 +16,28 @@ function AboutDetails() {
                 <div className="details-page-header">
                     <div className="label">About & Skills</div>
                     <h1 className="details-header-lg">More about me.</h1>
-                    <div className="header-blurb">The full version — background, how I work, and a closer look at the languages, frameworks, and tools I use day to day.</div>
+                    <div className="header-blurb">A bit more about me and a more in depth look at how I work and what I use to create with.</div>
                 </div>
                 <div className="about-details-content">
                     <div className="about-details-left">
                         <h4 className="mini-header about-mini">Quick Facts</h4>
                         <ul className="fact-list">
                             <li className="quick-info">Based in</li>
-                            <li className="fact-label">City, Country</li>
+                            <li className="fact-label">Quebec, Canada</li>
                             <li className="quick-info">Focus</li>
                             <li className="fact-label">Full-stack web development</li>
                             <li className="quick-info">Currently</li>
-                            <li className="fact-label">What you're doing right now</li>
+                            <li className="fact-label">Finishing The Odin Project</li>
                             <li className="quick-info">Education</li>
-                            <li className="fact-label">School / self-taught / bootcamp</li>
+                            <li className="fact-label">Self-taught</li>
+                            <li className="quick-info">Languages</li>
+                            <li className="fact-label">English (Native), French (A2/B1)</li>
                         </ul>
                         <h4 className="mini-header about-mini">Elsewhere</h4>
                         <div className="elsewhere-links-container">
                             <a href="https://github.com/MK-DlR" className="elsewhere-link">→ GitHub</a>
-                            <a href="www.linkedin.com/in/adrien-newman/" className="elsewhere-link">→ LinkedIn</a>
-                            <a href="#" className="elsewhere-link">→ Resume (PDF)</a>
+                            <a href="https://www.linkedin.com/in/adrien-newman/" className="elsewhere-link">→ LinkedIn</a>
+                            {/* <a href="#" className="elsewhere-link">→ Resume (PDF)</a> */}
                             <ButtonMailto label="→ Email" mailto="mailto:adriennewman92@gmail.com" className="elsewhere-link"/>
                         </div>
                     </div>
@@ -46,7 +48,7 @@ function AboutDetails() {
 
                         <h2 className="details-header">Core skills</h2>
                         <div className="tool-list">
-                            <span className="label tool-label">Languages</span>
+                            <span className="label tool-label">Languages & Runtime</span>
                             <div className="bar-row">
                                 <span className="skill-name">JavaScript</span>
                                 <div className="bar-track">
@@ -56,18 +58,27 @@ function AboutDetails() {
                                     ></div>
                                 </div>
                             </div>
-
-                            <span className="label tool-label">Frameworks</span>
-                                <div className="bar-row">
-                                    <span className="skill-name">React</span>
-                                    <div className="bar-track">
-                                        <div
-                                            className="bar-fill"
-                                            style={{ width: "80%" }}
-                                        ></div>
-                                    </div>
+                            <div className="bar-row">
+                                <span className="skill-name">Node.js</span>
+                                <div className="bar-track">
+                                    <div
+                                        className="bar-fill"
+                                        style={{ width: "90%" }}
+                                    ></div>
                                 </div>
-                                <div className="bar-row">
+                            </div>
+
+                            <span className="label tool-label">Frameworks & Templating</span>
+                            <div className="bar-row">
+                                <span className="skill-name">React</span>
+                                <div className="bar-track">
+                                    <div
+                                        className="bar-fill"
+                                        style={{ width: "80%" }}
+                                    ></div>
+                                </div>
+                            </div>
+                            <div className="bar-row">
                                 <span className="skill-name">Express</span>
                                 <div className="bar-track">
                                     <div
@@ -76,25 +87,46 @@ function AboutDetails() {
                                     ></div>
                                 </div>
                             </div>
+                            <div className="bar-row">
+                                <span className="skill-name">EJS</span>
+                                <div className="bar-track">
+                                    <div
+                                        className="bar-fill"
+                                        style={{ width: "90%" }}
+                                    ></div>
+                                </div>
+                            </div>
                         </div>
+
+                        <span className="label tool-label">Databases</span>
+                            <div className="bar-row">
+                                <span className="skill-name">Prisma</span>
+                                <div className="bar-track">
+                                    <div
+                                        className="bar-fill"
+                                        style={{ width: "90%" }}
+                                    ></div>
+                                </div>
+                            </div>
+                            <div className="bar-row">
+                                <span className="skill-name">PostgreSQL</span>
+                                <div className="bar-track">
+                                    <div
+                                        className="bar-fill"
+                                        style={{ width: "90%" }}
+                                    ></div>
+                                </div>
+                            </div>
 
                         <h2 className="details-header">Tools I use</h2>
                         <div className="tool-container">
                             <div className="tool">
-                                <span className="tool-initial">Gh</span>
-                                <span className="tool-name">GitHub</span>
+                                <span className="tool-initial">Vi</span>
+                                <span className="tool-name">Vite</span>
                             </div>
                             <div className="tool">
-                                <span className="tool-initial">Nd</span>
-                                <span className="tool-name">Node.js</span>
-                            </div>
-                            <div className="tool">
-                                <span className="tool-initial">Pr</span>
-                                <span className="tool-name">Prisma</span>
-                            </div>
-                            <div className="tool">
-                                <span className="tool-initial">Ps</span>
-                                <span className="tool-name">PostgreSQL</span>
+                                <span className="tool-initial">Gt</span>
+                                <span className="tool-name">Git</span>
                             </div>
                             <div className="tool">
                                 <span className="tool-initial">Pm</span>

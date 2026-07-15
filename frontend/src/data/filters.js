@@ -2,22 +2,24 @@
 
 const stackFilters = [
   "All",
-  "React",
-  "Express",
-  "Node.js",
-  "Prisma",
-  "PostgreSQL",
   "Design",
+  "Express",
+  "JavaScript",
+  "Node.js",
+  "PostgreSQL",
+  "Prisma",
+  "React",
+  "Vite",
 ];
 
 const hobbyFilters = [
   "All",
-  "Digital Art",
-  "Crochet",
-  "Gaming",
   "Baking",
-  "Gardening",
   "Cats",
+  "Crochet",
+  "Digital Art",
+  "Gaming",
+  "Gardening",
   "Other",
 ];
 

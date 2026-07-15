@@ -77,3 +77,73 @@ function JourneyDetails
 }
 
 export default JourneyDetails
+
+/*
+milestones for timeline:
+feb 2024 
+Started learning to code in my free time
+Began The Odin Project's Foundations course.
+
+apr 2025
+Began focusing on learning to code fulltime
+Completed Foundations and began the Full Stack JavaScript course.
+
+may 205
+started javascript course within full stack js
+
+jul 2025
+First real project shipped
+Completed a "Battleship" style game.
+
+sept 2025
+started react course
+
+sept 2025
+completed first real react project
+memory card game
+
+oct 2025
+completed react course / started databases course
+
+oct 2025
+completed databases course / started nodejs course
+
+nov 2025
+completed first real express project
+mini message board
+
+nov 2025
+completed ??? project
+inventory management app
+
+nov 2025
+completed first real authentication project
+members only
+
+dec 2025
+completed first real orm project
+file uploader
+
+feb 2026
+completed first real api project
+blog api
+
+feb 2026
+First real full stack project shipped
+Completed a "Where's Waldo" style game.
+
+mar 2026
+completed second full stack project
+messaging app
+
+(future)
+date
+completed final project
+odinbook
+
+date
+completed nodejs course
+
+date
+completed the odin project full stack javascript course
+*/

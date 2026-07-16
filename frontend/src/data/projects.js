@@ -10,7 +10,7 @@ import detailImage1 from "../assets/placeholder-preview.png";
 import detailImage2 from "../assets/placeholder-preview.png";
 import imagePreview from "../assets/placeholder-preview.png";
 
-/* project data */
+// project data
 const projects = [
   {
     featured: true,

@@ -3,7 +3,7 @@
 // imports
 import placeholderImage from "../assets/hover/placeholder-hover.png";
 
-/* hobbies data */
+// hobbies data
 const hobbies = [
   {
     image: placeholderImage,
@@ -36,11 +36,3 @@ const hobbies = [
 ];
 
 export default hobbies;
-
-/*
-TODO:
-fill in with real data
-
-note: "type" should use
-filter button options
-*/

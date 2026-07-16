@@ -127,10 +127,12 @@ function ProjectDetails() {
                         </ul>
                         <div className="detail-images">
                             {currentProject.detailImages.map((image, index) =>
-                                <div onClick={() => handleOpen(image)}> 
+                                <div 
+                                    key={index}
+                                    onClick={() => handleOpen(image)}
+                                > 
                                     <div className="detail-magnify-positioning">
                                         <img
-                                            key={index}
                                             src={image}
                                             alt="project details"
                                             className="project-details-image"

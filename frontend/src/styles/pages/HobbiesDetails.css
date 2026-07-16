@@ -26,6 +26,7 @@
     opacity: 0.7;
 }
 
+/* hobby card - image */
 .hobby-image {
     display: flex;
     align-items: center;
@@ -33,6 +34,18 @@
 
     width: 100%;
     object-fit: cover;
+}
+
+.hobby-url {
+    position: relative;
+    text-decoration: none;
+}
+
+.hobby-magnify {
+    position: absolute;
+    z-index: 1;
+    top: 68%;
+    right: 5%;
 }
 
 .hobby-caption {

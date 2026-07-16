@@ -66,11 +66,14 @@ function ProjectDetails() {
                     </div>
                 </div>
 
-                <img
-                    src={currentProject.preview}
-                    alt="project preview"
-                    className="project-preview"
-                />
+                <a href={currentProject.preview} className="preview-url">
+                    <img
+                        src={currentProject.preview}
+                        alt="project preview"
+                        className="project-preview"
+                    />
+                    <i className="fa-solid fa-magnifying-glass preview-magnify"></i>
+                </a>
 
                 <div className="project-details-content">
                     <div className="project-details-left">
@@ -99,12 +102,15 @@ function ProjectDetails() {
                         </ul>
                         <div className="detail-images">
                             {currentProject.detailImages.map((image, index) =>
-                                <img
-                                    key={index}
-                                    src={image}
-                                    alt="project details"
-                                    className="project-details-image"
-                                />
+                                <a href={image} className="detail-url">
+                                    <img
+                                        key={index}
+                                        src={image}
+                                        alt="project details"
+                                        className="project-details-image"
+                                    />
+                                    <i className="fa-solid fa-magnifying-glass detail-magnify"></i>
+                                </a>
                             )}
                         </div>
                         <div className="quote">"{currentProject.quote}"</div>

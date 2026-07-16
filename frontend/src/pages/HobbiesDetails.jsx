@@ -36,17 +36,20 @@ function HobbiesDetails() {
                     </div>
                     <div className="hobby-card-container">
                         {hobbies.filter(hobby => filter === "All" || hobby.type.includes(filter)).map(hobby =>
-                            <div className="hobby-card">
-                                <img
-                                    src={hobby.image}
-                                    alt="hobby image"
-                                    className="hobby-image"
-                                />
-                                <div className="hobby-caption">
-                                    <h4>{hobby.title}</h4>
-                                    <span>{hobby.type} · {hobby.year}</span>
+                            <a href={hobby.image} className="hobby-url">
+                                <div className="hobby-card">
+                                    <img
+                                        src={hobby.image}
+                                        alt="hobby image"
+                                        className="hobby-image"
+                                    />
+                                    <div className="hobby-caption">
+                                        <h4>{hobby.title}</h4>
+                                        <span>{hobby.type} · {hobby.year}</span>
+                                    </div>
                                 </div>
-                            </div>
+                                <i className="fa-solid fa-magnifying-glass hobby-magnify"></i>
+                            </a>
                         )}
                     </div>
                 </div>

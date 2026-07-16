@@ -96,3 +96,8 @@
     text-decoration: none;
     padding: 5px 0;
 }
+
+/* image magnifying glass */
+.fa-magnifying-glass {
+    color: var(--color-text-on-dark);
+}

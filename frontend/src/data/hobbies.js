@@ -1,7 +1,7 @@
 // src/data/hobbies.js
 
 // imports
-import placeholderImage from "../assets/placeholder-hover.png";
+import placeholderImage from "../assets/hover/placeholder-hover.png";
 
 /* hobbies data */
 const hobbies = [
@@ -10,24 +10,28 @@ const hobbies = [
     title: "Placeholder title 1",
     type: "Digital art",
     year: "info",
+    url: "info",
   },
   {
     image: placeholderImage,
     title: "Placeholder title 2",
     type: "Crochet",
     year: "info",
+    url: "info",
   },
   {
     image: placeholderImage,
     title: "Placeholder title 3",
     type: "Baking",
     year: "info",
+    url: "info",
   },
   {
     image: placeholderImage,
     title: "Placeholder title 4",
     type: "Cats",
     year: "info",
+    url: "info",
   },
 ];
 

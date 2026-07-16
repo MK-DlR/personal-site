@@ -6,8 +6,8 @@ import messagingDetail1 from "../assets/projects/messaging-app/messagingDetail1.
 import messagingDetail2 from "../assets/projects/messaging-app/messagingDetail2.png";
 
 // TEMPORARY //
-import detailImage1 from "../assets/placeholder-hover.png";
-import detailImage2 from "../assets/placeholder-hover.png";
+import detailImage1 from "../assets/placeholder-preview.png";
+import detailImage2 from "../assets/placeholder-preview.png";
 import imagePreview from "../assets/placeholder-preview.png";
 
 /* project data */

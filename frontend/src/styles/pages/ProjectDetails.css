@@ -95,8 +95,8 @@
     transition: opacity .2s ease;
 }
 
-.preview-url,
-.detail-url {
+.preview-magnify-positioning,
+.detail-magnify-positioning {
     position: relative;
     text-decoration: none;
 }
@@ -108,8 +108,15 @@
 }
 
 .preview-magnify {
-    bottom: 100%;
+    bottom: 5%;
     right: 9%;
+}
+
+/* fullsize preview + detail images */
+.preview-fullsize {
+    object-fit: contain;
+    max-height: 90vh;
+    max-width: 90vw;
 }
 
 .detail-images {
@@ -119,7 +126,7 @@
 }
 
 .detail-magnify {
-    top: 85%;
+    bottom: 8%;
     right: 5%;
 }
 

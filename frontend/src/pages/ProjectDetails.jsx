@@ -2,14 +2,25 @@
 
 // imports
 import { useParams } from 'react-router-dom'
+import { useState } from 'react';
 
 import Header from '../components/Header.jsx'
 import Footer from '../components/FooterProjects.jsx'
+import Modal from '../components/Modal.jsx';
 
 import projects from "../data/projects";
 
 function ProjectDetails() {
     const { slug } = useParams();
+    const [selectedImage, setSelectedImage] = useState(null);
+
+    const handleOpen = (chosenHobby) => {
+        setSelectedImage(chosenHobby);
+    };
+
+    const handleClose = () => {
+        setSelectedImage(null);
+    };
 
     /* find next project to display in footer */
     const findProject = (project) => slug === project.slug;
@@ -37,6 +48,18 @@ function ProjectDetails() {
 
     return (
         <>
+            {selectedImage && 
+                <Modal isOpen={!!selectedImage} onClose={handleClose}>
+                    <>
+                        <img
+                            src={selectedImage}
+                            alt="project image"
+                            className="preview-fullsize"
+                        />
+                    </>
+                </Modal>
+            }
+
             <title>Project Details</title>
             <Header 
                 variant="light"
@@ -66,14 +89,16 @@ function ProjectDetails() {
                     </div>
                 </div>
 
-                <a href={currentProject.preview} className="preview-url">
-                    <img
-                        src={currentProject.preview}
-                        alt="project preview"
-                        className="project-preview"
-                    />
-                    <i className="fa-solid fa-magnifying-glass preview-magnify"></i>
-                </a>
+                <div onClick={() => handleOpen(currentProject.preview)}> 
+                    <div className="preview-magnify-positioning">
+                        <img
+                            src={currentProject.preview}
+                            alt="project preview"
+                            className="project-preview"
+                        />
+                        <i className="fa-solid fa-magnifying-glass preview-magnify"></i>
+                    </div>
+                </div>
 
                 <div className="project-details-content">
                     <div className="project-details-left">
@@ -102,15 +127,17 @@ function ProjectDetails() {
                         </ul>
                         <div className="detail-images">
                             {currentProject.detailImages.map((image, index) =>
-                                <a href={image} className="detail-url">
-                                    <img
-                                        key={index}
-                                        src={image}
-                                        alt="project details"
-                                        className="project-details-image"
-                                    />
-                                    <i className="fa-solid fa-magnifying-glass detail-magnify"></i>
-                                </a>
+                                <div onClick={() => handleOpen(image)}> 
+                                    <div className="detail-magnify-positioning">
+                                        <img
+                                            key={index}
+                                            src={image}
+                                            alt="project details"
+                                            className="project-details-image"
+                                        />
+                                        <i className="fa-solid fa-magnifying-glass detail-magnify"></i>
+                                    </div>
+                                </div>
                             )}
                         </div>
                         <div className="quote">"{currentProject.quote}"</div>

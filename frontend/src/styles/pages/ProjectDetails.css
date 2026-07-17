@@ -86,6 +86,11 @@
     opacity: 0.7;
 }
 
+.project-preview,
+.project-details-image {
+    cursor: pointer;
+}
+
 .project-details-image {
     height: 225px;
     width: 225px;

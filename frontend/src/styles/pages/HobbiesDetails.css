@@ -3,19 +3,19 @@
 /* content layout */
 .hobby-card-container {
     max-width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    column-count: 3;
+    column-gap: 40px;
     padding: 40px;
     margin: 0 auto;
 }
 
 /* art/hobby cards */
 .hobby-card {
-    width: 285.3px;
+    width: 100%;
     margin-bottom: 20px;
     border-radius: 14px;
     overflow: hidden;
+    break-inside: avoid; /* prevent cards from getting cut in half by column boundary */
 
     border: 1px solid var(--color-border-on-light);
     background: var(--color-surface-card);

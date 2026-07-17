@@ -59,15 +59,13 @@ function HobbiesDetails() {
                     <div className="hobby-card-container">
                         {hobbies.filter(hobby => filter === "All" || hobby.type.includes(filter)).map(hobby =>
                             <div key={hobby.id}>
-                                <div 
-                                    className="hobby-card"
-                                    onClick={() => handleOpen(hobby)}
-                                >
+                                <div className="hobby-card">
                                     <div className="hobby-magnify-positioning">
                                         <img
                                             src={hobby.image}
                                             alt="hobby image"
                                             className="hobby-image"
+                                            onClick={() => handleOpen(hobby)}
                                         />
                                         <i className="fa-solid fa-magnifying-glass hobby-magnify"></i>
                                     </div>

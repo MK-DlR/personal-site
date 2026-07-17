@@ -20,8 +20,6 @@
     border: 1px solid var(--color-border-on-light);
     background: var(--color-surface-card);
     transition: opacity .2s ease;
-
-    cursor: pointer;
 }
 
 .hobby-card:hover {
@@ -38,6 +36,8 @@
     object-fit: cover;
 
     background-color: var(--color-surface-dark);
+
+    cursor: pointer;
 }
 
 .hobby-magnify-positioning {

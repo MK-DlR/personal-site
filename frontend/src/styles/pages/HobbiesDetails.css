@@ -64,6 +64,11 @@
     font-size: 0.7rem;
 }
 
+.hobby-url {
+    color: var(--color-accent-primary);
+    text-decoration: none;
+}
+
 /* fullsize hobby image */
 .hobby-fullsize {
     object-fit: contain;

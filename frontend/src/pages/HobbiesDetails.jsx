@@ -74,6 +74,15 @@ function HobbiesDetails() {
                                     <div className="hobby-caption">
                                         <h4>{hobby.title}</h4>
                                         <span>{hobby.type} · {hobby.year}</span>
+                                        {hobby.type === "Crochet" && (
+                                            <span> · <a href={hobby.url} 
+                                                        className="hobby-url"
+                                                        target="_blank" 
+                                                        rel="noopener noreferrer"
+                                                        onClick={(e) => e.stopPropagation()}
+                                                    >Ravelry</a>
+                                            </span>
+                                        )}
                                     </div>
                                 </div>
                             </div>

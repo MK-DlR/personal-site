@@ -12,7 +12,7 @@ const hobbies = [
     id: 1,
     image: hobbiesArt1,
     title: "Placeholder title 1",
-    type: "Digital art",
+    type: "Digital Art",
     year: "info",
     url: "info",
   },
@@ -22,7 +22,7 @@ const hobbies = [
     title: "Placeholder title 2",
     type: "Crochet",
     year: "info",
-    url: "info",
+    url: "https://www.ravelry.com/",
   },
   {
     id: 3,

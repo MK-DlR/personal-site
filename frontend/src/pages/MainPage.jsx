@@ -90,8 +90,8 @@ function MainPage() {
                             <h3>{project.title}</h3>
                             <div className="project-desc">{project.blurb}</div>
                             <div className="tags-list">
-                                {project.stack.map((stack, index) =>
-                                    <span key={index} className="tag light-tag">{stack}</span>
+                                {project.tags.map((tag, index) =>
+                                    <span key={index} className="tag light-tag">{tag}</span>
                                 )}
                             </div>
                             <div className="links-container">
@@ -160,49 +160,49 @@ function MainPage() {
                                 <div className="badge-circle imghover arthover">
                                     <span className="emoji">✏️</span>
                                 </div>
-                                <span class="art-label">Digital Art</span>
+                                <span className="art-label">Digital Art</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover crochethover">
                                     <span className="emoji">🧶</span>
                                 </div>
-                                <span class="art-label">Crochet</span>
+                                <span className="art-label">Crochet</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover gamehover">
                                     <span className="emoji">🎮</span>
                                 </div>
-                                <span class="art-label">Gaming</span>
+                                <span className="art-label">Gaming</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover bakehover">
                                     <span className="emoji">🍰</span>
                                 </div>
-                                <span class="art-label">Baking</span>
+                                <span className="art-label">Baking</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover bookhover">
                                     <span className="emoji">📚</span>
                                 </div>
-                                <span class="art-label">Reading</span>
+                                <span className="art-label">Reading</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover gardenhover">
                                     <span className="emoji">🌱</span>
                                 </div>
-                                <span class="art-label">Gardening</span>
+                                <span className="art-label">Gardening</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover cathover">
                                     <span className="emoji">🐈</span>
                                 </div>
-                                <span class="art-label">Cats *</span>
+                                <span className="art-label">Cats *</span>
                             </div>
                         </div>
                         <div className="disclaimer">* Cats have been known to involve themselves in my coding work.</div>

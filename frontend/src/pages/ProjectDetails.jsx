@@ -142,7 +142,7 @@ function ProjectDetails() {
                                 </div>
                             )}
                         </div>
-                        <div className="quote">"{currentProject.quote}"</div>
+                        <div className="quote">{currentProject.quote}</div>
                         <h2 className="details-header">Challenges & what I'd change</h2>
                         <p className="about-details-blurb">{currentProject.challenges}</p>
                     </div>

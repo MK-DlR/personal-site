@@ -39,11 +39,14 @@
     max-width: 1100px;
     margin: 0 auto;
     display: flex;
+    align-items: flex-start;
     margin-top: 80px;
     gap: 80px;
 }
 
 .project-details-left {
+    position: sticky;
+    top: 100px;
     margin-left: 90px;
 }
 

@@ -5,6 +5,7 @@ const stackFilters = [
   "Authentication",
   "Design",
   "Express",
+  "Guest Account",
   "JavaScript",
   "Node.js",
   "PostgreSQL",

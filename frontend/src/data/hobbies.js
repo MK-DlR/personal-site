@@ -64,7 +64,7 @@ const hobbies = [
     url: "https://www.ravelry.com/projects/mk-dlr/kitty-desk-buddy",
   },
   {
-    id: 6,
+    id: 7,
     image: hobbiesCrochet5,
     title: "Amigurumi corgi puppy",
     type: "Crochet",
@@ -72,21 +72,21 @@ const hobbies = [
     url: "https://www.ravelry.com/projects/mk-dlr/little-biscuit-the-corgi-puppy",
   },
   {
-    id: 7,
+    id: 8,
     image: hobbiesBaking1,
     title: "Deep dish apple pie",
     type: "Baking",
     year: "2025",
   },
   {
-    id: 7,
+    id: 9,
     image: hobbiesBaking2,
     title: "Chocolate chip banana muffins",
     type: "Baking",
     year: "2025",
   },
   {
-    id: 8,
+    id: 10,
     image: hobbiesArt1,
     title: "Yakuza/RGG fanart",
     type: "Digital Art",

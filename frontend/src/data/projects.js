@@ -17,11 +17,6 @@ import battleshipPreview from "../assets/projects/battleship-app/battleshipPrevi
 import battleshipDetail1 from "../assets/projects/battleship-app/battleshipDetail1.png";
 import battleshipDetail2 from "../assets/projects/battleship-app/battleshipDetail2.png";
 
-// TEMPORARY //
-import detailImage1 from "../assets/placeholder-preview.png";
-import detailImage2 from "../assets/placeholder-preview.png";
-import imagePreview from "../assets/placeholder-preview.png";
-
 // project data
 const projects = [
   {
@@ -71,16 +66,17 @@ const projects = [
     number: "02",
     title: "Object Recognition Protocol",
     blurb: "Full-stack sci-fi 'Where's Waldo' style game web app.",
-    role: "info",
+    role: "Solo developer",
     timeline: "info",
-    year: "info",
-    type: "info",
+    year: "2026",
+    type: "Full-stack web app",
     liveLink: "https://wheres-waldo-vert.vercel.app/",
     codeLink: "https://github.com/MK-DlR/wheres-waldo",
     preview: waldoPreview,
     tags: [
       "Design",
       "Express",
+      "Game",
       "JavaScript",
       "Node.js",
       "PostgreSQL",
@@ -102,14 +98,23 @@ const projects = [
     number: "03",
     title: "HerbTrack",
     blurb: "Full-stack medicinal plant inventory management web app.",
-    role: "info",
+    role: "Solo developer",
     timeline: "info",
-    year: "info",
-    type: "info",
+    year: "2025",
+    type: "Full-stack web app",
     liveLink: "https://inventory-app-e3zm.onrender.com/plants",
     codeLink: "https://github.com/MK-DlR/inventory-app",
     preview: inventoryPreview,
-    tags: ["Design", "EJS", "Express", "JavaScript", "Node.js", "PostgreSQL"],
+    tags: [
+      "Authentication",
+      "Design",
+      "EJS",
+      "Express",
+      "Guest Account",
+      "JavaScript",
+      "Node.js",
+      "PostgreSQL",
+    ],
     problem: "info",
     built: "info",
     features: ["Feature 1", "Feature 2", "Feature 3", "Etc"],
@@ -123,14 +128,14 @@ const projects = [
     number: "04",
     title: "Battleship",
     blurb: "TDD-based naval themed 'Battleship' game web app.",
-    role: "info",
+    role: "Solo developer",
     timeline: "info",
-    year: "info",
-    type: "info",
+    year: "2025",
+    type: "Test driven development",
     liveLink: "https://mk-dlr.github.io/battleship-project/",
     codeLink: "https://github.com/MK-DlR/battleship-project",
     preview: battleshipPreview,
-    tags: ["Design", "JavaScript", "Jest"],
+    tags: ["Design", "Game", "JavaScript", "Jest"],
     problem: "info",
     built: "info",
     features: ["Feature 1", "Feature 2", "Feature 3", "Etc"],
@@ -150,7 +155,7 @@ empty project template
   number: "0#",
   title: "Test Project Name",
   blurb: "This is a project test blurb",
-  role: "info",
+  role: "Solo developer",
   timeline: "info",
   year: "info",
   type: "info",

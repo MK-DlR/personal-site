@@ -59,7 +59,7 @@
     margin-bottom: 90px;
 }
 
-.stack-list {
+.tags-list {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;

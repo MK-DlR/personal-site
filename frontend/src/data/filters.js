@@ -1,13 +1,15 @@
 // src/data/filters.js
 
-const stackFilters = [
+const tagFilters = [
   "All",
   "Authentication",
   "Design",
   "EJS",
   "Express",
+  "Game",
   "Guest Account",
   "JavaScript",
+  "Jest",
   "Node.js",
   "PostgreSQL",
   "Prisma",
@@ -26,4 +28,4 @@ const hobbyFilters = [
   "Other",
 ];
 
-export { stackFilters, hobbyFilters };
+export { tagFilters, hobbyFilters };

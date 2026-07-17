@@ -102,10 +102,10 @@ function ProjectDetails() {
 
                 <div className="project-details-content">
                     <div className="project-details-left">
-                        <h4 className="mini-header about-mini">Stack</h4>
-                        <ul className="stack-list">
-                            {currentProject.stack.map((stack, index) =>
-                                <span key={index} className="filter-pill">{stack}</span>
+                        <h4 className="mini-header about-mini">Tags</h4>
+                        <ul className="tags-list">
+                            {currentProject.tags.map((tag, index) =>
+                                <span key={index} className="filter-pill">{tag}</span>
                             )}
                         </ul>
                         <h4 className="mini-header about-mini">Links</h4>

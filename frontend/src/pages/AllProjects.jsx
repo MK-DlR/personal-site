@@ -6,7 +6,7 @@ import { useState } from 'react';
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 
-import { stackFilters } from "../data/filters";
+import { tagFilters } from "../data/filters";
 import projects from "../data/projects";
 
 function AllProjects() {
@@ -26,7 +26,7 @@ function AllProjects() {
                 </div>
                 <div className="all-projects-details-content">
                     <div className="filter-container">
-                        {stackFilters.map((option, index) => 
+                        {tagFilters.map((option, index) => 
                             <span 
                                 key={index} 
                                 className={`filter-pill ${option === filter ? 'active' : ''}`}
@@ -36,7 +36,7 @@ function AllProjects() {
                     </div>
                     <div className="all-projects-container">
 
-                    {projects.filter(project => filter === "All" || project.stack.includes(filter)).map(project =>
+                    {projects.filter(project => filter === "All" || project.tags.includes(filter)).map(project =>
                         <div className="all-projects-card">
                             <img
                                 src={project.preview}
@@ -47,8 +47,8 @@ function AllProjects() {
                                 <h3 className="project-name">{project.title}</h3>
                                 <p className="project-blurb">{project.blurb}</p>
                                 <div className="project-tags-container">
-                                    {project.stack.map((stack, index) =>
-                                        <span key={index} className="tag light-tag">{stack}</span>
+                                    {project.tags.map((tag, index) =>
+                                        <span key={index} className="tag light-tag">{tag}</span>
                                     )}
                                 </div>
                             </div>

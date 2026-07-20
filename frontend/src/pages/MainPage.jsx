@@ -139,10 +139,10 @@ function MainPage() {
                                 </div>
 
                                 <div className="timeline-entry">
-                                    <span className="entry-year">Feb 2026</span>
+                                    <span className="entry-year">Mar 2026</span>
                                     <div className="entry-text">
-                                        <h4 className="entry-header">First real full-stack project shipped</h4>
-                                        <div className="entry-desc">Completed a "Where's Waldo" style game.</div>
+                                        <h4 className="entry-header">Second real Full-Stack Express project shipped</h4>
+                                        <div className="entry-desc">Completed the "Messaging Application" project.</div>
                                     </div>
                                 </div>
                             </div>

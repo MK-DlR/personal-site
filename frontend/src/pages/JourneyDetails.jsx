@@ -16,21 +16,140 @@ function JourneyDetails
                 <div className="details-page-header dark-page-header">
                     <div className="label accented-label">Journey</div>
                     <h1 className="section-title-light details-header-lg">How I got here.</h1>
-                    <p className="header-blurb dark-blurb">The longer version of my path so far — what I was learning, building, and focused on at each stage.</p>
+                    <p className="header-blurb dark-blurb">My journey with coding so far, starting with the beginning and leading up to now.</p>
                 </div>
                 <div className="journey-details-content dark-content">
                     <div className="focus">
                         <div className="mini-label">Right now</div>
-                        <p className="focus-blurb timeline-blurb">Expanded note on what you're currently learning, building, or focused on — more detail than the homepage version.</p>
+                        <p className="focus-blurb timeline-blurb">Finishing up The Odin Project's Full Stack JavaScript course.</p>
                     </div>
                     <div className="full-timeline">
-                    <span className="timeline-year">2025</span>
+                    <span className="timeline-year">2026</span>
+                    <div className="timeline-item">
+                        <ul className="timeline-text">
+                            <li className="timeline-info">
+                                <h4 className="timeline-header">Second real Full-Stack Express project shipped</h4>
+                                <p className="timeline-desc">Completed the "Messaging Application" project.</p>
+                                <span className="tag dark-tag">Project</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="timeline-item">
+                        <ul className="timeline-text">
+                            <li className="timeline-info">
+                                <h4 className="timeline-header">First real Full-Stack Express project shipped</h4>
+                                <p className="timeline-desc">Completed a "Where's Waldo" style game.</p>
+                                <span className="tag dark-tag">Project</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div className="timeline-item">
+                        <ul className="timeline-text">
+                            <li className="timeline-info">
+                                <h4 className="timeline-header">First real API project shipped</h4>
+                                <p className="timeline-desc">Completed the "Blog API" project.</p>
+                                <span className="tag dark-tag">Project</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                        <span className="timeline-year">2025</span>
                         <div className="timeline-item">
                             <ul className="timeline-text">
                                 <li className="timeline-info">
-                                    <h4 className="timeline-header">Deepened focus / new role</h4>
-                                    <p className="timeline-desc">A few sentences on this milestone — what changed, what you learned, why it mattered.</p>
-                                    <span className="tag dark-tag">Milestone</span>
+                                    <h4 className="timeline-header">First real ORM project shipped</h4>
+                                    <p className="timeline-desc">Completed the "File Uploader" project.</p>
+                                    <span className="tag dark-tag">Project</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">First real Authentication project shipped</h4>
+                                    <p className="timeline-desc">Completed the "Members Only" project.</p>
+                                    <span className="tag dark-tag">Project</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">First real Full-Stack project shipped</h4>
+                                    <p className="timeline-desc">Completed the "Inventory Application" project.</p>
+                                    <span className="tag dark-tag">Project</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">First real Express project shipped</h4>
+                                    <p className="timeline-desc">Completed the "Mini Message Board" project.</p>
+                                    <span className="tag dark-tag">Project</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">Started the Node.js section</h4>
+                                    <p className="timeline-desc">Completed the Databases section and began the Node.js section.</p>
+                                    <span className="tag dark-tag">Learning</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">Started the Databases section</h4>
+                                    <p className="timeline-desc">Completed the React section and began the Databases section.</p>
+                                    <span className="tag dark-tag">Learning</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">First real React project shipped</h4>
+                                    <p className="timeline-desc">Completed a "Memory Card" style game.</p>
+                                    <span className="tag dark-tag">Project</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">Started the React section</h4>
+                                    <p className="timeline-desc">Began the React section within the Full-Stack JavaScript course.</p>
+                                    <span className="tag dark-tag">Learning</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">First real project shipped</h4>
+                                    <p className="timeline-desc">Completed a "Battleship" style game.</p>
+                                    <span className="tag dark-tag">Project</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">Started the JavaScript course</h4>
+                                    <p className="timeline-desc">Began the JavaScript section within the Full-Stack JavaScript course.</p>
+                                    <span className="tag dark-tag">Learning</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="timeline-item">
+                            <ul className="timeline-text">
+                                <li className="timeline-info">
+                                    <h4 className="timeline-header">Began focusing on learning to code fulltime</h4>
+                                    <p className="timeline-desc">Completed Foundations course and began the Full-Stack JavaScript course.</p>
+                                    <span className="tag dark-tag">Learning</span>
                                 </li>
                             </ul>
                         </div>
@@ -39,28 +158,8 @@ function JourneyDetails
                         <div className="timeline-item">
                             <ul className="timeline-text">
                                 <li className="timeline-info">
-                                    <h4 className="timeline-header">First real project shipped</h4>
-                                    <p className="timeline-desc">A few sentences on this milestone — what changed, what you learned, why it mattered.</p>
-                                    <span className="tag dark-tag">Project</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="timeline-item">
-                            <ul className="timeline-text">
-                                <li className="timeline-info">
-                                    <h4 className="timeline-header">Picked up a new framework</h4>
-                                    <p className="timeline-desc">A shorter entry — doesn't need to be a huge milestone, just a note on growth.</p>
-                                    <span className="tag dark-tag">Learning</span>
-                                </li>
-                            </ul>
-                        </div>
-
-                    <span className="timeline-year">2023</span>
-                        <div className="timeline-item">
-                            <ul className="timeline-text">
-                                <li className="timeline-info">
-                                    <h4 className="timeline-header">Started learning to code</h4>
-                                    <p className="timeline-desc">A few sentences on how it began — what pulled you in, first language, first "aha" moment.</p>
+                                    <h4 className="timeline-header">Started learning to code in my free time</h4>
+                                    <p className="timeline-desc">Began The Odin Project's Foundations course.</p>
                                     <span className="tag dark-tag">Start</span>
                                 </li>
                             </ul>
@@ -79,71 +178,15 @@ function JourneyDetails
 export default JourneyDetails
 
 /*
-milestones for timeline:
-feb 2024 
-Started learning to code in my free time
-Began The Odin Project's Foundations course.
+empty timeline template
 
-apr 2025
-Began focusing on learning to code fulltime
-Completed Foundations and began the Full Stack JavaScript course.
-
-may 205
-started javascript course within full stack js
-
-jul 2025
-First real project shipped
-Completed a "Battleship" style game.
-
-sept 2025
-started react course
-
-sept 2025
-completed first real react project
-memory card game
-
-oct 2025
-completed react course / started databases course
-
-oct 2025
-completed databases course / started nodejs course
-
-nov 2025
-completed first real express project
-mini message board
-
-nov 2025
-completed ??? project
-inventory management app
-
-nov 2025
-completed first real authentication project
-members only
-
-dec 2025
-completed first real orm project
-file uploader
-
-feb 2026
-completed first real api project
-blog api
-
-feb 2026
-First real full stack project shipped
-Completed a "Where's Waldo" style game.
-
-mar 2026
-completed second full stack project
-messaging app
-
-(future)
-date
-completed final project
-odinbook
-
-date
-completed nodejs course
-
-date
-completed the odin project full stack javascript course
+<div className="timeline-item">
+    <ul className="timeline-text">
+        <li className="timeline-info">
+            <h4 className="timeline-header">Headline</h4>
+            <p className="timeline-desc">Information</p>
+            <span className="tag dark-tag">Tag</span>
+        </li>
+    </ul>
+</div>
 */

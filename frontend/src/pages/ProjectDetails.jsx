@@ -116,8 +116,8 @@ function ProjectDetails() {
                     </div>
 
                     <div className="project-details-right details-page-right">
-                        <h2 className="details-header">The problem</h2>
-                        <p className="about-details-blurb">{currentProject.problem}</p>
+                        <h2 className="details-header">The project</h2>
+                        <p className="about-details-blurb">{currentProject.projectAbout}</p>
                         <h2 className="details-header">What I built</h2>
                         <p className="about-details-blurb">{currentProject.built}</p>
                         <ul className="key-features">

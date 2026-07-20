@@ -86,7 +86,8 @@ const projects = [
     ],
     projectAbout:
       "Created for The Odin Project's NodeJS section's 'Where's Waldo' project. I was inspired by the image that I chose and decided to lean into the sci-fi aesthetic and the fact that many of the characters in the artwork are from different popular medias, allowing many of them to be recognizable to a wide variety of users.",
-    built: "info",
+    built:
+      "For this project, I was interested in creating something that someone could play more than once, which led to implementing a core functionality that would shuffle the characters before selecting 3 of them from the pool. I also wanted to ensure there was clear feedback on where the user was clicking before placing their guess - and which character/s had been successfully found.",
     features: [
       "Timer automatically starts when 'Start' button is clicked",
       "3 characters are chosen at random on page refresh",
@@ -96,7 +97,8 @@ const projects = [
     detailImages: [waldoDetail1, waldoDetail2],
     quote:
       "Displaying new characters to find on refresh allows for increased replayability.",
-    challenges: "info",
+    challenges:
+      "Initially, I faced some issues with getting the character coordinates to work correctly, but it turned out that I had forgotten to account for the original styling/sizing of the image, which was an easy fix that felt obvious in hindsight. I also would have publicaly implemented the leaderboard (currently it's accessible via prisma), so that players can see where they rank. This is something I plan on adding in the future when I return to it.",
   },
 
   {
@@ -122,12 +124,21 @@ const projects = [
       "Node.js",
       "PostgreSQL",
     ],
-    projectAbout: "info",
-    built: "info",
-    features: ["Feature 1", "Feature 2", "Feature 3", "Etc"],
+    projectAbout:
+      "Created for The Odin Project's NodeJS section's 'Inventory App' project. For this project, I wanted to create something with real-world use. My partner is a herbalism student, so I chose to create an application that would allow him to easily track and update his medicinal herb inventory.",
+    built:
+      "Since I customized the actual functionality of this project to be beneficial of my partner, many of the features are requests that he made. I created two seperate forms for creating both plants and medicinal uses, while also allowing them to be associated with one another. Plants can also be filtered by medicinal use, stock status, quantity, and order status; this allows for much more efficient inventory management.",
+    features: [
+      "Public guest account for immediate app access",
+      "Private admin account for actual data manipulation",
+      "Uses the Trefle API to find images based on scientific name",
+      "Allows association between plants and medicinal uses",
+    ],
     detailImages: [inventoryDetail1, inventoryDetail2],
-    quote: "info",
-    challenges: "info",
+    quote:
+      "Associating a plant with many medicinal uses allows for precise filtering.",
+    challenges:
+      "If I were to restart this project and create it again from the ground up, I would use React rather than EJS, so that I could take advantage of the vitual DOM and its more efficient rendering.",
   },
   {
     featured: false,
@@ -143,12 +154,21 @@ const projects = [
     codeLink: "https://github.com/MK-DlR/battleship-project",
     preview: battleshipPreview,
     tags: ["Design", "Game", "JavaScript", "Jest"],
-    projectAbout: "info",
-    built: "info",
-    features: ["Feature 1", "Feature 2", "Feature 3", "Etc"],
+    projectAbout:
+      "Created for The Odin Project's JavaScript section's 'Battleship' project. This project was created using TDD as an exercise in practicing writing successful tests before fully committing to writing the actual code functionality.",
+    built:
+      "As someone who grew up playing Battleship, I wanted to do my best to recreate the classic game while also including things I felt an online version would be incomplete without. During the setup phase, a button allows for randomized ship placement - in the case of two human players, a 'pass device' screen is implemented between displaying P1 vs P2 screens. The battle log also allows for a clear record of all attacks, both successful and not.",
+    features: [
+      "Allows for human vs computer and human vs human games",
+      "Randomize ship placement for players",
+      "Battle log keeps a record of all attacks and sunken ships",
+      "Fully playable on computers, tablets, and mobile devices",
+    ],
     detailImages: [battleshipDetail1, battleshipDetail2],
-    quote: "info",
-    challenges: "info",
+    quote:
+      "Creating a second player allows for local human vs human games to be played.",
+    challenges:
+      "One thing that I did overlook was a way of easily tracking how many ships are left to be sunk - and which ones they are. Were I to return to this project, I would implement a clear tracker of which ships were still in play as well as allowing for drag and drop custom ship placement.",
   },
 ];
 

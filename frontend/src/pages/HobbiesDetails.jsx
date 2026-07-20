@@ -44,7 +44,7 @@ function HobbiesDetails() {
                 <div className="details-page-header">
                     <div className="label">Art & Hobbies</div>
                     <h1 className="details-header-lg">Outside the editor.</h1>
-                    <div className="header-blurb">A closer look at what I make and do when I'm away from a keyboard — sketches, photos, and whatever else I've been into lately.</div>
+                    <div className="header-blurb">A collection of some of my hobbies and art that I've created outside of coding. You'll find a lot of cats and crochet, since one likes to help me when I'm working and the other is a good way to wind down from work.</div>
                 </div>
                 <div className="hobby-details-content">
                 <div className="filter-container">

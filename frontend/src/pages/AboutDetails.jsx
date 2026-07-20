@@ -50,71 +50,42 @@ function AboutDetails() {
                         <div className="tool-list">
                             <span className="label tool-label">Languages & Runtime</span>
                             <div className="bar-row">
-                                <span className="skill-name">JavaScript</span>
-                                <div className="bar-track">
-                                    <div
-                                        className="bar-fill"
-                                        style={{ width: "85%" }}
-                                    ></div>
+                                <div className="tool">
+                                    <span className="tool-initial">Js</span>
+                                    <span className="tool-name">Javascript</span>
                                 </div>
-                            </div>
-                            <div className="bar-row">
-                                <span className="skill-name">Node.js</span>
-                                <div className="bar-track">
-                                    <div
-                                        className="bar-fill"
-                                        style={{ width: "70%" }}
-                                    ></div>
+                                <div className="tool">
+                                    <span className="tool-initial">Nd</span>
+                                    <span className="tool-name">Node.js</span>
                                 </div>
                             </div>
 
                             <span className="label tool-label">Frameworks & Templating</span>
                             <div className="bar-row">
-                                <span className="skill-name">React</span>
-                                <div className="bar-track">
-                                    <div
-                                        className="bar-fill"
-                                        style={{ width: "60%" }}
-                                    ></div>
+                                <div className="tool">
+                                    <span className="tool-initial">Rt</span>
+                                    <span className="tool-name">React</span>
                                 </div>
-                            </div>
-                            <div className="bar-row">
-                                <span className="skill-name">Express</span>
-                                <div className="bar-track">
-                                    <div
-                                        className="bar-fill"
-                                        style={{ width: "70%" }}
-                                    ></div>
+                                <div className="tool">
+                                    <span className="tool-initial">Ex</span>
+                                    <span className="tool-name">Express</span>
                                 </div>
-                            </div>
-                            <div className="bar-row">
-                                <span className="skill-name">EJS</span>
-                                <div className="bar-track">
-                                    <div
-                                        className="bar-fill"
-                                        style={{ width: "80%" }}
-                                    ></div>
+                                <div className="tool">
+                                    <span className="tool-initial">Ej</span>
+                                    <span className="tool-name">EJS</span>
                                 </div>
                             </div>
                         </div>
 
                         <span className="label tool-label">Databases</span>
                             <div className="bar-row">
-                                <span className="skill-name">Prisma</span>
-                                <div className="bar-track">
-                                    <div
-                                        className="bar-fill"
-                                        style={{ width: "80%" }}
-                                    ></div>
+                                <div className="tool">
+                                    <span className="tool-initial">Pr</span>
+                                    <span className="tool-name">Prisma</span>
                                 </div>
-                            </div>
-                            <div className="bar-row">
-                                <span className="skill-name">PostgreSQL</span>
-                                <div className="bar-track">
-                                    <div
-                                        className="bar-fill"
-                                        style={{ width: "70%" }}
-                                    ></div>
+                                <div className="tool">
+                                    <span className="tool-initial">Ps</span>
+                                    <span className="tool-name">PostgreSQL</span>
                                 </div>
                             </div>
 

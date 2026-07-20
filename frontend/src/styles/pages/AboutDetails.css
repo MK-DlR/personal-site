@@ -35,42 +35,23 @@
     margin-bottom: 40px;
 }
 
-/* skill bars */
+/* skills and tools */
+.bar-row,
+.tool-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
 .bar-row {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
 }
 
 .tool-label {
     display: block;
 }
 
-.skill-name {
-    font-size: 0.9rem;
-    width: 120px;
-}
-
-.bar-track {
-    flex: 1;
-    height: 8px;
-    background: #D8D6CD;
-    border-radius: 999px;
-    overflow: hidden;
-}
-
-.bar-fill {
-    height: 100%;
-    background: var(--color-surface-dark);
-    border-radius: inherit;
-}
-
-/* tools grid */
 .tool-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 14px;
     margin-top: 20px;
 }
 

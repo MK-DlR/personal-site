@@ -21,8 +21,8 @@ function AllProjects() {
             <div className="details-page">
                 <div className="details-page-header">
                     <div className="label">All Projects</div>
-                    <h1 className="details-header-lg">Everything I've built.</h1>
-                    <div className="header-blurb">The three on my homepage are what I'd point you to first — this is the fuller list, including smaller experiments, coursework, and side builds.</div>
+                    <h1 className="details-header-lg">More things I've built.</h1>
+                    <div className="header-blurb">Some examples of my work, including the three featured on the main page as well as additional projects.</div>
                 </div>
                 <div className="all-projects-details-content">
                     <div className="filter-container">

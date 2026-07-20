@@ -185,13 +185,6 @@ function MainPage() {
                             </div>
 
                             <div className="hobby-item">
-                                <div className="badge-circle imghover bookhover">
-                                    <span className="emoji">📚</span>
-                                </div>
-                                <span className="art-label">Reading</span>
-                            </div>
-
-                            <div className="hobby-item">
                                 <div className="badge-circle imghover gardenhover">
                                     <span className="emoji">🌱</span>
                                 </div>

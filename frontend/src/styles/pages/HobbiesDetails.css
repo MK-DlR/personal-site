@@ -77,3 +77,11 @@
     max-height: 90vh;
     max-width: 90vw;
 }
+
+/* media queries */
+/* portrait tablet */
+@media (max-width: 820px) {
+    .hobby-card-container {
+        column-count: 2;
+    }
+}

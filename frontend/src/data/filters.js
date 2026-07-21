@@ -23,9 +23,9 @@ const hobbyFilters = [
   "Cats",
   "Crochet",
   "Digital Art",
-  "Gaming",
-  "Gardening",
-  "Other",
+  /* "Gaming", */
+  /* "Gardening", */
+  /* "Other", */
 ];
 
 export { tagFilters, hobbyFilters };

@@ -75,3 +75,20 @@
     font-family: var(--font-code);
     font-size: 0.72rem;
 }
+
+/* media queries */
+/* phone */
+@media (max-width: 600px) {
+    .about-details-content {
+        display: flex;
+        flex-direction: column;
+        order: 1;
+    }
+
+    .about-details-left {
+        position: relative;
+        top: 0;
+        align-self: center;
+        order: 2;
+    }
+}

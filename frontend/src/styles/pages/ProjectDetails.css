@@ -75,9 +75,10 @@
 
 /* content - images */
 .project-preview {
-    margin: 0 8vw;
+    display: block;
+    margin: auto;
     height: 420px;
-    width: 1595px;
+    width: 83vw;
     border-radius: 16px;
     object-fit: cover;
 
@@ -147,4 +148,23 @@
     border-left: 2px solid var(--color-accent-primary);
     padding-left: 22px;
     margin: 34px 0;
+}
+
+/* media queries */
+/* phone */
+@media (max-width: 600px) {
+    .project-details-left {
+        position: relative;
+        top: 0;
+    }
+
+    .project-details-content {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .project-details-right {
+        margin-left: 30px;
+    }
 }

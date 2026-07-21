@@ -50,3 +50,16 @@
     align-items: flex-start;
     margin-top: 10px;
 }
+
+/* media queries */
+/* phone */
+@media (max-width: 600px) {
+    .project-card-center {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+    }
+
+    .project-card-right {
+        width: 115px;
+    }
+}

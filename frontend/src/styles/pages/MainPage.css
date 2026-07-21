@@ -5,7 +5,7 @@
 #about,
 #projects,
 #journey,
-#art,
+#hobbies,
 #contact {
     border-bottom: 1px solid var(--color-border-on-light);
 }
@@ -292,24 +292,24 @@
     line-height: 1.5;
 }
 
-/* art */
-.art-content {
+/* hobbies */
+.hobbies-content {
     text-align: center;
     width: 100%;
 }
 
-.art-panel-label {
+.hobbies-panel-label {
     text-align: left;
 }
 
-.art-header {
+.hobbies-header {
     font-size: 2.6rem;
     color: var(--color-text-heading);
     text-align: center;
     margin-bottom: 16px;
 }
 
-.art-blurb {
+.hobbies-blurb {
     color: var(--color-text-body);
     margin-bottom: 10px;
 }
@@ -345,7 +345,7 @@
     border: 1px solid var(--color-border-on-light);
 }
 
-.art-label {
+.hobbies-label {
     font-family: var(--font-code);
     font-size: 0.78rem;
     color: var(--color-text-body);
@@ -357,7 +357,7 @@
     margin-bottom: 20px;
 }
 
-/* art - hover images */
+/* hobbies - hover images */
 .imghover {
     position: relative;
     overflow: hidden;

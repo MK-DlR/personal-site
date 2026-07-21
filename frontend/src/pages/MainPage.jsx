@@ -150,52 +150,52 @@ function MainPage() {
                     </div>
                 </div>
 
-                <div id="art" className="panel">
-                    <div className="art-content">
-                        <div className="art-panel-label label">04 — Art & Hobbies</div>
-                        <h2 className="section-title-dark art-header">Outside the editor.</h2>
-                        <p className="art-blurb">A few things I enjoy when I'm not working on code.</p>
+                <div id="hobbies" className="panel">
+                    <div className="hobbies-content">
+                        <div className="hobbies-panel-label label">04 — Art & Hobbies</div>
+                        <h2 className="section-title-dark hobbies-header">Outside the editor.</h2>
+                        <p className="hobbies-blurb">A few things I enjoy when I'm not working on code.</p>
                         <div className="hobby-container">
                             <div className="hobby-item">
                                 <div className="badge-circle imghover arthover">
                                     <span className="emoji">✏️</span>
                                 </div>
-                                <span className="art-label">Digital Art</span>
+                                <span className="hobbies-label">Digital Art</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover crochethover">
                                     <span className="emoji">🧶</span>
                                 </div>
-                                <span className="art-label">Crochet</span>
+                                <span className="hobbies-label">Crochet</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover gamehover">
                                     <span className="emoji">🎮</span>
                                 </div>
-                                <span className="art-label">Gaming</span>
+                                <span className="hobbies-label">Gaming</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover bakehover">
                                     <span className="emoji">🍰</span>
                                 </div>
-                                <span className="art-label">Baking</span>
+                                <span className="hobbies-label">Baking</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover gardenhover">
                                     <span className="emoji">🌱</span>
                                 </div>
-                                <span className="art-label">Gardening</span>
+                                <span className="hobbies-label">Gardening</span>
                             </div>
 
                             <div className="hobby-item">
                                 <div className="badge-circle imghover cathover">
                                     <span className="emoji">🐈</span>
                                 </div>
-                                <span className="art-label">Cats *</span>
+                                <span className="hobbies-label">Cats *</span>
                             </div>
                         </div>
                         <div className="disclaimer">* Cats have been known to involve themselves in my coding work.</div>

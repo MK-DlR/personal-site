@@ -23,11 +23,3 @@ function Header({ variant }) {
 }
 
 export default Header
-
-/*
-header dark-header / header
-header-left
-header-title dark-title / header-title
-header-right
-back-link dark-link / back-link
-*/

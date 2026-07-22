@@ -1,5 +1,8 @@
 // src/components/Footer.jsx
 
+// imports
+import { Link } from 'react-router-dom';
+
 /* footer for non-project detail pages */
 function Footer({ variant, nextSection }) {
     return (
@@ -9,7 +12,7 @@ function Footer({ variant, nextSection }) {
                 <h3 className={`next-section ${variant}-next`}>{nextSection.label} →</h3>
             </div>
             <div className="footer-right">
-                <a href={nextSection.href} className={`nav-arrow ${variant}-nav`}>→</a>
+                <Link to={nextSection.href} className={`nav-arrow ${variant}-nav`}>→</Link>
             </div>
         </div>
     )

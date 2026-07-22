@@ -1,6 +1,7 @@
 // src/components/FooterProjects.jsx
 
 // imports
+import { Link } from 'react-router-dom';
 import projects from "../data/projects";
 
 /* footer for project details page */
@@ -21,7 +22,7 @@ function FooterProjects({ currentSlug }) {
                 <h3 className="next-section dark-next">{nextProject ? nextProject.title : 'All Projects'} →</h3>
             </div>
             <div className="footer-right">
-                <a href={nextProject ? `/projects/${nextProject.slug}` : `/projects/`} className="nav-arrow dark-nav">→</a>
+                <Link to={nextProject ? `/projects/${nextProject.slug}` : `/projects/`} className="nav-arrow dark-nav">→</Link>
             </div>
         </div>
     )

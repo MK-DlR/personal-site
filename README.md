@@ -9,19 +9,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/MK-DlR/personal-site">
+  <a href="https://adrien-newman.vercel.app/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Personal Website</h3>
 
   <p align="center">
-    project_description
+    Personal website for sharing information and showcasing projects and skills, as both a portfolio and portfolio piece.
     <br />
     <a href="https://github.com/MK-DlR/personal-site"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://mk-dlr.github.io/personal-site/">View Demo</a>
+    <a href="https://adrien-newman.vercel.app/">View Demo</a>
     &middot;
     <a href="https://github.com/MK-DlR/personal-site/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
@@ -37,21 +37,6 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#notes">Notes</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#usage">Usage</a>
-      <ul>
-        <li><a href="#how-to-use-the-app">How to Use the App</a></li>
-        <li><a href="#default-setup-behavior">Default Setup Behavior</a></li>
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -79,76 +64,14 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-To get a local copy up and running, follow these steps.
-
-### Prerequisites
-
-- Node.js (recommended v22+)
-- npm
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/MK-DlR/personal-site.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin MK-DlR/personal-site
-   git remote -v # confirm the changes
-   ```
-
-### Notes
-
-- Backend: (if applicable)
-- Frontend: (if applicable)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-project_description
-
-project_functionality
-
-### How to Use the App
-
-1. Open the app at http://localhost:5173 or visit the [live demo](https://mk-dlr.github.io/personal-site/)
-2. Step 2
-   - Nested step details
-3. Step 3
-
-### Default Setup Behavior
-
-- [EXAMPLE] A “Main Chat” channel is created automatically via the seed script
-- [EXAMPLE] A guest user account is also created for immediate access
-- [EXAMPLE] All users are automatically added to the default channel on creation
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ROADMAP -->
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [ ] Add images
+  - [ ] Hero photo
+  - [ ] Gardening hobby photo
+- [ ] Add more project examples
 
 See the [open issues](https://github.com/MK-DlR/personal-site/issues) for a full list of proposed features (and known issues).
 
@@ -174,7 +97,7 @@ As this is a student project created for The Odin Project curriculum and my pers
 
 Adrien Newman - [@MK_DlR](https://twitter.com/MK_DlR) - adriennewman92@gmail.com
 
-Project Link: [Repository](https://github.com/MK-DlR/personal-site) & [Live Demo](https://mk-dlr.github.io/personal-site/)
+Project Link: [Repository](https://github.com/MK-DlR/personal-site) & [Live Demo](https://adrien-newman.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,7 +110,6 @@ Project Link: [Repository](https://github.com/MK-DlR/personal-site) & [Live Demo
 - [Internet Icon](https://icons8.com/icon/123739/internet) by [Icons8](https://icons8.com/)
 - [Favicon Converter](https://favicon.io/favicon-converter/)
 - [Othneil Drew's Best README Template](https://github.com/othneildrew/Best-README-Template)
-- []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,7 +130,7 @@ Project Link: [Repository](https://github.com/MK-DlR/personal-site) & [Live Demo
 [license-url]: https://github.com/MK-DlR/personal-site/blob/main/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/adrien-newman
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: frontend/src/assets/screenshot.png
 
 <!-- Shields.io badges. You can a comprehensive list with many more badges at: https://github.com/inttter/md-badges -->
 

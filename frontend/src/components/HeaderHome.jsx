@@ -19,7 +19,7 @@ function HeaderHome() {
                 <Link to="/#about" className="nav-link">About</Link>
                 <Link to="/#projects" className="nav-link">Projects</Link>
                 <Link to="/#journey" className="nav-link">Journey</Link>
-                <Link to="/#art" className="nav-link">Art</Link>
+                <Link to="/#hobbies" className="nav-link">Hobbies</Link>
                 <Link to="/#contact" className="nav-link">Contact</Link>
             </nav>
         </div>

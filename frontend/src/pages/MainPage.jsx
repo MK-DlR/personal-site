@@ -1,6 +1,7 @@
 // src/pages/MainPage.jsx
 
 // imports
+import { Link } from 'react-router-dom';
 import Header from '../components/HeaderHome.jsx'
 import ButtonMailto from '../helpers/ButtonMailto.jsx'
 
@@ -63,7 +64,7 @@ function MainPage() {
                         <h2 className="section-title-dark title">A bit<br />about me.</h2>
                             <p className="about-content content">I'm a self-taught full-stack developer working primarily in JavaScript. I enjoy approaching application creation from the perspective of future users with functionality in mind.</p>
                             <p className="about-content content">I like working on unique projects that solve a specific problem or need. The more creative and unusual, the better!</p>
-                            <a href="/about" className="details-link">→ Full about & skills page</a>
+                            <Link to="/about" className="details-link">→ Full about & skills page</Link>
                     </div>
                 </div>
 
@@ -74,7 +75,7 @@ function MainPage() {
                             <h2 className="section-title-dark title">Selected work.</h2>
                         </div>
                         <div className="projects-right">
-                            <a href="/projects" className="details-link">→ View more projects</a>
+                            <Link to="/projects" className="details-link">→ View more projects</Link>
                         </div>
                     </div>
 
@@ -97,7 +98,7 @@ function MainPage() {
                             <div className="links-container">
                                 <a href={project.liveLink} className="project-link">Live</a>
                                 <a href={project.codeLink} className="project-link">Code</a>
-                                <a href={`/projects/${project.slug}`} className="project-link">Details →</a>
+                                <Link to={`/projects/${project.slug}`} className="project-link">Details →</Link>
                             </div>
                         </div>
                     </div>
@@ -118,7 +119,7 @@ function MainPage() {
                                     <p className="focus-blurb">Finishing up The Odin Project's Full Stack JavaScript course.</p>
                                 </div>
                                 <div>
-                                    <a href="/journey" className="details-link accented-link">→ Full journey page</a>
+                                    <Link to="/journey" className="details-link accented-link">→ Full journey page</Link>
                                 </div>
                             </div>
                             <div className="journey-right">
@@ -199,7 +200,7 @@ function MainPage() {
                             </div>
                         </div>
                         <div className="disclaimer">* Cats have been known to involve themselves in my coding work.</div>
-                        <a href="/hobbies" className="details-link">→ See more of my hobbies</a>
+                        <Link to="/hobbies" className="details-link">→ See more of my hobbies</Link>
                     </div>
                 </div>
 

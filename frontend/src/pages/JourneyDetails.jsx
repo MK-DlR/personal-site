@@ -16,7 +16,7 @@ function JourneyDetails
                 <div className="details-page-header dark-page-header">
                     <div className="label accented-label">Journey</div>
                     <h1 className="section-title-light details-header-lg">How I got here.</h1>
-                    <p className="header-blurb dark-blurb">My journey with coding so far, starting with the beginning and leading up to now.</p>
+                    <p className="header-blurb dark-blurb">My journey with coding so far, from the beginning up to now.</p>
                 </div>
                 <div className="journey-details-content dark-content">
                     <div className="focus">

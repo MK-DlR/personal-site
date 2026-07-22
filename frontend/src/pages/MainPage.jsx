@@ -1,11 +1,11 @@
 // src/pages/MainPage.jsx
 
 // imports
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import Header from '../components/HeaderHome.jsx'
 import ButtonMailto from '../helpers/ButtonMailto.jsx'
 
-import projects from "../data/projects";
+import projects from "../data/projects"
 
 import heroImage from '../assets/hero-image.jpg'
 

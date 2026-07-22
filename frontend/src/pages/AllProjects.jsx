@@ -1,13 +1,13 @@
 // src/pages/AllProjects.jsx
 
 // imports
-import { useState } from 'react';
+import { useState } from 'react'
 
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
 
-import { tagFilters } from "../data/filters";
-import projects from "../data/projects";
+import { tagFilters } from '../data/filters'
+import projects from "../data/projects"
 
 function AllProjects() {
     const [filter, setFilter] = useState("All");

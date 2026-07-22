@@ -2,13 +2,13 @@
 
 // imports
 import { useParams } from 'react-router-dom'
-import { useState } from 'react';
+import { useState } from 'react'
 
 import Header from '../components/Header.jsx'
 import Footer from '../components/FooterProjects.jsx'
-import Modal from '../components/Modal.jsx';
+import Modal from '../components/Modal.jsx'
 
-import projects from "../data/projects";
+import projects from '../data/projects'
 
 function ProjectDetails() {
     const { slug } = useParams();

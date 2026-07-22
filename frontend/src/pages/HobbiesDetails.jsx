@@ -5,10 +5,10 @@ import { useState } from 'react';
 
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
-import Modal from '../components/Modal.jsx';
+import Modal from '../components/Modal.jsx'
 
-import { hobbyFilters } from "../data/filters";
-import hobbies from "../data/hobbies";
+import { hobbyFilters } from '../data/filters'
+import hobbies from '../data/hobbies'
 
 function HobbiesDetails() {
     const [filter, setFilter] = useState("All");

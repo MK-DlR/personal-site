@@ -3,6 +3,7 @@
 // imports
 import { Link } from "react-router-dom";
 
+// e-mail creation link
 const ButtonMailto = ({ mailto, label, className }) => {
     return (
         <Link

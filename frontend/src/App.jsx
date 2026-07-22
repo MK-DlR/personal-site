@@ -3,6 +3,8 @@
 // imports
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
+import ScrollToTop from './helpers/ScrollToTop.jsx'
+
 import MainPage from './pages/MainPage.jsx'
 import AboutDetails from './pages/AboutDetails.jsx'
 import AllProjects from './pages/AllProjects.jsx'
@@ -14,14 +16,15 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<MainPage />} />
-          <Route path="/about" element={<AboutDetails />} />
-          <Route path="/projects" element={<AllProjects />} />
-          <Route path="/projects/:slug" element={<ProjectDetails />} />
-          <Route path="/journey" element={<JourneyDetails />} />
-          <Route path="/hobbies" element={<HobbiesDetails />} />
-        </Routes>
+        <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<MainPage />} />
+            <Route path="/about" element={<AboutDetails />} />
+            <Route path="/projects" element={<AllProjects />} />
+            <Route path="/projects/:slug" element={<ProjectDetails />} />
+            <Route path="/journey" element={<JourneyDetails />} />
+            <Route path="/hobbies" element={<HobbiesDetails />} />
+          </Routes>
       </BrowserRouter>
     </>
   );

@@ -1,6 +1,7 @@
 // src/pages/AllProjects.jsx
 
 // imports
+import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
 import Header from '../components/Header.jsx'
@@ -57,7 +58,7 @@ function AllProjects() {
                                 <div className="project-links-container">
                                     <a href={project.liveLink} className="project-link">Live ↗</a>
                                     <a href={project.codeLink} className="project-link">Code ↗</a>
-                                    <a href={`/projects/${project.slug}`} className="project-link">Details ↗</a>
+                                    <Link to={`/projects/${project.slug}`} className="project-link">Details ↗</Link>
                                 </div>
                             </div>
                         </div>

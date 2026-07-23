@@ -540,8 +540,16 @@
         margin-top: 10px;
         margin-left: 0;
         margin-bottom: 0;
+    }
 
-        max-width: 250px;
+    #about {
+        padding-right: 0;
+    }
+
+    .tech-skills {
+        width: 80%;
+        margin-left: 0;
+        margin-right: 3rem;
     }
 
     .skill-list {
@@ -551,5 +559,37 @@
     
     .hobby-container {
         flex-wrap: wrap;
+    }
+}
+
+/* phone - small */
+@media (max-width: 300px) {
+    .hero-image {
+        max-width: 250px;
+    }
+
+    #about {
+        padding-right: 3rem;
+    }
+
+    .tech-skills {
+        display: none;
+    }
+
+    .projects-header,
+    .links-container,
+    .link-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-right {
+        margin-top: 0;
+    }
+
+
+    .project-link {
+        border-bottom: none;
+        margin-bottom: 0;
     }
 }

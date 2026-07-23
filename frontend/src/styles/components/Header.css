@@ -105,11 +105,16 @@
 
 /* phone */
 @media (max-width: 600px) {
+    .header {
+        padding-left: 0.5rem;
+    }
+    
     .header-left {
         display: none;
     }
 
     .nav-link {
         margin-left: 0.75rem;
+        font-size: 0.6rem;
     }
 }

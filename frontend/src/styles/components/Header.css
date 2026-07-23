@@ -105,6 +105,10 @@
 
 /* phone */
 @media (max-width: 600px) {
+    .header-left {
+        display: none;
+    }
+
     .nav-link {
         margin-left: 0.75rem;
     }

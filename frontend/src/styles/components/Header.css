@@ -106,6 +106,17 @@
 /* phone */
 @media (max-width: 600px) {
     .header {
+        padding-left: 2rem;
+    }
+    
+    .header-left {
+        display: none;
+    }
+}
+
+/* phone - small */
+@media (max-width: 300px) {
+    .header {
         padding-left: 0.5rem;
     }
     

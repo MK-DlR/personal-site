@@ -103,7 +103,10 @@
     .dark-footer {
         padding: 0 2.5rem;
     }
+}
 
+/* phone - small */
+@media (max-width: 300px) {
     .credit-footer {
         display: flex;
         flex-direction: column;

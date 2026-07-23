@@ -18,7 +18,7 @@ function MainPage() {
                     <div className="hero-left">
                         <div className="label">// full stack developer</div>
                         <h1 className="hero-title title">Hi, I<br />build things.</h1>
-                        <p className="hero-content content">I really enjoy anything creative, art based, or puzzle-like; so learning to code has been a natural fit for me! Here you can find some examples of my work also learn a bit more about me.</p>
+                        <p className="hero-content content">I really enjoy anything creative, art based, or puzzle-like; so learning to code has been a natural fit for me! Here you can find some examples of my work and also learn a bit more about me.</p>
                     </div>
                     <img
                         src={heroImage}
@@ -72,7 +72,7 @@ function MainPage() {
                     <div className="projects-header">
                         <div className="projects-left">
                             <div className="label">02 — Projects</div>
-                            <h2 className="section-title-dark title">Selected work.</h2>
+                            <h2 className="section-title-dark title">Featured work.</h2>
                         </div>
                         <div className="projects-right">
                             <Link to="/projects" className="details-link">→ View more projects</Link>
@@ -124,10 +124,10 @@ function MainPage() {
                             </div>
                             <div className="journey-right">
                                 <div className="timeline-entry">
-                                    <span className="entry-year">Feb 2024</span>
+                                    <span className="entry-year">Apr 2025</span>
                                     <div className="entry-text">
-                                        <h4 className="entry-header">Started learning to code in my free time</h4>
-                                        <div className="entry-desc">Began The Odin Project's Foundations course.</div>
+                                        <h4 className="entry-header">Started learning to code</h4>
+                                        <div className="entry-desc">Began The Odin Project's Full-Stack JavaScript course.</div>
                                     </div>
                                 </div>
 

@@ -153,17 +153,6 @@ function JourneyDetails
                                 </li>
                             </ul>
                         </div>
-
-                    <span className="timeline-year">2024</span>
-                        <div className="timeline-item">
-                            <ul className="timeline-text">
-                                <li className="timeline-info">
-                                    <h4 className="timeline-header">Started learning to code in my free time</h4>
-                                    <p className="timeline-desc">Began The Odin Project's Foundations course.</p>
-                                    <span className="tag dark-tag">Start</span>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <Footer 
@@ -176,17 +165,3 @@ function JourneyDetails
 }
 
 export default JourneyDetails
-
-/*
-empty timeline template
-
-<div className="timeline-item">
-    <ul className="timeline-text">
-        <li className="timeline-info">
-            <h4 className="timeline-header">Headline</h4>
-            <p className="timeline-desc">Information</p>
-            <span className="tag dark-tag">Tag</span>
-        </li>
-    </ul>
-</div>
-*/

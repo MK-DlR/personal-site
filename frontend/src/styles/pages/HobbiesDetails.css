@@ -85,3 +85,10 @@
         column-count: 2;
     }
 }
+
+/* phone - small */
+@media (max-width: 300px) {
+    .hobby-card-container {
+        column-count: 1;
+    }
+}

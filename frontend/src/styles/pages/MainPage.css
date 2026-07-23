@@ -587,6 +587,13 @@
         margin-top: 0;
     }
 
+    .project-desc {
+        margin-bottom: 0;
+    }
+
+    .tags-list {
+        padding-top: 0;
+    }
 
     .project-link {
         border-bottom: none;

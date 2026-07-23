@@ -87,3 +87,20 @@
 .dark-nav {
     color: var(--color-text-on-dark);
 }
+
+/* media queries */
+/* portrait tablet */
+@media (max-width: 820px) {
+    .credit-footer {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+/* phone */
+@media (max-width: 600px) {
+    .light-footer,
+    .dark-footer {
+        padding: 0 2.5rem;
+    }
+}

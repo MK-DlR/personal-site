@@ -168,3 +168,20 @@
         margin-left: 30px;
     }
 }
+
+/* phone - small */
+@media (max-width: 300px) {
+    .project-details-left,
+    .project-details-right {
+        margin-left: 0;
+    }
+
+    .project-details-right {
+        max-width: 250px;
+    }
+
+    .detail-images {
+        display: flex;
+        flex-direction: column;
+    }
+}

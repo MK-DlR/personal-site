@@ -24,7 +24,7 @@ const hobbyFilters = [
   "Crochet",
   "Digital Art",
   /* "Gaming", */
-  /* "Gardening", */
+  "Gardening",
   /* "Other", */
 ];
 

@@ -23,24 +23,33 @@ import hobbiesCrochet3 from "../assets/hobbies/hobbiesCrochet3.jpg";
 import hobbiesCrochet4 from "../assets/hobbies/hobbiesCrochet4.jpg";
 import hobbiesCrochet5 from "../assets/hobbies/hobbiesCrochet5.jpg";
 
+import hobbiesGardening1 from "../assets/hobbies/hobbiesGardening1.jpg";
+
 // hobbies data
 const hobbies = [
   {
     id: 1,
+    image: hobbiesGardening1,
+    title: "Raised bed vegetable garden",
+    type: "Gardening",
+    year: "2026",
+  },
+  {
+    id: 2,
     image: hobbiesCat2,
     title: "Kraken as a lap warmer",
     type: "Cats",
     year: "2026",
   },
   {
-    id: 2,
+    id: 3,
     image: hobbiesCat8,
     title: "Kraken hanging out",
     type: "Cats",
     year: "2026",
   },
   {
-    id: 3,
+    id: 4,
     image: hobbiesCrochet1,
     title: "Balaclava turtleneck hoodie",
     type: "Crochet",
@@ -48,14 +57,14 @@ const hobbies = [
     url: "https://www.ravelry.com/projects/mk-dlr/balaclava-turtleneck-hoodie",
   },
   {
-    id: 4,
+    id: 5,
     image: hobbiesCat7,
     title: "Bobby enjoying the sun",
     type: "Cats",
     year: "2026",
   },
   {
-    id: 5,
+    id: 6,
     image: hobbiesCrochet2,
     title: "Balaclava turtleneck hoodie",
     type: "Crochet",
@@ -63,21 +72,21 @@ const hobbies = [
     url: "https://www.ravelry.com/projects/mk-dlr/balaclava-turtleneck-hoodie",
   },
   {
-    id: 6,
+    id: 7,
     image: hobbiesCat1,
     title: "Kraken as a coding assistant",
     type: "Cats",
     year: "2026",
   },
   {
-    id: 7,
+    id: 8,
     image: hobbiesCat6,
     title: "Bobby playing with a crocheted ball",
     type: "Cats",
     year: "2026",
   },
   {
-    id: 8,
+    id: 9,
     image: hobbiesCrochet3,
     title: "Fingerless paw gloves",
     type: "Crochet",
@@ -85,14 +94,14 @@ const hobbies = [
     url: "https://www.ravelry.com/projects/mk-dlr/fingerless-paw-gloves",
   },
   {
-    id: 9,
+    id: 10,
     image: hobbiesCat5,
     title: "Kraken on his Keurig throne",
     type: "Cats",
     year: "2026",
   },
   {
-    id: 10,
+    id: 11,
     image: hobbiesCrochet4,
     title: "Kitty desk buddy",
     type: "Crochet",
@@ -100,28 +109,28 @@ const hobbies = [
     url: "https://www.ravelry.com/projects/mk-dlr/kitty-desk-buddy",
   },
   {
-    id: 11,
+    id: 12,
     image: hobbiesCat4,
     title: "B-lee after getting into the flour",
     type: "Cats",
     year: "2026",
   },
   {
-    id: 12,
+    id: 13,
     image: hobbiesBaking4,
     title: "Sandwich bread",
     type: "Baking",
     year: "2026",
   },
   {
-    id: 13,
+    id: 14,
     image: hobbiesCat3,
     title: "B-lee showing her belly",
     type: "Cats",
     year: "2026",
   },
   {
-    id: 14,
+    id: 15,
     image: hobbiesCrochet5,
     title: "Amigurumi corgi puppy",
     type: "Crochet",
@@ -129,28 +138,28 @@ const hobbies = [
     url: "https://www.ravelry.com/projects/mk-dlr/little-biscuit-the-corgi-puppy",
   },
   {
-    id: 15,
+    id: 16,
     image: hobbiesBaking1,
     title: "Deep dish apple pie",
     type: "Baking",
     year: "2025",
   },
   {
-    id: 16,
+    id: 17,
     image: hobbiesBaking3,
     title: "No-knead bread",
     type: "Baking",
     year: "2025",
   },
   {
-    id: 17,
+    id: 18,
     image: hobbiesBaking2,
     title: "Chocolate chip banana muffins",
     type: "Baking",
     year: "2025",
   },
   {
-    id: 18,
+    id: 19,
     image: hobbiesArt1,
     title: "Yakuza/RGG fanart",
     type: "Digital Art",

@@ -403,12 +403,8 @@
     background-image: url("../../assets/hover/baking-hover.jpg");
 }
 
-.bookhover::before {
-    background-image: url("../../assets/hover/placeholder-hover.png");
-}
-
 .gardenhover::before {
-    background-image: url("../../assets/hover/placeholder-hover.png");
+    background-image: url("../../assets/hover/gardening-hover.jpg");
 }
 
 .cathover::before {

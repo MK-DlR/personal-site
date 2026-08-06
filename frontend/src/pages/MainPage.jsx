@@ -116,7 +116,7 @@ function MainPage() {
                             <div className="journey-left">
                                 <div className="focus">
                                     <div className="mini-label">Currently</div>
-                                    <p className="focus-blurb">Finishing up The Odin Project's Full Stack JavaScript course.</p>
+                                    <p className="focus-blurb">Learning TypeScript and working on a Job Application tracker project.</p>
                                 </div>
                                 <div>
                                     <Link to="/journey" className="details-link accented-link">→ Full journey page</Link>
@@ -134,7 +134,7 @@ function MainPage() {
                                 <div className="timeline-entry">
                                     <span className="entry-year">Jul 2025</span>
                                     <div className="entry-text">
-                                        <h4 className="entry-header">First real project shipped</h4>
+                                        <h4 className="entry-header">First real JavaScript project shipped</h4>
                                         <div className="entry-desc">Completed a "Battleship" style game.</div>
                                     </div>
                                 </div>
@@ -144,6 +144,14 @@ function MainPage() {
                                     <div className="entry-text">
                                         <h4 className="entry-header">Second real Full-Stack Express project shipped</h4>
                                         <div className="entry-desc">Completed the "Messaging Application" project.</div>
+                                    </div>
+                                </div>
+
+                                <div className="timeline-entry">
+                                    <span className="entry-year">Aug 2026</span>
+                                    <div className="entry-text">
+                                        <h4 className="entry-header">Finished The Odin Project</h4>
+                                        <div className="entry-desc">Completed The Odin Project's Full-Stack JavaScript course.</div>
                                     </div>
                                 </div>
                             </div>
@@ -212,8 +220,8 @@ function MainPage() {
                         <div className="link-row">
                             <a href="https://github.com/MK-DlR" className="contact-link">GitHub ↗</a>
                             <a href="https://www.linkedin.com/in/adrien-newman/" className="contact-link">LinkedIn ↗</a>
+                            <a href="https://github.com/MK-DlR" className="contact-link">Resume ↗</a>
                             <ButtonMailto label="Email" mailto="mailto:adriennewman92@gmail.com" className="contact-link"/>
-
                         </div>
                     </div>
                 </div>

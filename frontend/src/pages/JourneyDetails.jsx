@@ -10,21 +10,28 @@ function JourneyDetails
         <>
             <title>Journey</title>
             <div className="dark-page">
-                <Header 
-                    variant="dark"
-                />
+                <Header variant="dark" />
                 <div className="details-page-header dark-page-header">
                     <div className="label accented-label">Journey</div>
                     <h1 className="section-title-light details-header-lg">How I got here.</h1>
-                    <p className="header-blurb dark-blurb">My journey with coding so far, from the beginning up to now.</p>
+                    <p className="header-blurb dark-blurb">Follow my journey with coding so far, from the beginning up to now.</p>
                 </div>
                 <div className="journey-details-content dark-content">
                     <div className="focus">
                         <div className="mini-label">Right now</div>
-                        <p className="focus-blurb timeline-blurb">Finishing up The Odin Project's Full Stack JavaScript course.</p>
+                        <p className="focus-blurb timeline-blurb">Learning TypeScript and working on a Job Application tracker project.</p>
                     </div>
                     <div className="full-timeline">
                     <span className="timeline-year">2026</span>
+                    <div className="timeline-item">
+                        <ul className="timeline-text">
+                            <li className="timeline-info">
+                                <h4 className="timeline-header">Finished The Odin Project</h4>
+                                <p className="timeline-desc">Completed The Odin Project's Full-Stack JavaScript course.</p>
+                                <span className="tag dark-tag">Learning</span>
+                            </li>
+                        </ul>
+                    </div>
                     <div className="timeline-item">
                         <ul className="timeline-text">
                             <li className="timeline-info">
@@ -129,7 +136,7 @@ function JourneyDetails
                         <div className="timeline-item">
                             <ul className="timeline-text">
                                 <li className="timeline-info">
-                                    <h4 className="timeline-header">First real project shipped</h4>
+                                    <h4 className="timeline-header">First real JavaScript project shipped</h4>
                                     <p className="timeline-desc">Completed a "Battleship" style game.</p>
                                     <span className="tag dark-tag">Project</span>
                                 </li>

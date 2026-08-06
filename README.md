@@ -70,7 +70,7 @@
 
 - [ ] Add images
   - [ ] Hero photo
-  - [ ] Gardening hobby photo
+  - [x] Gardening hobby photo
 - [ ] Add more project examples
 
 See the [open issues](https://github.com/MK-DlR/personal-site/issues) for a full list of proposed features (and known issues).

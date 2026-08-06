@@ -84,8 +84,8 @@ function ProjectDetails() {
                         </ul>
                     </div>
                     <div className="lg-buttons-container">
-                        <a href={currentProject.liveLink} className="lg-button solid">View live ↗</a>
-                        <a href={currentProject.codeLink} className="lg-button">View code ↗</a>
+                        <a href={currentProject.liveLink} target="_blank" rel="noopener noreferrer" className="lg-button solid">View live ↗</a>
+                        <a href={currentProject.codeLink} target="_blank" rel="noopener noreferrer" className="lg-button">View code ↗</a>
                     </div>
                 </div>
 
@@ -110,8 +110,8 @@ function ProjectDetails() {
                         </ul>
                         <h4 className="mini-header about-mini">Links</h4>
                         <div className="elsewhere-links-container">
-                            <a href={currentProject.liveLink} className="elsewhere-link">→ Live site</a>
-                            <a href={currentProject.codeLink} className="elsewhere-link">→ GitHub repo</a>
+                            <a href={currentProject.liveLink} target="_blank" rel="noopener noreferrer" className="elsewhere-link">→ Live site</a>
+                            <a href={currentProject.codeLink} target="_blank" rel="noopener noreferrer" className="elsewhere-link">→ GitHub repo</a>
                         </div>
                     </div>
 

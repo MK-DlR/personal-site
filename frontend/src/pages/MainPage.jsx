@@ -96,8 +96,8 @@ function MainPage() {
                                 )}
                             </div>
                             <div className="links-container">
-                                <a href={project.liveLink} className="project-link">Live</a>
-                                <a href={project.codeLink} className="project-link">Code</a>
+                                <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">Live</a>
+                                <a href={project.codeLink} target="_blank" rel="noopener noreferrer" className="project-link">Code</a>
                                 <Link to={`/projects/${project.slug}`} className="project-link">Details →</Link>
                             </div>
                         </div>
@@ -218,9 +218,9 @@ function MainPage() {
                         <h2 className="contact-header">Let's talk.</h2>
                         <p className="contact-blurb">Open to opportunities, collaborations, or just a conversation.</p>
                         <div className="link-row">
-                            <a href="https://github.com/MK-DlR" className="contact-link">GitHub ↗</a>
-                            <a href="https://www.linkedin.com/in/adrien-newman/" className="contact-link">LinkedIn ↗</a>
-                            <a href="https://github.com/MK-DlR" className="contact-link">Resume ↗</a>
+                            <a href="https://github.com/MK-DlR" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub ↗</a>
+                            <a href="https://www.linkedin.com/in/adrien-newman/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn ↗</a>
+                            <a href="https://github.com/MK-DlR" target="_blank" rel="noopener noreferrer" className="contact-link">Resume ↗</a>
                             <ButtonMailto label="Email" mailto="mailto:adriennewman92@gmail.com" className="contact-link"/>
                         </div>
                     </div>
@@ -231,7 +231,7 @@ function MainPage() {
                     © 2026 Adrien Newman
                 </div>
                 <div className="credit-footer-right credit-footer-text">
-                    <a href="https://github.com/MK-DlR">github.com/MK-DlR</a>
+                    <a href="https://github.com/MK-DlR" target="_blank" rel="noopener noreferrer">github.com/MK-DlR</a>
                 </div>
             </div>
         </>

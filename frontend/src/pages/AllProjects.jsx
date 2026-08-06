@@ -56,8 +56,8 @@ function AllProjects() {
                             <div className="project-card-right">
                                 <span className="mini-header">{project.year}</span>
                                 <div className="project-links-container">
-                                    <a href={project.liveLink} className="project-link">Live ↗</a>
-                                    <a href={project.codeLink} className="project-link">Code ↗</a>
+                                    <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="project-link">Live ↗</a>
+                                    <a href={project.codeLink} target="_blank" rel="noopener noreferrer" className="project-link">Code ↗</a>
                                     <Link to={`/projects/${project.slug}`} className="project-link">Details ↗</Link>
                                 </div>
                             </div>

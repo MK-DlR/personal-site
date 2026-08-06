@@ -35,9 +35,9 @@ function AboutDetails() {
                         </ul>
                         <h4 className="mini-header about-mini">Elsewhere</h4>
                         <div className="elsewhere-links-container">
-                            <a href="https://github.com/MK-DlR" className="elsewhere-link">→ GitHub</a>
-                            <a href="https://www.linkedin.com/in/adrien-newman/" className="elsewhere-link">→ LinkedIn</a>
-                            {/* <a href="#" className="elsewhere-link">→ Resume (PDF)</a> */}
+                            <a href="https://github.com/MK-DlR" target="_blank" rel="noopener noreferrer" className="elsewhere-link">→ GitHub</a>
+                            <a href="https://www.linkedin.com/in/adrien-newman/" target="_blank" rel="noopener noreferrer" className="elsewhere-link">→ LinkedIn</a>
+                            {/* <a href="#" target="_blank" rel="noopener noreferrer" className="elsewhere-link">→ Resume (PDF)</a> */}
                             <ButtonMailto label="→ Email" mailto="mailto:adriennewman92@gmail.com" className="elsewhere-link"/>
                         </div>
                     </div>

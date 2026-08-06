@@ -37,7 +37,7 @@ function AboutDetails() {
                         <div className="elsewhere-links-container">
                             <a href="https://github.com/MK-DlR" target="_blank" rel="noopener noreferrer" className="elsewhere-link">→ GitHub</a>
                             <a href="https://www.linkedin.com/in/adrien-newman/" target="_blank" rel="noopener noreferrer" className="elsewhere-link">→ LinkedIn</a>
-                            {/* <a href="#" target="_blank" rel="noopener noreferrer" className="elsewhere-link">→ Resume (PDF)</a> */}
+                            <a href="/Adrien-Newman-Resume.pdf" target="_blank" rel="noopener noreferrer" className="elsewhere-link">→ Resume (PDF)</a>
                             <ButtonMailto label="→ Email" mailto="mailto:adriennewman92@gmail.com" className="elsewhere-link"/>
                         </div>
                     </div>

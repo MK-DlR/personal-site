@@ -220,7 +220,7 @@ function MainPage() {
                         <div className="link-row">
                             <a href="https://github.com/MK-DlR" target="_blank" rel="noopener noreferrer" className="contact-link">GitHub ↗</a>
                             <a href="https://www.linkedin.com/in/adrien-newman/" target="_blank" rel="noopener noreferrer" className="contact-link">LinkedIn ↗</a>
-                            <a href="https://github.com/MK-DlR" target="_blank" rel="noopener noreferrer" className="contact-link">Resume ↗</a>
+                            <a href="/Adrien-Newman-Resume.pdf" target="_blank" rel="noopener noreferrer" className="contact-link">Resume ↗</a>
                             <ButtonMailto label="Email" mailto="mailto:adriennewman92@gmail.com" className="contact-link"/>
                         </div>
                     </div>

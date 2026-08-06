@@ -148,7 +148,7 @@ function MainPage() {
                                 </div>
 
                                 <div className="timeline-entry">
-                                    <span className="entry-year">Aug 2026</span>
+                                    <span className="entry-year">Jul 2026</span>
                                     <div className="entry-text">
                                         <h4 className="entry-header">Finished The Odin Project</h4>
                                         <div className="entry-desc">Completed The Odin Project's Full-Stack JavaScript course.</div>
